@@ -9,14 +9,9 @@ export const menuModel: MenuModal[] = [
     icon: "pi pi-fw pi-users",
     items: [
       {
-        label: "Dashboard",
+        label: "National Dashboard",
         icon: "pi pi-fw pi-home",
         to: "/super-admin/dashboard",
-      },
-      {
-        label: "State Councils",
-        icon: "pi pi-fw pi-map",
-        to: "/super-admin/state-council/haryana",
       },
       {
         label: "Council Users",
@@ -24,9 +19,14 @@ export const menuModel: MenuModal[] = [
         to: "/super-admin/state-council/users",
       },
       {
-        label: "Applications Grid",
-        icon: "pi pi-fw pi-briefcase",
-        to: "/super-admin/applications/state-wise/haryana",
+        label: "Circulars & Notices",
+        icon: "pi pi-fw pi-bell",
+        to: "/super-admin/circulars",
+      },
+      {
+        label: "IT Support Desk",
+        icon: "pi pi-fw pi-headphones",
+        to: "/super-admin/support",
       },
       {
         label: "REPORTS & ANALYTICS",
@@ -50,6 +50,10 @@ export const menuModel: MenuModal[] = [
         label: "MASTERS",
         icon: "pi pi-fw pi-database",
         items: [
+          {
+            label: "Institutions & Colleges",
+            to: "/super-admin/masters/institutions",
+          },
           {
             label: "Application Types",
             to: "/super-admin/masters/application-types",

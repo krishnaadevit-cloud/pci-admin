@@ -46,6 +46,11 @@ export type LayoutState = {
     loading: boolean;
 };
 
+export type GlobalFilterState = {
+    stateId: string;
+    dateRange: (Date | null)[] | null;
+};
+
 
 export type LayoutConfig = {
     ripple: boolean;
@@ -62,6 +67,8 @@ export interface LayoutContextProps {
     setLayoutConfig: Dispatch<SetStateAction<LayoutConfig>>;
     layoutState: LayoutState;
     setLayoutState: Dispatch<SetStateAction<LayoutState>>;
+    globalFilterState: GlobalFilterState;
+    setGlobalFilterState: Dispatch<SetStateAction<GlobalFilterState>>;
     showRightSidebar: () => void;
     onMenuToggle: (event: React.MouseEvent<HTMLButtonElement>) => void;
     isSlimPlus: () => boolean;

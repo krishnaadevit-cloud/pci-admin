@@ -8,6 +8,9 @@ import AppSidebar from './AppSidebar';
 import { Ripple } from 'primereact/ripple';
 import { InputText } from 'primereact/inputtext';
 import { Menu } from 'primereact/menu';
+import { Dropdown } from 'primereact/dropdown';
+import { Calendar } from 'primereact/calendar';
+import { Nullable } from 'primereact/ts-helpers';
 
 const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElement> }, ref) => {
 
@@ -17,7 +20,7 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
 
     const router = useRouter();
 
-    const { onMenuToggle, showConfigSidebar, showSidebar, layoutConfig, setLayoutState } = useContext(LayoutContext);
+    const { onMenuToggle, showConfigSidebar, showSidebar, layoutConfig, setLayoutState, globalFilterState, setGlobalFilterState } = useContext(LayoutContext);
 
     const menuItems = [
         {
@@ -87,9 +90,37 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
                 </div>
                 <AppSidebar sidebarRef={props.sidebarRef} />
 
-                {/* Center: Search Bar */}
-                <div className="flex-1 flex justify-content-center">
-                    <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '400px' }}>
+                {/* Center: Global Filters & Search */}
+                <div className="flex-1 flex justify-content-center align-items-center gap-3">
+                    <Dropdown 
+                        value={globalFilterState?.stateId || 'all'} 
+                        options={[
+                            { label: 'All States (National)', value: 'all' },
+                            { label: 'Uttar Pradesh', value: 'uttar-pradesh' },
+                            { label: 'Maharashtra', value: 'maharashtra' },
+                            { label: 'Karnataka', value: 'karnataka' },
+                            { label: 'Gujarat', value: 'gujarat' },
+                            { label: 'Haryana', value: 'haryana' },
+                            { label: 'Kerala', value: 'kerala' },
+                            { label: 'Rajasthan', value: 'rajasthan' },
+                            { label: 'Tamil Nadu', value: 'tamil-nadu' },
+                            { label: 'Delhi', value: 'delhi' }
+                        ]} 
+                        onChange={(e) => setGlobalFilterState({ ...globalFilterState, stateId: e.value })} 
+                        className="w-full md:w-14rem" 
+                        style={{ borderRadius: '20px', fontSize: '0.9rem', border: '1px solid #e2e8f0', background: '#f8fafc' }}
+                    />
+                    <Calendar
+                        value={globalFilterState?.dateRange || null}
+                        onChange={(e) => setGlobalFilterState({ ...globalFilterState, dateRange: e.value as Nullable<(Date | null)[]> })}
+                        selectionMode="range"
+                        readOnlyInput
+                        dateFormat="dd M y"
+                        className="w-full md:w-15rem"
+                        inputStyle={{ borderRadius: '20px', fontSize: '0.9rem', border: '1px solid #e2e8f0', background: '#f8fafc', padding: '0.55rem 1rem' }}
+                        showIcon
+                    />
+                    <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '250px' }}>
                         <i className="pi pi-search" style={{ color: '#94a3b8', left: '1rem' }}></i>
                         <InputText
                             placeholder="Search..."

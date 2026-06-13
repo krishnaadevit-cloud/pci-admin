@@ -2,7 +2,7 @@
 
 
 import React, { useState } from 'react';
-import { Breadcrumb, LayoutConfig, LayoutContextProps } from '../../types/layout';
+import { Breadcrumb, LayoutConfig, LayoutContextProps, GlobalFilterState } from '../../types/layout';
 import { ChildContainerProps } from '@/types';
 
 export const LayoutContext = React.createContext({} as LayoutContextProps);
@@ -35,6 +35,10 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         loading: true
     });
 
+    const [globalFilterState, setGlobalFilterState] = useState<GlobalFilterState>({
+        stateId: 'all',
+        dateRange: [new Date(2024, 4, 1), new Date(2024, 4, 20)]
+    });
 
     React.useEffect(() => {
         const config = localStorage.getItem('pci-layout-config');
@@ -164,6 +168,8 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         setLayoutConfig,
         layoutState,
         setLayoutState,
+        globalFilterState,
+        setGlobalFilterState,
         isSlim,
         isSlimPlus,
         isHorizontal,
@@ -177,7 +183,7 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         showConfigSidebar,
         showSidebar,
         setLoading
-    }), [layoutConfig, layoutState, isSlim, isSlimPlus, isHorizontal, isDesktop, breadcrumbs, setLoading]);
+    }), [layoutConfig, layoutState, globalFilterState, isSlim, isSlimPlus, isHorizontal, isDesktop, breadcrumbs, setLoading]);
 
     return (
         <LayoutContext.Provider value={value}>

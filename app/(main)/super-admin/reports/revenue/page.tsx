@@ -6,15 +6,13 @@ import { Chart } from 'primereact/chart';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from 'primereact/button';
-import { Calendar } from 'primereact/calendar';
-import { Nullable } from 'primereact/ts-helpers';
+import { LayoutContext } from '@/layout/context/layoutcontext';
+import { useContext } from 'react';
 
 const RevenueAnalytics = () => {
   const router = useRouter();
-  const [dates, setDates] = useState<Nullable<(Date | null)[]>>([
-    new Date(2024, 4, 1),
-    new Date(2024, 4, 20)
-  ]);
+  const { globalFilterState } = useContext(LayoutContext);
+  const isStateLevel = globalFilterState?.stateId !== 'all';
 
   const [revData, setRevData] = useState<any>({});
   const [revOptions, setRevOptions] = useState<any>({});
@@ -27,6 +25,14 @@ const RevenueAnalytics = () => {
     { rank: 5, state: 'Haryana', amount: 1845000, txns: 4800, status: 'Audited' },
     { rank: 6, state: 'Kerala', amount: 1540000, txns: 3900, status: 'Audited' },
     { rank: 7, state: 'Rajasthan', amount: 1210000, txns: 3200, status: 'Pending Audit' }
+  ];
+
+  const districtRevenue = [
+    { rank: 1, district: 'Central District', amount: 450000, txns: 1250, status: 'Audited' },
+    { rank: 2, district: 'North District', amount: 380000, txns: 1040, status: 'Audited' },
+    { rank: 3, district: 'South District', amount: 310000, txns: 840, status: 'Audited' },
+    { rank: 4, district: 'East District', amount: 260000, txns: 710, status: 'Pending Audit' },
+    { rank: 5, district: 'West District', amount: 180000, txns: 480, status: 'Audited' }
   ];
 
   useEffect(() => {
@@ -66,21 +72,11 @@ const RevenueAnalytics = () => {
 
       <div className="flex flex-column md:flex-row md:justify-content-between md:align-items-center gap-3 dashboard-header">
         <div>
-          <h2 className="header-title">Revenue & Fee Ledger Analytics</h2>
-          <p className="header-subtitle">Consolidated revenue auditing, fee ledger distributions, and transaction volumes across State Councils</p>
+          <h2 className="header-title">{isStateLevel ? `District-wise Revenue & Fee Ledger` : `Revenue & Fee Ledger Analytics`}</h2>
+          <p className="header-subtitle">Consolidated revenue auditing, fee ledger distributions, and transaction volumes {isStateLevel ? 'across districts.' : 'across State Councils.'}</p>
         </div>
 
         <div className="flex align-items-center gap-2">
-          <Calendar
-            value={dates}
-            onChange={(e) => setDates(e.value as Nullable<(Date | null)[]>)}
-            selectionMode="range"
-            readOnlyInput
-            dateFormat="dd M y"
-            className="w-full md:w-16rem text-sm"
-            inputStyle={{ borderRadius: '8px' }}
-            showIcon
-          />
           <Button icon="pi pi-file-pdf" label="Export Ledger" className="p-button-danger p-button-outlined p-button-sm" style={{ borderRadius: '8px' }} />
         </div>
       </div>
@@ -119,16 +115,16 @@ const RevenueAnalytics = () => {
         <div className="grid-col-6">
           <div className="dashboard-panel">
             <div className="panel-header">
-              <h3>State-wise Revenue Distributions</h3>
+              <h3>{isStateLevel ? 'District-wise Revenue Distributions' : 'State-wise Revenue Distributions'}</h3>
             </div>
             <DataTable
-              value={stateRevenue}
+              value={isStateLevel ? districtRevenue : stateRevenue}
               className="p-datatable-sm"
               responsiveLayout="scroll"
               rows={5}
             >
               <Column field="rank" header="Rank" style={{ width: '50px' }} />
-              <Column field="state" header="State Council" style={{ fontWeight: 600 }} />
+              <Column field={isStateLevel ? "district" : "state"} header={isStateLevel ? "District Name" : "State Council"} style={{ fontWeight: 600 }} />
               <Column field="amount" header="Total Fee Amount" body={(row) => `₹ ${row.amount.toLocaleString()}`} />
               <Column field="txns" header="Total Transactions" body={(row) => row.txns.toLocaleString()} />
               <Column field="status" header="Audit Status" />
