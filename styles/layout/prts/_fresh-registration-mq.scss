@@ -1,0 +1,30 @@
+// Fresh Registration — responsive breakpoints (module-scoped)
+$fr-bp-375: 375px;
+$fr-bp-480: 480px;
+$fr-bp-576: 576px;
+$fr-bp-768: 768px;
+$fr-bp-1024: 1024px;
+$fr-bp-1280: 1280px;
+$fr-bp-1440: 1440px;
+$fr-bp-1990: 1990px;
+
+@mixin fr-down($max) {
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin fr-up($min) {
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin fr-between($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+html{
+  font-size: 15px !important;
+}

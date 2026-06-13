@@ -1,0 +1,125 @@
+{
+    "data": [
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Others",
+            "creation": "2023-07-03T05:23:54.472177",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Misc.Expenditure",
+            "creation": "2023-07-03T05:23:21.776565",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Annual maintenances",
+            "creation": "2023-07-03T05:22:55.923509",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Deposit held by the College",
+            "creation": "2023-07-03T05:22:34.858389",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Stationary",
+            "creation": "2023-07-03T05:22:16.023518",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Chemicals",
+            "creation": "2023-07-03T05:21:57.956641",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Apex Bodies Fee",
+            "creation": "2023-07-03T05:21:38.005203",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Maintenance Exp - Others",
+            "creation": "2023-07-03T05:21:19.990765",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Maintenance Exp - College",
+            "creation": "2023-07-03T05:20:59.855737",
+            "docstatus": 0
+        },
+        {
+            "budget": "Revenue Expenditure",
+            "particulars": "Revenue Exp - Salary",
+            "creation": "2023-07-03T05:20:41.34942",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Others",
+            "creation": "2023-07-03T05:20:14.190514",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Uinion Fee",
+            "creation": "2023-07-03T05:19:57.338553",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Sports Fee",
+            "creation": "2023-07-03T05:19:39.071434",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Library Fee",
+            "creation": "2023-07-03T05:19:19.771944",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Tution Fee",
+            "creation": "2023-07-03T05:18:51.204705",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Grants Others",
+            "creation": "2023-07-03T05:18:30.410169",
+            "docstatus": 0
+        },
+        {
+            "budget": "Income",
+            "particulars": "Grants Govt",
+            "creation": "2023-07-03T05:18:10.853343",
+            "docstatus": 0
+        },
+        {
+            "budget": "Expenditure",
+            "particulars": "Others",
+            "creation": "2023-07-03T05:17:49.021187",
+            "docstatus": 0
+        },
+        {
+            "budget": "Expenditure",
+            "particulars": "Equipment",
+            "creation": "2023-07-03T05:17:22.908994",
+            "docstatus": 0
+        },
+        {
+            "budget": "Expenditure",
+            "particulars": "Building",
+            "creation": "2023-07-03T05:17:02.334353",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 20
+}

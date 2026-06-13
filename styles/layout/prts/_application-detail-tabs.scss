@@ -1,0 +1,140 @@
+.ad-profile-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px 24px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3d5fa0, #5b7ec7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    overflow: hidden;
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 4px;
+  }
+
+  &__meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: #64748b;
+
+    i {
+      font-size: 0.72rem;
+      color: #94a3b8;
+    }
+  }
+
+  &__dot {
+    color: #cbd5e1;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  &__uuid {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    font-family: monospace;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 3px 8px;
+  }
+}
+
+.ad-tabview {
+  &.p-tabview {
+    .p-tabview-nav {
+      background: #fff;
+      border: none;
+      border-bottom: 2px solid #e2e8f0;
+      border-radius: 0;
+      padding: 0 8px;
+      gap: 0;
+
+      li {
+        .p-tabview-nav-link {
+          border: none !important;
+          border-bottom: 3px solid transparent !important;
+          border-radius: 0 !important;
+          margin: 0;
+          padding: 12px 20px !important;
+          font-size: 0.875rem !important;
+          font-weight: 500 !important;
+          color: #94a3b8 !important;
+          background: transparent !important;
+          transition: color 0.18s ease, border-color 0.18s ease !important;
+          box-shadow: none !important;
+          outline: none !important;
+
+          i { font-size: 0.8rem; }
+
+          &:hover {
+            color: #3d5fa0 !important;
+            background: transparent !important;
+            border-bottom-color: #c7d4ee !important;
+          }
+
+          &:focus {
+            box-shadow: none !important;
+            outline: none !important;
+          }
+        }
+
+        &.p-highlight .p-tabview-nav-link {
+          color: #3d5fa0 !important;
+          font-weight: 600 !important;
+          background: transparent !important;
+          box-shadow: none !important;
+          border-bottom-color: #3d5fa0 !important;
+        }
+      }
+
+      .p-tabview-ink-bar {
+        display: none !important;
+      }
+    }
+
+    .p-tabview-panels {
+      background: #fff;
+      border: none;
+      border-radius: 0;
+      padding: 24px  ;
+    }
+  }
+}

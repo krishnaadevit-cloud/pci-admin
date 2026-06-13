@@ -1,0 +1,132 @@
+@use "./variables-prts" as *;
+
+$pharmacy-dropdown-item-gradient: linear-gradient(180deg, #ffffff 0%, #f2f5fc 100%);
+$pharmacy-dropdown-panel-radius: 12px;
+$pharmacy-dropdown-item-radius: 10px;
+
+.prts-pharmacy-dropdown-panel.p-dropdown-panel {
+  border: 1px solid $prts-border !important;
+  border-radius: $pharmacy-dropdown-panel-radius !important;
+  box-shadow: 0 8px 24px rgba(33, 37, 41, 0.1) !important;
+  overflow: hidden !important;
+  background: $prts-white !important;
+  // padding: 4px !important;
+
+  .p-dropdown-header {
+    padding: 0.5rem 0.75rem !important;
+    border-bottom: 1px solid $prts-border !important;
+    background: $prts-white !important;
+
+    .p-dropdown-filter-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .p-dropdown-filter {
+      width: 100% !important;
+      border: 1px solid $prts-border !important;
+      border-radius: 6px !important;
+      padding: 0.5rem 0.75rem !important;
+      font-size: 0.875rem !important;
+      color: $prts-text-primary !important;
+      background: $prts-white !important;
+      outline: none !important;
+      box-shadow: none !important;
+
+      &:focus {
+        border-color: $prts-primary !important;
+        box-shadow: none !important;
+      }
+
+      &::placeholder {
+        color: $prts-text-muted !important;
+        font-weight: 400 !important;
+      }
+    }
+
+    .p-dropdown-filter-icon {
+      display: none !important;
+    }
+  }
+
+  .p-dropdown-items-wrapper {
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .p-dropdown-items {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .p-dropdown-item {
+    margin: 0 !important;
+    padding: 4px 2.5rem 4px 1rem !important;
+    min-height: 48px;
+    display: flex !important;
+    align-items: center !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto;
+    border-radius: $pharmacy-dropdown-item-radius !important;
+    border: 1px solid transparent !important;
+    color: #313033 !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    line-height: 1.25 !important;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease !important;
+    position: relative !important;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #eef0f4 !important;
+    }
+
+    &:not(.p-highlight):not(.p-disabled):hover,
+    &.p-focus {
+      background: $pharmacy-dropdown-item-gradient !important;
+      color: $prts-text !important;
+    }
+
+    &.p-highlight {
+      background: $pharmacy-dropdown-item-gradient !important;
+      color: $prts-primary !important;
+      border-color: $prts-primary !important;
+      border: none !important;
+      font-weight: 600 !important;
+
+      &::after {
+        content: "" !important;
+        position: absolute !important;
+        right: 1rem !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        width: 1rem !important;
+        height: 1rem !important;
+        background-color: $prts-primary !important;
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='black' d='M13.485 3.515a1 1 0 0 1 0 1.414l-6.364 6.364a1 1 0 0 1-1.414 0L2.515 8.192a1 1 0 1 1 1.414-1.414l2.121 2.121 5.657-5.657a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E");
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='black' d='M13.485 3.515a1 1 0 0 1 0 1.414l-6.364 6.364a1 1 0 0 1-1.414 0L2.515 8.192a1 1 0 1 1 1.414-1.414l2.121 2.121 5.657-5.657a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E");
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        -webkit-mask-size: contain;
+      }
+    }
+
+    &.p-disabled {
+      opacity: 0.5 !important;
+    }
+  }
+
+  .p-dropdown-empty-message {
+    padding: 4px 1rem !important;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    color: $prts-text-muted !important;
+  }
+}

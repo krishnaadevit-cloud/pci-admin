@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "program_name": "B.Pharm",
+            "full_name": "Bachelor of Pharmacy",
+            "duration": "4 Years",
+            "docstatus": 0
+        },
+        {
+            "program_name": "D.Pharm",
+            "full_name": "Diploma in Pharmacy",
+            "duration": "2 Years",
+            "docstatus": 0
+        },
+        {
+            "program_name": "M.Pharm",
+            "full_name": "Master of Pharmacy",
+            "duration": "2 Years",
+            "docstatus": 0
+        },
+        {
+            "program_name": "Pharm.D",
+            "full_name": "Doctor of Pharmacy",
+            "duration": "6 Years",
+            "docstatus": 0
+        },
+        {
+            "program_name": "Pharm.D (PB)",
+            "full_name": "Doctor of Pharmacy (Post Baccalaureate)",
+            "duration": "3 Years",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 5
+}

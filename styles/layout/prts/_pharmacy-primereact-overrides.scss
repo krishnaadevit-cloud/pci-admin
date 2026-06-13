@@ -1,0 +1,291 @@
+@use "./variables-prts" as *;
+
+$pharmacy-calendar-icon-url: "/assets/prts/calender.svg";
+
+@mixin pharmacy-primereact-dropdown-field {
+  .prts-field--dropdown {
+
+    .prts-field__wrapper,
+    .prts-dropdown-wrapper {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border: 1px solid $prts-border;
+      border-radius: 8px;
+      overflow: hidden;max-height: 48px !important;
+      background: $prts-white;
+      transition: border-color 0.15s;
+
+      &:focus-within {
+        border-color: $prts-primary;
+        box-shadow: none !important;
+        outline: none !important;
+      }
+    }
+
+    &.prts-field--error .prts-field__wrapper,
+    &.prts-field--error .prts-dropdown-wrapper {
+      border-color: $prts-danger;
+      background: $prts-danger-light;
+    }
+
+    &--disabled .prts-dropdown-wrapper {
+      background: #f3f4f6 !important;
+    }
+
+    .prts-field__dropdown,
+    .prts-custom-dropdown {
+      width: 100%;
+      border: none !important;
+      outline: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+
+      &.p-dropdown {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+
+        &:not(.p-disabled):hover,
+        &:not(.p-disabled).p-focus,
+        &.p-focus,
+        &.p-inputwrapper-focus {
+          border: none !important;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        // DISABLED STATE
+        &.p-disabled {
+          background: #f3f4f6 !important;
+          cursor: not-allowed;
+          color: #727272 !important;
+
+          .p-inputtext,
+          .p-dropdown-label {
+            background: #f3f4f6 !important;
+            color: #727272 !important;
+          }
+        }
+
+        .p-inputtext,
+        .p-dropdown-label {
+          padding: 1rem 2.5rem 1rem 1.5rem !important;
+          font-size: 0.875rem !important;
+          font-weight: 600 !important;
+          color: #4B4B4B !important;
+          border: none !important;
+          outline: none !important;
+          background: transparent !important;
+          box-shadow: none !important;
+
+          &.p-placeholder {
+            font-weight: 500 !important;
+            color: $prts-text-muted !important;
+          }
+
+          &:enabled:focus {
+            box-shadow: none !important;
+            outline: none !important;
+          }
+        }
+
+        .p-dropdown-trigger {
+          display: none !important;
+        }
+      }
+    }
+
+    .prts-dropdown-icon {
+      position: absolute;
+      right: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0.75rem;
+      height: auto;
+      pointer-events: none;
+      z-index: 2;
+    }
+  }
+}
+
+@mixin pharmacy-date-field-icon {
+
+  .prts-field--date,
+  .prts-field--calendar {
+    .prts-field__wrapper {
+      position: relative;
+    }
+
+    input[type="date"],
+    input[type="month"],
+    .prts-calendar-input,
+    .prts-field__calendar .p-inputtext {
+      padding-right: 2.75rem !important;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+
+      &:focus,
+      &:focus-visible,
+      &:enabled:focus {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    input[type="date"],
+    input[type="month"] {
+      color-scheme: light;
+      font-family: inherit !important;
+      font-size: 0.875rem !important;
+      font-weight: 600 !important;
+      color: #313033 !important;
+
+      &::-webkit-datetime-edit {
+        padding: 0;
+        line-height: 1;
+      }
+
+      &::-webkit-datetime-edit-fields-wrapper {
+        padding: 0;
+      }
+
+      &::-webkit-datetime-edit-text {
+        color: #9ca3af;
+        padding: 0 1px;
+      }
+
+      &::-webkit-datetime-edit-month-field,
+      &::-webkit-datetime-edit-day-field,
+      &::-webkit-datetime-edit-year-field {
+        color: #313033;
+        font-weight: 600;
+
+        &:focus {
+          background: rgba(0, 85, 179, 0.12);
+          border-radius: 2px;
+          color: #313033;
+          outline: none;
+        }
+      }
+
+      &::-webkit-calendar-picker-indicator {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 2.75rem;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 3;
+      }
+    }
+
+    .prts-field__wrapper::after {
+      content: "";
+      position: absolute;
+      right: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
+      background: url($pharmacy-calendar-icon-url) no-repeat center / contain;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .prts-calendar-icon {
+      display: none;
+    }
+  }
+
+  .prts-field--calendar {
+    .prts-calendar-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .prts-field__calendar {
+      width: 100%;
+
+      &.p-calendar {
+        width: 100%;
+
+        .p-inputtext {
+          width: 100%;
+          border: none !important;
+          box-shadow: none !important;
+          background: transparent !important;
+        }
+
+        .p-datepicker-trigger,
+        .p-input-icon,
+        .p-input-icon-right,
+        button.p-datepicker-trigger {
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+// Single border on wrapper only — overrides global .p-inputtext / .p-calendar focus rings
+@mixin pharmacy-field-single-border {
+
+  .prts-field__wrapper,
+  .prts-dropdown-wrapper,
+  .prts-calendar-wrapper {
+    &:focus-within {
+      border-color: $prts-primary;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+
+    .p-inputtext,
+    .p-inputtext:enabled,
+    .p-inputtext:enabled:hover,
+    .p-inputtext:enabled:focus,
+    .p-inputtextarea:enabled:focus,
+    input,
+    textarea,
+    select {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+    }
+
+    .p-calendar,
+    .p-calendar.p-inputwrapper,
+    .p-dropdown {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      background: transparent !important;
+
+      &:not(.p-disabled):hover,
+      &:not(.p-disabled).p-focus,
+      &.p-focus,
+      &.p-inputwrapper-focus {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+}
+
+@mixin pharmacy-primereact-overrides {
+  @include pharmacy-field-single-border;
+  @include pharmacy-primereact-dropdown-field;
+  @include pharmacy-date-field-icon;
+}

@@ -1,0 +1,319 @@
+@use "sass:map";
+// Color Variables
+$prts-primary: #2E29FF;
+$prts-primary-hover: #232bb8;
+$prts-primary-light: #eef0ff;
+$prts-success: #28a745;
+$prts-success-dark: #1e7e34;
+$prts-success-light: #f1f9f1;
+$prts-success-row: #e8f5e9;
+$prts-uploading-row: #e8f0fe;
+$prts-failed-row: #fdecea;
+$prts-warning: #b8860b;
+$prts-warning-bg: #fdf3e3;
+$prts-warning-badge: #8b6914;
+$prts-danger: #dc3545;
+$prts-danger-light: #fce8e8;
+$prts-text: #212529;
+$prts-text-muted: #6c757d;
+$prts-text-light: #9ca3af;
+$prts-border: #e5e7eb;
+$prts-bg: #f4f5f7;
+$prts-white: #ffffff;
+$prts-sidebar-bg: #1c1c1c;
+$prts-sidebar-text: #a0a0a0;
+$prts-sidebar-active: #2a2a2a;
+$prts-purple-icon: #7c3aed;
+$prts-text-primary: #313033;
+$prts-primary-pending: #E5E5E5;
+$prts-text-pending: #727272;
+$prts-otp-text: #C6C6C6;
+$prts-online-dot: #17803D;
+
+
+// Responsive Breakpoints
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+$large-desktop: 1440px;
+
+
+// Border & Radius
+$prts-radius: 12px;
+$prts-radius-lg: 16px;
+$prts-radius-xl: 24px;
+$prts-radius-pill: 999px;
+
+// Shadow
+$prts-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+$prts-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+// Font Family
+$prts-font: var(--font-poppins, "Poppins", sans-serif);
+$prts-font-display: "Archivo", sans-serif;
+
+// Typography - Display Styles
+$display-1: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 80px,
+  line-height: 100px,
+  letter-spacing: 0
+);
+
+$display-2: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 72px,
+  line-height: 100px,
+  letter-spacing: 0
+);
+
+$display-3: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 64px,
+  line-height: 80px,
+  letter-spacing: 0
+);
+
+$display-4: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 56px,
+  line-height: 72px,
+  letter-spacing: 0
+);
+
+$display-5: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 48px,
+  line-height: 56px,
+  letter-spacing: 0
+);
+
+$display-6: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 40px,
+  line-height: 48px,
+  letter-spacing: 0
+);
+
+// Typography - Headline Styles
+$headline-1: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 40px,
+  line-height: 48px,
+  letter-spacing: 0
+);
+
+$headline-2: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 32px,
+  line-height: 40px,
+  letter-spacing: 0
+);
+
+$headline-3: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 28px,
+  line-height: 32px,
+  letter-spacing: 0
+);
+
+$headline-4: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 24px,
+  line-height: 28px,
+  letter-spacing: 0
+);
+
+$headline-5: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 20px,
+  line-height: 24px,
+  letter-spacing: 0
+);
+
+$headline-6: (
+  font-family: $prts-font-display,
+  font-weight: 600,
+  font-size: 16px,
+  line-height: 20px,
+  letter-spacing: 0
+);
+
+// Typography - Title Styles
+$title-1: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 22px,
+  line-height: 28px,
+  letter-spacing: 0
+);
+
+$title-2: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 16px,
+  line-height: 24px,
+  letter-spacing: 0.15px
+);
+
+$title-3: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 14px,
+  line-height: 20px,
+  letter-spacing: 0.1px
+);
+
+// Typography - Label Styles
+$label-1: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 14px,
+  line-height: 20px,
+  letter-spacing: 0.1px
+);
+
+$label-2: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 12px,
+  line-height: 16px,
+  letter-spacing: 0.5px
+);
+
+$label-3: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 11px,
+  line-height: 12px,
+  letter-spacing: 0.5px
+);
+
+// Typography - Body Styles
+$body-1: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 16px,
+  line-height: 24px,
+  letter-spacing: 0.5px
+);
+
+$body-2: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 14px,
+  line-height: 20px,
+  letter-spacing: 0.25px
+);
+
+$body-3: (
+  font-family: $prts-font-display,
+  font-weight: 500,
+  font-size: 12px,
+  line-height: 14px,
+  letter-spacing: 0.4px
+);
+
+// Mixins for Typography
+@mixin typography($map) {
+  font-family: map.get($map, font-family);
+  font-weight: map.get($map, font-weight);
+  font-size: map.get($map, font-size);
+  line-height: map.get($map, line-height);
+  letter-spacing: map.get($map, letter-spacing);
+}
+
+@mixin display-1 {
+  @include typography($display-1);
+}
+
+@mixin display-2 {
+  @include typography($display-2);
+}
+
+@mixin display-3 {
+  @include typography($display-3);
+}
+
+@mixin display-4 {
+  @include typography($display-4);
+}
+
+@mixin display-5 {
+  @include typography($display-5);
+}
+
+@mixin display-6 {
+  @include typography($display-6);
+}
+
+@mixin headline-1 {
+  @include typography($headline-1);
+}
+
+@mixin headline-2 {
+  @include typography($headline-2);
+}
+
+@mixin headline-3 {
+  @include typography($headline-3);
+}
+
+@mixin headline-4 {
+  @include typography($headline-4);
+}
+
+@mixin headline-5 {
+  @include typography($headline-5);
+}
+
+@mixin headline-6 {
+  @include typography($headline-6);
+}
+
+@mixin title-1 {
+  @include typography($title-1);
+}
+
+@mixin title-2 {
+  @include typography($title-2);
+}
+
+@mixin title-3 {
+  @include typography($title-3);
+}
+
+@mixin label-1 {
+  @include typography($label-1);
+}
+
+@mixin label-2 {
+  @include typography($label-2);
+}
+
+@mixin label-3 {
+  @include typography($label-3);
+}
+
+@mixin body-1 {
+  @include typography($body-1);
+}
+
+@mixin body-2 {
+  @include typography($body-2);
+}
+
+@mixin body-3 {
+  @include typography($body-3);
+}

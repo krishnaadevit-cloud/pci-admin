@@ -1,0 +1,74 @@
+[
+  {
+    "id": "COL-001",
+    "name": "Delhi Institute of Pharmaceutical Sciences and Research (DIPSAR)",
+    "state": "Delhi",
+    "type": "Government",
+    "courses": "D.Pharm, B.Pharm, M.Pharm, Ph.D",
+    "pciCode": "PCI-DIPS-1092",
+    "approvalStatus": "Approved",
+    "intakeCapacity": 120,
+    "lastInspection": "2024-03-15",
+    "validUpto": "2028-06-30"
+  },
+  {
+    "id": "COL-002",
+    "name": "Bombay College of Pharmacy",
+    "state": "Maharashtra",
+    "type": "Govt-Aided",
+    "courses": "B.Pharm, M.Pharm, Pharm.D",
+    "pciCode": "PCI-BCPM-0431",
+    "approvalStatus": "Approved",
+    "intakeCapacity": 100,
+    "lastInspection": "2024-02-28",
+    "validUpto": "2027-06-30"
+  },
+  {
+    "id": "COL-003",
+    "name": "Manipal College of Pharmaceutical Sciences",
+    "state": "Karnataka",
+    "type": "Private",
+    "courses": "B.Pharm, M.Pharm, Pharm.D, Ph.D",
+    "pciCode": "PCI-MCPS-0812",
+    "approvalStatus": "Approved",
+    "intakeCapacity": 150,
+    "lastInspection": "2023-11-10",
+    "validUpto": "2026-06-30"
+  },
+  {
+    "id": "COL-004",
+    "name": "Noida Pharmacy College of Excellence",
+    "state": "Uttar Pradesh",
+    "type": "Private",
+    "courses": "D.Pharm, B.Pharm",
+    "pciCode": "PCI-NPCE-1123",
+    "approvalStatus": "Pending Renewal",
+    "intakeCapacity": 60,
+    "lastInspection": "2022-09-05",
+    "validUpto": "2024-06-30"
+  },
+  {
+    "id": "COL-005",
+    "name": "LM College of Pharmacy",
+    "state": "Gujarat",
+    "type": "Govt-Aided",
+    "courses": "D.Pharm, B.Pharm, M.Pharm",
+    "pciCode": "PCI-LMCP-0234",
+    "approvalStatus": "Approved",
+    "intakeCapacity": 120,
+    "lastInspection": "2023-01-20",
+    "validUpto": "2025-06-30"
+  },
+  {
+    "id": "COL-006",
+    "name": "Global Institute of Pharmacy",
+    "state": "Haryana",
+    "type": "Private",
+    "courses": "D.Pharm",
+    "pciCode": "PCI-GIPH-0988",
+    "approvalStatus": "Notice Issued",
+    "intakeCapacity": 60,
+    "lastInspection": "2024-01-15",
+    "validUpto": "2024-12-31"
+  }
+]

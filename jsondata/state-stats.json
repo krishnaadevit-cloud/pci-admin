@@ -1,0 +1,118 @@
+{
+  "haryana": {
+    "stateName": "Haryana State Pharmacy Council",
+    "summaryCards": [
+      { "id": "pharmacists", "title": "Total Pharmacists", "value": "1,25,430", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
+      { "id": "applications", "title": "Total Applications", "value": "12,450", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
+      { "id": "pending", "title": "Pending Scrutiny", "value": "1,240", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
+      { "id": "approved", "title": "Approved", "value": "8,450", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
+      { "id": "rejected", "title": "Rejected", "value": "520", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
+      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 18,45,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+    ],
+    "applicationTypeDistribution": [
+      { "label": "Fresh Registration", "value": 4520, "percentage": "36.3%" },
+      { "label": "Renewal", "value": 3250, "percentage": "26.1%" },
+      { "label": "Re-entry Registration", "value": 1120, "percentage": "9.0%" },
+      { "label": "Add Qualification", "value": 580, "percentage": "4.7%" },
+      { "label": "Change Name", "value": 840, "percentage": "6.7%" },
+      { "label": "Change Address", "value": 630, "percentage": "5.1%" },
+      { "label": "Duplicate Certificate", "value": 460, "percentage": "3.7%" },
+      { "label": "Others", "value": 1050, "percentage": "8.4%" }
+    ],
+    "monthlyTrend": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+      "data": [500, 1200, 1800, 2500, 2800]
+    },
+    "recentApplications": [
+      { "appNo": "HR2024001250", "applicantName": "Rohit Kumar", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" },
+      { "appNo": "HR2024001249", "applicantName": "Pooja Sharma", "appType": "Renewal", "submittedOn": "18 May 2024", "status": "Pending" },
+      { "appNo": "HR2024001248", "applicantName": "Amit Verma", "appType": "Additional Qualification", "submittedOn": "17 May 2024", "status": "Pending" },
+      { "appNo": "HR2024001247", "applicantName": "Neha Rani", "appType": "Duplicate Certificate", "submittedOn": "16 May 2024", "status": "Rejected" },
+      { "appNo": "HR2024001246", "applicantName": "Sandeep Singh", "appType": "Migration", "submittedOn": "15 May 2024", "status": "Approved" }
+    ]
+  },
+  "uttar-pradesh": {
+    "stateName": "Uttar Pradesh Pharmacy Council",
+    "summaryCards": [
+      { "id": "pharmacists", "title": "Total Pharmacists", "value": "2,80,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
+      { "id": "applications", "title": "Total Applications", "value": "30,100", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
+      { "id": "pending", "title": "Pending Scrutiny", "value": "6,450", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
+      { "id": "approved", "title": "Approved", "value": "20,400", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
+      { "id": "rejected", "title": "Rejected", "value": "1,500", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
+      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 45,15,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+    ],
+    "applicationTypeDistribution": [
+      { "label": "Fresh Registration", "value": 12500, "percentage": "41.5%" },
+      { "label": "Renewal", "value": 8900, "percentage": "29.6%" },
+      { "label": "Re-entry Registration", "value": 2400, "percentage": "8.0%" },
+      { "label": "Add Qualification", "value": 1500, "percentage": "5.0%" },
+      { "label": "Change Name", "value": 1200, "percentage": "4.0%" },
+      { "label": "Change Address", "value": 900, "percentage": "3.0%" },
+      { "label": "Duplicate Certificate", "value": 1100, "percentage": "3.6%" },
+      { "label": "Others", "value": 1600, "percentage": "5.3%" }
+    ],
+    "monthlyTrend": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+      "data": [1100, 2400, 3900, 5200, 6450]
+    },
+    "recentApplications": [
+      { "appNo": "UP2024005820", "applicantName": "Alok Dwivedi", "appType": "Fresh Registration", "submittedOn": "19 May 2024", "status": "Pending" },
+      { "appNo": "UP2024005819", "applicantName": "Priyanka Singh", "appType": "Renewal", "submittedOn": "18 May 2024", "status": "Approved" },
+      { "appNo": "UP2024005818", "applicantName": "Vikram Rathore", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" }
+    ]
+  },
+  "maharashtra": {
+    "stateName": "Maharashtra State Pharmacy Council",
+    "summaryCards": [
+      { "id": "pharmacists", "title": "Total Pharmacists", "value": "2,50,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
+      { "id": "applications", "title": "Total Applications", "value": "23,450", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
+      { "id": "pending", "title": "Pending Scrutiny", "value": "3,120", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
+      { "id": "approved", "title": "Approved", "value": "17,200", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
+      { "id": "rejected", "title": "Rejected", "value": "1,180", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
+      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 38,90,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+    ],
+    "applicationTypeDistribution": [
+      { "label": "Fresh Registration", "value": 9800, "percentage": "41.8%" },
+      { "label": "Renewal", "value": 6200, "percentage": "26.4%" },
+      { "label": "Re-entry Registration", "value": 2100, "percentage": "9.0%" },
+      { "label": "Add Qualification", "value": 1150, "percentage": "4.9%" },
+      { "label": "Change Name", "value": 1300, "percentage": "5.5%" },
+      { "label": "Change Address", "value": 900, "percentage": "3.8%" },
+      { "label": "Duplicate Certificate", "value": 800, "percentage": "3.4%" },
+      { "label": "Others", "value": 1200, "percentage": "5.1%" }
+    ],
+    "monthlyTrend": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+      "data": [900, 1800, 2600, 3100, 3120]
+    },
+    "recentApplications": [
+      { "appNo": "MH2024003920", "applicantName": "Rahul Kulkarni", "appType": "Fresh Registration", "submittedOn": "19 May 2024", "status": "Approved" },
+      { "appNo": "MH2024003919", "applicantName": "Sneha Patil", "appType": "Renewal", "submittedOn": "19 May 2024", "status": "Pending" },
+      { "appNo": "MH2024003918", "applicantName": "Siddharth Shinde", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" }
+    ]
+  },
+  "default": {
+    "stateName": "State Pharmacy Council",
+    "summaryCards": [
+      { "id": "pharmacists", "title": "Total Pharmacists", "value": "10,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
+      { "id": "applications", "title": "Total Applications", "value": "1,500", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
+      { "id": "pending", "title": "Pending Scrutiny", "value": "150", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
+      { "id": "approved", "title": "Approved", "value": "1,200", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
+      { "id": "rejected", "title": "Rejected", "value": "100", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
+      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 2,50,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+    ],
+    "applicationTypeDistribution": [
+      { "label": "Fresh Registration", "value": 600, "percentage": "40%" },
+      { "label": "Renewal", "value": 450, "percentage": "30%" },
+      { "label": "Others", "value": 450, "percentage": "30%" }
+    ],
+    "monthlyTrend": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+      "data": [30, 60, 90, 120, 150]
+    },
+    "recentApplications": [
+      { "appNo": "ST2024000101", "applicantName": "John Doe", "appType": "Fresh Registration", "submittedOn": "15 May 2024", "status": "Approved" },
+      { "appNo": "ST2024000102", "applicantName": "Jane Smith", "appType": "Renewal", "submittedOn": "14 May 2024", "status": "Pending" }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+    "data": [
+        {
+            "employee_number": "PCI-1011185",
+            "employee_name": "Policy PCI",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-07-10T07:11:19.915025",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "575676",
+            "employee_name": "Mr. Bheem Singh",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-27T11:39:17.293852",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-101",
+            "employee_name": "Mr. Bijendar Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:01:29",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-102",
+            "employee_name": "Mr. Aditya Jha",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:01:47",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-103",
+            "employee_name": "Mrs. Harvinder Kaur",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-09-13T05:33:51",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-104",
+            "employee_name": "Ms. Ruby Kumari",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:02:16",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-106",
+            "employee_name": "Mr. Manish Pandey",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-20T07:54:27",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-107",
+            "employee_name": "Mr. Sarthak Gupta",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:01:54",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-108",
+            "employee_name": "Mr. Pradeep Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T10:55:56",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-109",
+            "employee_name": "Mr. Robin John",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T10:55:08",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-110",
+            "employee_name": "Ms. Shradha Chauhan",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:01:30",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-111",
+            "employee_name": "Mrs. Ritu Lochab",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:01:30",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-112",
+            "employee_name": "Ms. Shelly Dua",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2025-01-23T11:02:07",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-117",
+            "employee_name": "Mr. Sourabh Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-11-13T11:41:14",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-121",
+            "employee_name": "Miss. Sonia",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-24T06:38:56",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-122",
+            "employee_name": "Mr. Arun",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:29:49",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-123",
+            "employee_name": "Dr. Narendra",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-18T10:20:58",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-124",
+            "employee_name": "Miss. Kajal",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:34:28",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-125",
+            "employee_name": "Miss. Rajkumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T11:16:41",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-126",
+            "employee_name": "Miss. Rajrani",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T11:32:44",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-127",
+            "employee_name": "Dr. Tinku",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-11-13T11:37:42",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-128",
+            "employee_name": "Mr. Rahul",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:38:33",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-129",
+            "employee_name": "Dr. Kalyani",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-11-30T04:53:03",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-130",
+            "employee_name": "Mr. Mahesh Arora",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-11-03T10:12:44",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-131",
+            "employee_name": "Mr. Mohit",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:22:54",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-132",
+            "employee_name": "Mr. Ajay",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T11:31:11",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-133",
+            "employee_name": "Mr. Sourabh",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-10-09T10:21:23",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-136",
+            "employee_name": "Miss. Kajal",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:34:28",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-142",
+            "employee_name": "Mr. Sunil",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T11:29:31",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-151",
+            "employee_name": "Mr. Sourabh",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T10:36:38",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-154",
+            "employee_name": "Mr. Pradeep",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-11-13T11:39:58",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-155",
+            "employee_name": "Mr. Narendra Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-07-16T11:23:23",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "PCI-Emp-156",
+            "employee_name": "Prabha Rani Chawla",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2024-11-01T09:55:10",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "10102",
+            "employee_name": "Anju Gaunaniya",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:18:30.77291",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "10105",
+            "employee_name": "Jeevan Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:23:11.008174",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "10106",
+            "employee_name": "Rama Aswal",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:27:05.52023",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "10109",
+            "employee_name": "Ajeet Kumar",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:30:48.990942",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "101011",
+            "employee_name": "Montu M Patel",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:34:55.396928",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "101012",
+            "employee_name": "Anil Mittal",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-11T11:37:47.926912",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "101013",
+            "employee_name": "Pratima Tiwari",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2023-07-12T11:00:14.36521",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "Emp10",
+            "employee_name": "Naim Akhtar Ansari",
+            "designation": "Accountant",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2022-09-21T08:02:17.697064",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "Emp11",
+            "employee_name": "Irshad Ahmed",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2022-09-21T08:29:07.149671",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "Emp201",
+            "employee_name": "Akbar Rizwan Malik",
+            "designation": "Manager",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2022-09-28T14:59:46.389405",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "HR29",
+            "employee_name": "Jacob Harris",
+            "designation": "Teacher",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2022-09-21T13:54:58.678574",
+            "docstatus": 0
+        },
+        {
+            "employee_number": "HR30",
+            "employee_name": "Administrator",
+            "designation": "Analyst",
+            "status": "Active",
+            "company": "Pharmacy Council of India",
+            "creation": "2022-09-21T13:56:13.771434",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 45
+}

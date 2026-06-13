@@ -1,0 +1,712 @@
+@use "./variables-prts" as *;
+@use "./fresh-registration-mq" as mq;
+html{
+  font-size: 16px !important;
+}
+@mixin fresh-registration-responsive {
+  // Prevent horizontal page scroll
+  overflow-x: clip;
+  width: 100%;
+  max-width: 100%;
+
+  // —— Large desktop (1990px+) ——
+  @include mq.fr-up(mq.$fr-bp-1990) {
+    .prts-registration-layout {
+      max-width: 1920px;
+      margin-inline: auto;
+    }
+
+    .prts-registration-card,
+    .prts-ekyc-card,
+    .prts-personal-form-card,
+    .prts-education-card,
+    .prts-communication-card,
+    .prts-document-table-card {
+      padding: 2.75rem 3rem;
+    }
+  }
+
+  // —— Wide desktop (1440px) ——
+  @include mq.fr-down(mq.$fr-bp-1440) {
+    .prts-registration-sidebar {
+      width: 300px;
+      padding: 2.5rem 2rem;
+    }
+
+    .prts-registration-main {
+      padding: 1rem !important;
+    }
+
+    .prts-ekyc-card,
+    .prts-personal-form-card,
+    .prts-education-card,
+    .prts-communication-card,
+    .prts-document-table-card,
+    .prts-registration-card {
+      padding: 2.25rem;
+    }
+
+    .prts-step-content__actions {
+      padding-top: 6rem;
+    }
+  }
+
+  // —— Desktop / laptop (1280px) ——
+  @include mq.fr-down(mq.$fr-bp-1280) {
+    .prts-registration-sidebar {
+      width: 280px;
+      padding: 2rem 1.5rem;
+    }
+
+    .prts-form-grid--5 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .prts-preview-grid--5 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .prts-html-table__col-upload {
+      width: 17rem;
+    }
+
+    .prts-html-table__col-action {
+      width: 13rem;
+    }
+  }
+
+  // —— Laptop (1024px) ——
+  @include mq.fr-down(mq.$fr-bp-1024) {
+    .prts-registration-layout {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .prts-registration-sidebar {
+      width: 100%;
+      padding: 1.5rem 1.25rem 1rem;
+    }
+
+    .prts-registration-main {
+      padding: 1rem !important;
+    }
+
+    .prts-ekyc-wrapper,
+    .prts-personal-wrapper,
+    .prts-education-wrapper,
+    .prts-communication-wrapper,
+    .prts-document-wrapper {
+      gap: 1rem;
+    }
+
+    .prts-ekyc-card,
+    .prts-ekyc-footer,
+    .prts-personal-form-card,
+    .prts-personal-footer,
+    .prts-education-card,
+    .prts-education-footer,
+    .prts-communication-card,
+    .prts-communication-footer,
+    .prts-document-table-card,
+    .prts-document-footer,
+    .prts-registration-card {
+      padding: 1.75rem 1.5rem;
+      border-radius: 1.25rem;
+    }
+
+    .prts-registration-main {
+      width: 100%;
+      padding: 1rem !important
+    }
+
+    // Vertical scrollable stepper
+    .prts-vertical-stepper {
+      &__title {
+        @include headline-4;
+        margin-bottom: 2rem;
+      }
+
+      &__list {
+        flex-direction: column;
+        gap: 0.35rem;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: y proximity;
+        padding-right: 0.35rem;
+        scrollbar-width: thin;
+        padding-top: 2rem !important;
+        justify-content: flex-start;
+
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+      }
+
+      &__item {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+        align-items: center !important;
+       padding-bottom: 0.5rem;
+      }
+
+      &__button {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+        min-height: 44px;
+      }
+
+      &__indicator-col {
+        flex-direction: column;
+      }
+
+      &__line {
+        display: none;
+
+      }
+
+      &__circle {
+        width: 44px;
+        height:44px;
+        font-size:1rem;
+        border-radius: 1rem ;
+      }
+
+      &__label {
+        @include label-2;
+        text-align: left;
+        max-width: 100%;
+        margin: 0;
+        color:#313033 !important ;
+      }
+    }
+
+    .prts-form-grid--3,
+    .prts-form-grid--3-school,
+    .prts-form-grid--3-1-2,
+    .prts-form-grid--5,
+    .prts-aadhaar-success-card__row--3,
+    .prts-preview-grid,
+    .prts-preview-grid--3,
+    .prts-preview-grid--4,
+    .prts-preview-grid--5 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prts-form-grid--2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prts-step-content {
+      &__header {
+        max-width: 100%;
+      }
+
+      &__title {
+        @include headline-4;
+      }
+
+      &__desc {
+        margin-bottom: 2rem;
+      }
+
+      &__divider {
+        margin: 2rem 0;
+      }
+
+      &__actions {
+        padding-top: 3rem;
+        flex-wrap: wrap;
+      }
+    }
+
+    .prts-additional-card__fields {
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .prts-fetch-documents__intro {
+      padding-bottom: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .prts-fetch-documents__title {
+      @include headline-4;
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+    }
+
+
+    .prts-application-preview__header {
+   
+      flex-direction: column;
+      align-items: stretch;
+      padding: 1rem ;
+    }
+
+    .prts-application-preview__footer {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+
+  // Document table scroll hint (tablet)
+  @include mq.fr-between(mq.$fr-bp-768 + 1px, mq.$fr-bp-1024) {
+    .prts-doc-table-scroll__hint {
+      display: block;
+    }
+  }
+
+  // —— Tablet (768px) ——
+  @include mq.fr-down(mq.$fr-bp-768) {
+    .prts-field {
+      width: 100%;
+      max-width: 100%;
+    }
+    .prts-registration-main {
+      padding: 0.75rem;
+    }
+
+    .prts-ekyc-wrapper,
+    .prts-personal-wrapper,
+    .prts-education-wrapper,
+    .prts-communication-wrapper,
+    .prts-document-wrapper {
+      gap: 0.75rem;
+    }
+
+    .prts-ekyc-card,
+    .prts-ekyc-footer,
+    .prts-personal-form-card,
+    .prts-personal-footer,
+    .prts-education-card,
+    .prts-education-footer,
+    .prts-communication-card,
+    .prts-communication-footer,
+    .prts-document-table-card,
+    .prts-document-footer,
+    .prts-registration-card {
+      padding: 1.25rem 1rem;
+      border-radius: 1rem;
+    }
+
+    .prts-form-footer--documents {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+
+      .prts-document-footer__left,
+      .prts-form-footer__actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .prts-form-footer__actions {
+        // flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    }
+
+    .prts-registration-sidebar {
+      padding:2rem;
+      background-color: transparent !important;
+    }
+
+    .prts-vertical-stepper {
+      &__circle {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+        border-radius: 1rem
+      }
+
+      &__label {
+       @include headline-6;
+       color: #313033 !important;
+ 
+      }
+    }
+
+    .prts-step-content {
+      &__title {
+        @include headline-5;
+        margin-bottom: 0.75rem;
+      }
+
+      &__desc {
+        @include body-2;
+        margin-bottom: 1.5rem;
+      }
+
+      &__actions {
+        padding-top: 1.25rem;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+
+        &--spread {
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+        }
+
+        .prts-btn {
+          flex: 0 1 auto;
+          min-height: 40px;
+        }
+      }
+    }
+
+    .prts-form-grid--2,
+    .prts-form-grid--3,
+    .prts-form-grid--3-school,
+    .prts-form-grid--3-1-2,
+    .prts-form-grid--5 {
+      grid-template-columns: 1fr;
+    }
+
+    .prts-fetch-documents__table-header-right {
+      width: 100%;
+      margin-left: 0;
+      justify-content: flex-start;
+    }
+
+    .prts-form-flex-kyc {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+    }
+
+    .prts-aadhaar-success-card {
+      padding: 1.25rem;
+
+      &__row--3 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      &__header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    .prts-form-flex-kyc {
+      flex-direction: column;
+      gap: 0.85rem;
+      align-items: stretch;
+
+      &__group {
+        flex: 1 1 auto;
+        width: 100%;
+        gap: 0.15rem;
+
+        .prts-field__hint {
+          margin-top: 0.15rem;
+        }
+      }
+    }
+
+    .prts-field--kyc-aadhaar,
+    .prts-field--kyc-mobile {
+      width: 100%;
+      max-width: 100%;
+      flex: 1 1 auto;
+    }
+
+    .prts-otp-section__footer {
+      width: 100%;
+      max-width: 100%;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .prts-otp {
+      flex-wrap: wrap;
+      justify-content: center !important;
+      gap: 0.5rem;
+
+      &__box {
+        width: 44px;
+        height: 44px;
+        font-size: 1.1rem;
+      }
+    }
+
+    .prts-form-section {
+      margin-bottom: 1.25rem;
+
+      &:first-child {
+        margin-top: 1rem;
+      }
+
+      &__header {
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+
+        .prts-btn {
+          margin-left: auto;
+          flex-shrink: 0;
+        }
+      }
+
+      &__toggle {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+    }
+
+    .prts-additional-card {
+      &__fields {
+        grid-template-columns: 1fr;
+        gap: 0.65rem;
+        padding: 0.65rem;
+      }
+
+      &__header {
+        padding: 0.45rem 0.65rem;
+      }
+    }
+
+    .prts-additional-list {
+      gap: 0.65rem;
+    }
+
+    .prts-form-footer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+      padding-top: 1rem;
+
+      &__reset {
+        flex: 0 0 auto;
+        min-height: 40px;
+        padding: 0.35rem 0;
+        font-size: 0.8rem;
+        white-space: nowrap;
+      }
+
+      &__actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        flex: 1 1 auto;
+        min-width: 0;
+
+        .prts-btn {
+          width: auto;
+          flex: 0 1 auto;
+          min-height: 40px;
+          padding: 0.45rem 0.85rem;
+          font-size: 0.8rem;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    .prts-form-footer--documents {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+
+      > .prts-btn {
+        width: auto;
+        flex: 0 1 auto;
+        min-height: 40px;
+        padding: 0.45rem 0.85rem;
+        font-size: 0.8rem;
+      }
+
+      .prts-form-footer__actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.5rem;
+        width: auto;
+        flex: 1 1 auto;
+
+        .prts-btn {
+          width: auto;
+          flex: 0 1 auto;
+        }
+      }
+    }
+
+    .prts-fetch-documents {
+      &__intro {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-bottom: 1.25rem;
+        margin-bottom: 1rem;
+      }
+
+      &__title {
+        @include headline-5;
+        margin-top: 0.35rem;
+      text-align: left !important;
+
+      }
+    }
+
+    .prts-info-box {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .prts-alert {
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .prts-terms {
+      align-items: flex-start;
+
+      &__label {
+        line-height: 1.5;
+      }
+    }
+
+    .prts-preview-grid,
+    .prts-preview-grid--2,
+    .prts-preview-grid--3,
+    .prts-preview-grid--4,
+    .prts-preview-grid--5 {
+      grid-template-columns: 1fr;
+    }
+
+    .prts-application-preview__footer {
+      flex-direction: column;
+      align-items: stretch;
+
+      .prts-btn {
+        width: 100%;
+        min-height: 44px;
+      }
+    }
+
+    .prts-btn {
+      touch-action: manipulation;
+    }
+  }
+
+  // —— Small tablet (576px) ——
+  @include mq.fr-down(mq.$fr-bp-576) {
+    .prts-registration-card {
+      margin: 0.5rem;
+      padding: 1rem 0.85rem;
+    }
+
+    .prts-status-badge {
+      font-size: 0.68rem;
+      padding: 0.25rem 0.5rem;
+    }
+  }
+
+  // —— Mobile (480px) ——
+  @include mq.fr-down(mq.$fr-bp-480) {
+    .prts-registration-main{
+      padding: 1rem !important;
+    }
+    .prts-step-content__title {
+      font-size: 1.125rem;
+      line-height: 1.35;
+    }
+
+    .prts-step-content__desc {
+      font-size: 0.8125rem;
+      line-height: 1.55;
+    }
+
+    .prts-form-section__header {
+      .prts-btn {
+        width: auto;
+      }
+    }
+
+    .prts-form-footer__actions .prts-btn {
+      font-size: 0.75rem;
+      padding: 0.4rem 0.65rem;
+    }
+
+    .prts-otp__box {
+      width: 40px;
+      height: 40px;
+      font-size: 1rem;
+    }
+
+    .prts-payment-dialog {
+      max-width: 100%;
+      border-radius: $prts-radius;
+    }
+  }
+
+  // —— Small mobile (375px) ——
+  @include mq.fr-down(mq.$fr-bp-375) {
+    .prts-form-footer,
+    .prts-form-footer--documents {
+      gap: 0.35rem;
+
+      &__actions {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+      }
+    }
+
+    .prts-registration-card {
+      margin: 0.35rem;
+      padding: 0.85rem 0.65rem;
+      border-radius: 0.85rem;
+    }
+
+    .prts-vertical-stepper__label {
+        @include headline-6;
+       color: #313033 !important;
+ 
+    }
+
+    .prts-vertical-stepper__circle {
+      width: 28px;
+      height: 28px;
+      border-radius:0.5rem;
+    }
+
+    .prts-btn {
+      font-size: 0.8125rem;
+      padding: 0.55rem 0.85rem;
+
+      &--pill {
+        padding: 0.55rem 1.25rem;
+      }
+    }
+
+    .prts-doc-cell__icon-btn {
+      min-width: 40px;
+      min-height: 40px;
+    }
+  }
+}
+
+// Payment dialog (rendered in portal but styled for fresh registration)
+@mixin fresh-registration-payment-dialog-responsive {
+  @include mq.fr-down(mq.$fr-bp-768) {
+    .prts-payment-dialog__actions {
+      flex-direction: column;
+
+      .prts-btn {
+        width: 100%;
+        min-height: 44px;
+      }
+    }
+
+    .prts-payment-dialog__content {
+      padding: 1.5rem 1.25rem;
+    }
+  }
+}

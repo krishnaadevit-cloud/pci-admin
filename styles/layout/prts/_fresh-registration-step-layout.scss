@@ -1,0 +1,427 @@
+@use "./variables-prts" as *;
+
+html {
+  font-size: 15px !important;
+}
+
+@mixin prts-fresh-step-card {
+  background: $prts-white;
+  border-radius: $prts-radius-xl;
+  padding: 2.5rem;
+  box-shadow: $prts-shadow;
+  width: 100%;
+  min-width: 0;
+}
+
+@mixin prts-fresh-step-wrapper {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.fresh-registration-container {
+  // ====================================
+  // Shared step layout
+  // ====================================
+
+  .prts-registration-main {
+    background: transparent;
+    flex: 1;
+    min-width: 0;
+    padding: 24px !important;
+    box-sizing: border-box;
+    overflow-x: clip;
+  }
+
+  .prts-step-flow-error {
+    margin: 0 0 1rem;
+  }
+
+  // ====================================
+  // E-KYC
+  // ====================================
+
+  .prts-ekyc-wrapper {
+    @include prts-fresh-step-wrapper;
+  }
+
+  .prts-ekyc-card {
+    @include prts-fresh-step-card;
+
+    .prts-step-content__actions {
+      padding-top: 2rem;
+    }
+  }
+
+  .prts-ekyc-success {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .prts-ekyc-footer {
+    @include prts-fresh-step-card;
+    padding: 1.5rem 2.5rem;
+
+    .prts-step-content__actions {
+      padding-top: 0;
+      margin: 0;
+    }
+  }
+
+  // ====================================
+  // Personal Details
+  // ====================================
+
+  .prts-personal-wrapper {
+    @include prts-fresh-step-wrapper;
+  }
+
+  .prts-personal-form-card {
+    @include prts-fresh-step-card;
+  }
+
+  .prts-personal-footer {
+    @include prts-fresh-step-card;
+    padding: 1.5rem 2.5rem;
+  }
+
+  // ====================================
+  // Education Details
+  // ====================================
+
+  .prts-education-wrapper {
+    @include prts-fresh-step-wrapper;
+  }
+
+  .prts-education-card {
+    @include prts-fresh-step-card;
+  }
+
+  .prts-education-footer {
+    @include prts-fresh-step-card;
+    padding: 1.5rem 2.5rem;
+  }
+
+  .prts-education-table {
+
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 40px 0px #00000014;
+
+
+    .prts-education-documents {
+      width: 100%;
+    }
+  }
+
+  .prts-document-table-card {
+
+    .prts-education-documents {
+      margin-top: 0;
+      width: 100%;
+    }
+
+    .prts-fetch-documents__intro {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  // ====================================
+  // Communication Details
+  // ====================================
+
+  .prts-communication-wrapper {
+    @include prts-fresh-step-wrapper;
+  }
+
+  .prts-communication-card {
+    @include prts-fresh-step-card;
+  }
+
+  .prts-communication-footer {
+    @include prts-fresh-step-card;
+    padding: 1.5rem 2.5rem;
+  }
+
+  // ====================================
+  // Document Upload
+  // ====================================
+
+  .prts-document-wrapper {
+    @include prts-fresh-step-wrapper;
+  }
+
+  .prts-document-table-card {
+    @include prts-fresh-step-card;
+  }
+
+  .prts-document-table-card_preview {
+    // @include prts-fresh-step-card;
+  }
+
+  .prts-document-footer {
+    @include prts-fresh-step-card;
+    padding: 1.5rem 2.5rem;
+  }
+
+  // Footer actions inside separate footer cards
+  .prts-personal-footer,
+  .prts-education-footer,
+  .prts-communication-footer,
+  .prts-document-footer {
+    .prts-form-footer {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+  }
+
+  .prts-document-footer {
+    .prts-form-footer--documents {
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &__left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  .prts-personal-accordion-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  // ====================================
+  // Form field widths (Figma)
+  // ====================================
+
+  .prts-step-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .prts-form-grid {
+    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+
+    >.prts-field {
+      width: 100%;
+      min-width: 0;
+      max-width: none;
+    }
+
+    // SSC / HSC: School 50%, Board 25%, Year 25%
+    &--3-school {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    // Registrable qualification rows
+    &--3-1-2 {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+    }
+  }
+
+  .prts-form-flex-kyc {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    width: 100%;
+    max-width: 42rem;
+
+    &__group {
+      flex: unset;
+      min-width: 0;
+      width: 100%;
+    }
+  }
+
+  .prts-field--kyc-aadhaar,
+  .prts-field--kyc-mobile {
+    flex: unset;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .prts-field {
+    &__wrapper {
+      width: 100%;
+    }
+
+    &__input,
+    &__select,
+    &__textarea {
+      width: 100%;
+      box-sizing: border-box;
+
+    }
+
+    &--dropdown .prts-field__select,
+    &--date .prts-field__input {
+      width: 100% !important;
+      max-width: 100%;
+    }
+  }
+
+  .prts-address-fields {
+    width: 100%;
+
+    &__full {
+      width: 100%;
+      margin-top: 8px !important;
+    }
+
+    .prts-form-grid--5 {
+      width: 100%;
+    }
+  }
+
+  .prts-additional-card__fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: end;
+
+    .prts-field__input,
+    .prts-field__select {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  // ====================================
+  // Renewal — Duration & Applicant Details
+  // ====================================
+
+  // Allows prts-preview-* styles (accordion, grid, field) to work outside
+  // the full ApplicationPreview page — resets visual-only overrides only.
+  .prts-application-preview--inline {
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  .prts-renewal-period-section__option {
+    input[type="radio"] {
+      accent-color: $prts-primary;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+  }
+
+  .prts-renewal-period-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    padding-block: 2rem;
+    border-top: 1px solid $prts-border;
+
+    &__label {
+      @include label-1;
+      font-weight: 500;
+      color: $prts-text;
+      white-space: nowrap;
+    }
+
+    &__options {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    &__option {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      @include label-1;
+      color: $prts-text;
+    }
+  }
+
+  // ====================================
+  // Renewal — Employment Details
+  // ====================================
+
+  .prts-employment-info-section {
+    padding-block: 2rem;
+    border-bottom: 1px solid $prts-border;
+    border-top: 1px solid $prts-border;
+
+    &__fields {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      padding-top: 0.75rem;
+    }
+  }
+
+  .prts-employment-doc-section {
+    padding-block: 2rem;
+  }
+
+  .prts-employment-doc-upload {
+    border: 2px dashed #1612FF;
+    border-radius: 8px;
+    padding: 18px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: background 0.15s;
+
+    &:hover {
+      background: rgba(22, 18, 255, 0.03);
+    }
+
+    &__icon {
+      font-size: 1.75rem;
+      color: #0000C9;
+      margin-bottom: 0.25rem;
+    }
+
+    &__text {
+      @include label-1;
+      color: #0000C9 !important;
+      font-weight: 500;
+    }
+
+    &__hint {
+      @include label-2;
+      color: $prts-text-muted;
+    }
+
+    &__filename {
+      @include label-1;
+      color: $prts-primary;
+      word-break: break-all;
+    }
+
+    &__placeholder {
+      @include label-1;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}

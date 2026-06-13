@@ -1,0 +1,1661 @@
+{
+    "data": [
+        {
+            "course_name": "Pharmacovigilance",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-12-02T06:37:13.236261",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Marketing",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:15:22.506472",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Hospital & Clinical Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:44:19.125001",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-08-18T06:17:47.717883",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biostatistics & Research Methodology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:29:58.802098",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biopharmaceutics & Pharmacokinetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:29:45.730909",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test8",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T10:38:40.682319",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test7",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T10:37:21.332837",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test6",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:07:42.967469",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test5",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:10:53.028721",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test4",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:14:27.90388",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test3",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:15:50.991998",
+            "docstatus": 0
+        },
+        {
+            "course_name": "test2",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:16:06.706054",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacological and Toxicological Screening Methods-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:51:46.020409",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Quality Assurance Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:43:22.159109",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulations and Legislation for Drugs & Cosmetics, Medical Devices, Biologicals & Herbals, and Food & Nutraceuticals In India and Intellectu",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T10:25:43.900738",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Case presentation, Seminar, Assignments",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:56:34.676739",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pathophysiology and Pharmacotherapeutics - IV",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:56:58.234388",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pathophysiology and Pharmacotherapeutics - III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:56:45.622592",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pathophysiology and Pharmacotherapeutics - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:55:28.071926",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pathophysiology and Pharmacotherapeutics - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:55:16.087111",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Law & Ethics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:02:12.111031",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacotherapeutics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:02:00.73722",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Community Pharmacy & Management",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:01:36.82327",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:01:16.986368",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Social Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:01:01.865982",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Formulations",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:00:49.112955",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacotherapeutics-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:00:15.479427",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T07:00:01.564326",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:59:51.909529",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:59:27.095555",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy & Phytopharmaceuticals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:59:15.815006",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal Biochemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:58:34.419122",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:58:23.139499",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacotherapeutics II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:58:11.500595",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Social Pharmacy - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:57:57.713891",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice - IV",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:57:45.581729",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice - III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:57:30.600139",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Social Pharmacy - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:56:22.198663",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Applied Pharmaceutics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:56:08.447867",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:55:55.764275",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:55:40.036168",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:55:03.786113",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Herbal cosmetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:54:50.924564",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Indian system of medicine",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:54:40.051353",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmacognosy-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:54:27.724039",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal Plant biotechnology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:53:50.560247",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:53:36.281396",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Industrial Pharmacognostical Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:53:23.54743",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Phytochemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:53:01.312171",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmacognosy-1",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:52:42.615591",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:52:24.372368",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Experimental Pharmacology Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:52:12.658986",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Principles of Drug Discovery",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:52:01.489869",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmacology-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:51:33.35548",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:51:19.39775",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Cellular and Molecular Pharmacology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:50:58.114988",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacological and Toxicological Screening Methods-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:50:45.516136",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmacology-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:50:31.030561",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:50:18.757419",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacoepidemiology & Pharmacoeconomics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:50:07.653723",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Pharmacokinetics and Therapeutic Drug Monitoring",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:49:55.691944",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Principles of Quality Use of Medicines",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:49:42.206796",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:49:29.205699",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Hospital & Community Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:49:15.867204",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacotherapeutics-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:49:03.915009",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Pharmacy Practice",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:48:44.034619",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Biotechnology Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:48:30.867969",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biological Evaluation of Drug Therapy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:48:08.4321",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Bioinformatics and Computer Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:47:55.339881",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Immunotechnology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:47:38.526808",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Proteins and protein Formulation",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:46:43.738786",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmaceutical Biotechnology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:46:32.134177",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Bioprocess Engineering and Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:46:20.004804",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Microbial And Cellular Biology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:45:53.847709",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Affairs Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:45:41.653638",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Aspects of Food & Nutraceuticals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:45:25.068309",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Aspects of Medical Devices",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:45:12.784534",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Aspects of Herbal & Biologicals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:45:00.155045",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Aspects of Drugs & Cosmetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:44:47.446152",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Affairs Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:44:33.50174",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Research Regulations",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:44:01.604438",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Documentation and Regulatory Writing",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:43:45.722045",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Good Regulatory Practices",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:43:33.048181",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Manufacturing Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:43:07.260545",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Audits and Regulatory Compliance",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:42:54.827944",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Hazards and Safety Management",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:42:41.135375",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Quality Assurance Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:42:27.109108",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Product Development and Technology Transfer",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:42:10.575856",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Quality Management System",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:41:59.432074",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Analysis Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:41:47.427032",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Herbal and Cosmetic Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:41:33.297172",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Quality Control and Quality Assurance",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:41:19.627112",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Modern Bio-Analytical Techniques",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:41:03.011161",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Instrumental Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:40:31.769247",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Analysis Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:40:15.640887",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Food Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:40:02.527633",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Validation",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:39:45.389727",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Pharmaceutical Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:39:33.645144",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Chemsitry Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:39:18.179088",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Process Chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:39:00.335015",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Organic Chemistry -II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:38:47.587727",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Spectral Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:38:37.444433",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Chemsitry Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:38:26.509767",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Chemistry of Natural Products",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:37:56.653299",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Medicinal Chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:37:43.598967",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Organic Chemistry -I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:37:29.768624",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Industrial Pharmacy Practical - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:37:05.604479",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Entrepreneurship Management",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:36:53.194231",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Production Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:36:40.241642",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Scale up and Technology Transfer",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:36:27.748278",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Biopharmaceutics and Pharmacokinetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:36:16.153286",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Industrial Pharmacy Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:36:05.046217",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Intellectual Property Rights",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:35:48.954544",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Novel drug delivery systems",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:35:31.766303",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Formulation Development",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:35:19.231979",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Discussion/Final Presentation",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:35:06.940411",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Research Work",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:34:54.749911",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Discussion / Presentation (Proposal Presentation)",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:34:42.112973",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Journal club",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:34:29.254996",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Research Methodology and Biostatistics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:34:15.57144",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics Practical II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:34:01.806525",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Cosmetic and Cosmeceuticals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:33:47.795908",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Computer Aided Drug Delivery System",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:33:36.36273",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Biopharmaceutics & Pharmacokinetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:33:21.884888",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Molecular Pharmaceutics (Nano Tech and Targeted DDS)",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:33:08.20781",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics Practical - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:32:53.792683",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Regulatory Affair",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:32:41.602112",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Modern Pharmaceutics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:32:28.559136",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Drug Delivery System",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:32:00.692867",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Modern Pharmaceutical Analytical Techniques",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:31:42.588",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Project work (Six Months)",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:31:25.672111",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clerkship",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:31:12.812527",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Pharmacokinetics & Pharmacotherapeutic Drug Monitoring",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:31:00.315744",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacoepidemiology and Pharmacoeconomics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:30:42.039599",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Research",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:30:23.548484",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical Toxicology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:30:09.929217",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacotherapeutics-III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:29:01.068056",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Project Work",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:28:50.342975",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Dietary Supplements and Nutraceuticals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:28:39.362777",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Advanced Instrumentation Techniques",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:28:14.61385",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Experimental Pharmacology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:27:55.722833",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Cosmetic Science",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:27:42.61462",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Cell and Molecular Biology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:27:28.97678",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Computer Aided Drug Design",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:27:16.619664",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Quality Control and Standardization of Herbals",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:27:05.728667",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Regulatory Science",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:26:39.832353",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Social and Preventive Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:26:11.896899",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biostatistics and Research Methodology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:25:56.688629",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Practice School",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:25:44.398811",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Novel Drug Delivery System",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:25:31.342216",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Industrial Pharmacy - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:25:03.82353",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Instrumental Methods of Analysis",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:24:51.47818",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Quality Assurance",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:24:34.899946",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Biotechnology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:24:23.071803",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biopharmaceutics and Pharmacokinetics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:24:09.945212",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Herbal Drug Technology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:23:51.732209",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology - III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:23:35.76171",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal Chemistry - III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:23:23.912816",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy and Phytochemistry - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:23:12.467364",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:23:01.571053",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Industrial Pharmacy - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:22:49.35679",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal Chemistry - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:22:37.368955",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy and Phytochemistry - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:22:24.926724",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:22:14.828054",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Physical Pharmaceutics - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:21:53.771617",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal Chemistry - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:21:40.238608",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Organic Chemistry - III",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:21:26.619983",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Engineering",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:21:14.613521",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Physical Pharmaceutics I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:20:48.872829",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Organic Chemistry II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:20:21.551343",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Environmental sciences",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:20:09.856434",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Computer Applications in Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:19:58.276306",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pathophysiology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:19:46.086895",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biochemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:19:32.062703",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Organic Chemistry - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:19:18.795222",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Human Anatomy and Physiology - II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:19:05.579078",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Remedial Mathematics",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:18:52.351949",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Remedial Biology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:18:38.49204",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:18:03.634581",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Analysis - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:17:52.780692",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Human Anatomy and Physiology - I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:17:41.9976",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Hospital and Clinical Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:17:30.335177",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Drug Store and Business Management",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:17:18.42728",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacology  & Toxicology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:16:52.18173",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:16:27.505274",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Health Education & Community Pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:16:12.815057",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-03T06:14:54.664104",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacy Practice",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:17:13.305308",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics - Drug Delivery systems, Pharmaceutical Engineering, Regulatory Science",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:16:43.676043",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Communication Skills",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:16:26.334479",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Medicinal chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:15:00.808914",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical analysis and Quality Assurance",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:14:45.159434",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Hospital pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:13:53.870643",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Clinical pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:13:32.820968",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Community pharmacy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:13:14.989008",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical dosage form",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:12:58.388082",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical jurisprudence",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:12:28.504409",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical microbiology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:10:03.304934",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical inorganic chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:09:11.709306",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical organic chemistry",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-07-02T07:08:37.78581",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Chemistry-II",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:54:11.369512",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Human Anatomy & Physiology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:54:02.202651",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Biochemistry & Clinical Pathology",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:53:55.840159",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmacognosy",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:53:47.136093",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutical Chemistry-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:53:39.167151",
+            "docstatus": 0
+        },
+        {
+            "course_name": "Pharmaceutics-I",
+            "department": "",
+            "description": "",
+            "default_grading_scale": "",
+            "creation": "2023-06-16T20:52:02.830294",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 207
+}

@@ -1,0 +1,119 @@
+{
+    "data": [
+        {
+            "requirement_as_per_norms": 0,
+            "infrastructure_details": "Drinking Water facility - Water Cooler (Essential).",
+            "creation": "2023-07-02T14:15:05.771716",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 0,
+            "infrastructure_details": "Power Backup Provision (Desirable)",
+            "creation": "2023-07-02T14:11:57.302572",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 10,
+            "infrastructure_details": "Preparation Room for each lab (One room can be shared by two labs, if it is in between two labs) (Essential)",
+            "creation": "2023-07-02T14:08:55.609983",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 100,
+            "infrastructure_details": "Area of the Machine Room (Essential)",
+            "creation": "2023-07-02T14:09:22.808046",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 80,
+            "infrastructure_details": "Central Instrumentation Room (Essential)",
+            "creation": "2023-07-02T14:09:47.094664",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 10,
+            "infrastructure_details": "First aid room (Essential)",
+            "creation": "2023-07-02T14:10:11.731533",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 50,
+            "infrastructure_details": "Museum (Essential)",
+            "creation": "2023-07-02T14:10:32.936226",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 100,
+            "infrastructure_details": "Seminar hall (Essential)",
+            "creation": "2023-07-02T14:11:11.653522",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 0,
+            "infrastructure_details": "Herbal Garden (Essential)",
+            "creation": "2023-07-02T14:11:39.81482",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 1,
+            "infrastructure_details": "Store Room - I (Essential)",
+            "creation": "2023-07-02T14:14:15.74752",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 300,
+            "infrastructure_details": "Auditorium (Essential)",
+            "creation": "2023-07-02T14:15:27.748649",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 0,
+            "infrastructure_details": "Toilet Blocks for Boys (Desirable)",
+            "creation": "2023-07-02T14:16:01.881575",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 0,
+            "infrastructure_details": "Toilet Blocks for Girls (Desirable)",
+            "creation": "2023-07-02T14:16:27.64739",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 80,
+            "infrastructure_details": "Animal house (for PG Program only)",
+            "creation": "2023-07-02T14:16:51.808915",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 1,
+            "infrastructure_details": "Store Room - II (For Inflammable chemicals)",
+            "creation": "2023-07-02T14:14:48.195361",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 9,
+            "infrastructure_details": "Gir's Hostel (Desirable)",
+            "creation": "2023-07-02T14:13:39.479826",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 9,
+            "infrastructure_details": "Boy's Hostel (Desirable)",
+            "creation": "2023-07-02T14:13:14.961259",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 60,
+            "infrastructure_details": "Boy's Common Room (Essential)",
+            "creation": "2023-07-02T14:12:45.364329",
+            "docstatus": 0
+        },
+        {
+            "requirement_as_per_norms": 60,
+            "infrastructure_details": "Girl's Common Room (Essential)",
+            "creation": "2023-07-02T14:12:21.547233",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 19
+}

@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "amenities_name": "Faculty Room (Essential)",
+            "creation": "2023-11-29T08:31:49.515878",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Parking Area for staff and students (Essential)",
+            "creation": "2023-07-02T14:24:20.177539",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Principal quarters (Desirable)",
+            "creation": "2023-07-02T14:21:58.304868",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Bank Extension Counter (Desirable)",
+            "creation": "2023-07-02T14:24:40.979576",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Medical Facility (First Aid) Essential",
+            "creation": "2023-07-02T14:26:03.338529",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Office (Essential)",
+            "creation": "2023-11-29T08:32:45.603003",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Canteen (Essential)",
+            "creation": "2023-07-02T14:22:58.549153",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Staff quarters (Desirable)",
+            "creation": "2023-07-02T14:22:28.322951",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Co operative Stores (Desirable)",
+            "creation": "2023-07-02T14:24:59.952266",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Guest House (Desirable)",
+            "creation": "2023-07-02T14:25:30.09284",
+            "docstatus": 0
+        },
+        {
+            "amenities_name": "Transport Facilities for students (Desirable)",
+            "creation": "2023-07-02T14:25:48.15324",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 11
+}

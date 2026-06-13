@@ -1,0 +1,1829 @@
+{
+    "items": [
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 2
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Decision Created",
+            "count": 1
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Inspection Assigned",
+            "count": 8
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Inspection Pending",
+            "count": 1
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Office Note Creation",
+            "count": 2
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 1
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Pending",
+            "count": 7
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Compliance Verifier Review",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Decision Created",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Inspection Assigned",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Inspection Pending",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Office Note Creation",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Office Note Deputy Secretary Review",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Pending",
+            "count": 0
+        },
+        {
+            "state": "35",
+            "state_name": "ANDAMAN AND NICOBAR ISLANDS",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "28",
+            "state_name": "ANDHRA PRADESH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "12",
+            "state_name": "ARUNACHAL PRADESH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "18",
+            "state_name": "ASSAM",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "10",
+            "state_name": "BIHAR",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "4",
+            "state_name": "CHANDIGARH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "22",
+            "state_name": "CHHATTISGARH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "26",
+            "state_name": "DADRA AND NAGAR HAVELI",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "25",
+            "state_name": "DAMAN AND DIU",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "7",
+            "state_name": "DELHI",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "30",
+            "state_name": "GOA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "24",
+            "state_name": "GUJARAT",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "6",
+            "state_name": "HARYANA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "2",
+            "state_name": "HIMACHAL PRADESH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "1",
+            "state_name": "JAMMU AND KASHMIR",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "20",
+            "state_name": "JHARKHAND",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "29",
+            "state_name": "KARNATAKA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "32",
+            "state_name": "KERALA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "37",
+            "state_name": "LADAKH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "31",
+            "state_name": "LAKSHADWEEP",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "23",
+            "state_name": "MADHYA PRADESH",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "27",
+            "state_name": "MAHARASHTRA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "14",
+            "state_name": "MANIPUR",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "17",
+            "state_name": "MEGHALAYA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "15",
+            "state_name": "MIZORAM",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "13",
+            "state_name": "NAGALAND",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "21",
+            "state_name": "ODISHA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "34",
+            "state_name": "PUDUCHERRY",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "3",
+            "state_name": "PUNJAB",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "8",
+            "state_name": "RAJASTHAN",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "11",
+            "state_name": "SIKKIM",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "33",
+            "state_name": "TAMIL NADU",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "36",
+            "state_name": "TELANGANA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "38",
+            "state_name": "THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "16",
+            "state_name": "TRIPURA",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "9",
+            "state_name": "UTTAR PRADESH",
+            "workflow_status": "Total",
+            "count": 22
+        },
+        {
+            "state": "5",
+            "state_name": "UTTARAKHAND",
+            "workflow_status": "Total",
+            "count": 0
+        },
+        {
+            "state": "19",
+            "state_name": "WEST BENGAL",
+            "workflow_status": "Total",
+            "count": 0
+        }
+    ],
+    "totalCount": 304
+}

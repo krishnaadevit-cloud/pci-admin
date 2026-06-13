@@ -1,0 +1,917 @@
+@use "./pharmacy-primereact-overrides" as pharma;
+@import "./variables-prts.scss";
+
+.prts-pharmacy-dashboard {
+  font-size: 16px !important;
+
+  @include pharma.pharmacy-primereact-overrides;
+
+  .prts-btn {
+    width: auto !important;
+    white-space: nowrap;
+  }
+
+  .prts-dashboard-wrapper {
+    font-family: $prts-font;
+  }
+
+  // ─── SIDEBAR ───────────────────────────────────────────────────────────────
+
+  .prts-dashboard-sidebar {
+    width: 317px;
+    min-height: 100vh;
+    background: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: auto;
+
+    &__body {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    &__header {
+      display: none;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 1rem 1.25rem 0;
+    }
+
+    &__close {
+      width: 45px;
+      height: 45px;
+      border: solid 1px #E5E5E5;
+      border-radius: 12px;
+      background: #ffffff;
+      color: #212121;
+      font-size: 1.1rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.15s ease;
+
+      &:hover {
+        background: #444;
+      }
+    }
+
+    &__section {
+      @include title-3;
+      margin: 0 0 0.75rem;
+      color: #ffffff73;
+
+      &:last-of-type {
+        margin-top: 1.5rem;
+      }
+    }
+
+    &__nav {
+      padding: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1rem;
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      max-height: auto;
+
+      ul {
+        list-style: none;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem 1rem;
+      color: #fff;
+      @include title-2;
+      transition: background 0.15s;
+      border-radius: 0.75rem;
+
+      i {
+        font-size: 1rem;
+        width: 1.25rem;
+      }
+
+      &:hover {
+        background: $prts-sidebar-active;
+        color: $prts-white;
+      }
+
+      &--active {
+        background: $prts-sidebar-active;
+        color: $prts-white;
+      }
+    }
+
+    &__icon {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    &__badge {
+      margin-left: auto;
+      background: #961416;
+      color: $prts-white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.65rem;
+      border-radius: 6px;
+    }
+
+    &__profile {
+      margin-top: auto;
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      border-top: 1px solid #333;
+    }
+
+    &__avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #444;
+      color: $prts-white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    &__name {
+      @include body-2;
+      color: $prts-white;
+    }
+
+    &__role {
+      @include label-2;
+      color: #888;
+    }
+
+    &__footer {
+      flex-shrink: 0;
+      padding: 0 0rem 1.5rem;
+      background: #212121;
+    }
+
+    &__divider {
+      border: none;
+      border-top: 1px solid #ffffff4d;
+      margin-bottom: 1.5rem;
+    }
+
+    &__logout-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background: #D4362E;
+      border: none;
+      border-radius: 1rem;
+      padding: 0.75rem;
+      color: $prts-white;
+      cursor: pointer;
+      transition: background 0.2s ease;
+      flex-shrink: 0;
+
+      &:hover {
+        background: #D4362E;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $prts-white;
+        outline-offset: 2px;
+      }
+
+      span {
+        @include headline-6;
+        font-weight: 600;
+        color: $prts-white;
+      }
+    }
+
+    &__logout-icon-wrapper {
+      background: $prts-white;
+      color: #d4362e;
+      width: 40px;
+      height: 40px;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0.75rem;
+      flex-shrink: 0;
+
+      img {
+        display: block;
+      }
+
+      i {
+        font-size: 1rem;
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  // ─── SIDEBAR OVERLAY ───────────────────────────────────────────────────────
+
+  .prts-sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 149;
+
+    &--visible {
+      display: block;
+    }
+  }
+
+  // ─── MAIN CONTENT ──────────────────────────────────────────────────────────
+
+  .prts-dashboard-main {
+    flex: 1;
+    padding: 32px;
+    background: $prts-bg;
+  }
+
+  // ─── GREETING ──────────────────────────────────────────────────────────────
+
+  .prts-dashboard-greeting {
+    margin-bottom: 3rem;
+
+    h1 {
+      @include headline-2;
+      color: #313033;
+      margin-bottom: 16px;
+    }
+
+    p {
+      @include body-2;
+      color: #727272;
+    }
+
+    &__title {
+      @include headline-3;
+      color: $prts-text;
+      margin-bottom: 0.35rem;
+    }
+
+    &__subtitle {
+      @include title-3;
+      color: $prts-text-muted;
+    }
+  }
+
+  // ─── SERVICE SECTIONS & CARDS ──────────────────────────────────────────────
+
+  .prts-service-section {
+    margin-bottom: 3rem;
+
+    &__title {
+      @include title-2;
+      color: #313033;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid #c6c6c6;
+      padding-bottom: 3rem;
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 208px);
+      gap: 12px;
+    }
+  }
+
+  .prts-service-card {
+    background: $prts-white;
+    border: 1px solid $prts-border;
+    border-radius: $prts-radius-lg;
+    padding: 1.25rem;
+    text-align: left;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.15s;
+    width: 208px;
+    min-height: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: $prts-shadow-md;
+    transform: translateY(-4px);
+
+    &:hover {
+      box-shadow: $prts-shadow-md;
+      transform: translateY(-2px);
+    }
+
+    &--compact {
+      min-height: 192px;
+    }
+
+    &__icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    &__title {
+      @include headline-5;
+      color: #313033;
+    }
+
+    &__desc {
+      @include label-2;
+      color: #727272;
+      margin-top: 10px;
+    }
+
+    &--disabled {
+      opacity: 0.45;
+      filter: blur(0.4px);
+      pointer-events: none;
+      user-select: none;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    &--skeleton {
+      pointer-events: none;
+      cursor: default;
+      box-shadow: $prts-shadow-md;
+    }
+  }
+
+  .prts-skeleton {
+    border-radius: 6px;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: prts-shimmer 1.4s ease-in-out infinite;
+
+    &--icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      margin-bottom: 0.75rem;
+    }
+
+    &--title {
+      height: 15px;
+      width: 75%;
+      margin-bottom: 0.5rem;
+    }
+
+    &--desc {
+      height: 11px;
+      width: 90%;
+      margin-top: 10px;
+    }
+
+    &--desc-short {
+      width: 60%;
+      margin-top: 5px;
+    }
+  }
+
+  @keyframes prts-shimmer {
+    0%   { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+
+  // ─── RECENT ACTIVITY ───────────────────────────────────────────────────────
+
+  .prts-recent-activity {
+    &__top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+
+    &__page-title {
+      @include headline-5;
+      color: #313033;
+    }
+
+    &__actions {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    &__card {
+      background: #fff;
+      border-radius: 1rem;
+      overflow: visible;
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+
+    &__title-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    &__title {
+      @include headline-6;
+      color: #313033;
+      margin-bottom: 0 !important;
+      font-weight: inherit !important;
+      text-transform: none !important;
+      letter-spacing: normal !important;
+    }
+
+    &__count {
+      @include body-3;
+      background: linear-gradient(to right, #961416 0%, #ea5e61 100%);
+      color: #fff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+    }
+
+    .prts-recent-activity__title {
+      font-weight: 600 !important;
+    }
+  }
+
+  // ─── BUTTONS ───────────────────────────────────────────────────────────────
+
+  .prts-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    border: none;
+
+    width: auto !important;
+    white-space: nowrap;
+
+    img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      display: block;
+    }
+
+    span {
+      @include label-1;
+    }
+
+    &--dark {
+      background: #212121;
+      color: #fff;
+
+      &:hover {
+        background: #1e293b !important;
+      }
+    }
+
+    &--purple {
+      background: #613af5;
+      color: #fff;
+
+      &:hover {
+        background: #4f46e5 !important;
+      }
+    }
+
+    &--outline {
+      background: transparent;
+      border: 1px solid #0000c9;
+      color: #0000c9;
+      border-radius: 999px;
+      width: auto !important;
+      height: auto !important;
+      padding: 0.5rem 1.25rem;
+
+      &:hover {
+        background: #f5f5ff !important;
+      }
+    }
+  }
+
+  // ─── DATATABLE ─────────────────────────────────────────────────────────────
+
+  .prts-datatable-wrapper {
+    .p-datatable {
+      border-top: 2px solid #e5e7eb !important;
+      border-radius: 0 !important;
+
+      .p-datatable-wrapper {
+        overflow: hidden;
+      }
+
+      .p-column-header-content {
+        justify-content: flex-start !important;
+        display: flex !important;
+      }
+
+      .p-datatable-thead>tr>th {
+        @include title-3;
+        background: #f6f7f8 !important;
+        border: 1px solid #e5e7eb !important;
+        font-weight: 500 !important;
+        color: #4b4b4b !important;
+        font-size: 14px !important;
+
+        &:first-child {
+          border-left: none !important;
+        }
+
+        &:last-child {
+          border-right: none !important;
+        }
+      }
+
+      .p-datatable-tbody>tr>td {
+        @include title-3;
+        border: 1px solid #e5e7eb !important;
+        padding: 0.75rem 1rem !important;
+        color: #4b4b4b !important;
+        background: transparent;
+        text-align: left !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+
+        &:first-child {
+          border-left: none !important;
+        }
+
+        &:last-child {
+          border-right: none !important;
+        }
+      }
+
+      .p-datatable-tbody>tr {
+        &:nth-child(odd) {
+          background: #ffffff;
+        }
+
+        &:nth-child(even) {
+          background: #f7f7f7 !important;
+        }
+
+        &:hover {
+          background: #f3f4f6 !important;
+        }
+      }
+
+      .p-paginator-bottom.p-paginator.p-component {
+        background: #fff;
+        padding: 1rem 1.25rem;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-top: 1px solid #e5e7eb;
+        border-radius: 0 0 10px;
+
+        .p-paginator-first,
+        .p-paginator-last {
+          display: none !important;
+        }
+
+        .p-paginator-next {
+          margin-right: auto;
+        }
+
+        .p-paginator-rpp-options {
+          margin-left: 0;
+        }
+
+        .prts-paginator__report {
+          @include label-2;
+          color: $prts-text-muted;
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
+          gap: 0.4rem;
+        }
+
+        .prts-paginator__select {
+          border: 1px solid #d9d9d9;
+          border-radius: 6px;
+          padding: 0.25rem 0.4rem;
+          font-size: 0.875rem;
+          color: #111827;
+          cursor: pointer;
+          background: #fff;
+          appearance: auto;
+          height: 2rem;
+        }
+
+        .p-paginator-pages {
+          display: flex;
+          align-items: center;
+          gap: 0.25rem;
+
+          .p-disabled {
+            border: none !important;
+            background: transparent !important;
+            cursor: default !important;
+            pointer-events: none;
+          }
+        }
+
+        .p-paginator-page,
+        .p-paginator-prev,
+        .p-paginator-next {
+          min-width: 2rem;
+          height: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #d9d9d9;
+          border-radius: 6px;
+          background: #fff;
+          color: #5f6368;
+          font-size: 0.875rem;
+          cursor: pointer;
+
+          &:hover:not(.p-disabled) {
+            background: #f5f5f5;
+          }
+
+          &.p-highlight {
+            background: #fff;
+            border-color: #6366f1;
+            color: #6366f1;
+            font-weight: 700;
+          }
+
+          &.p-disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+          }
+        }
+
+        .p-dropdown {
+          border: 1px solid #d9d9d9;
+          border-radius: 8px;
+          min-width: 80px;
+          height: 2.25rem;
+
+          .p-dropdown-label {
+            padding: 0.5rem 0.85rem;
+            font-size: 0.875rem;
+            color: #111827;
+          }
+
+          .p-dropdown-trigger {
+            width: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  // ─── STATUS TAGS ───────────────────────────────────────────────────────────
+
+  .prts-status-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    img {
+      width: 14px;
+      height: 14px;
+      object-fit: contain;
+    }
+
+    &--pending {
+      background: #fff8e1;
+      color: #f59e0b;
+      border: 1px solid #fde68a;
+    }
+
+    &--review {
+      background: #ede9fe;
+      color: #7c3aed;
+      border: 1px solid #ddd6fe;
+    }
+
+    &--approved {
+      background: #ecfdf5;
+      color: #059669;
+      border: 1px solid #a7f3d0;
+    }
+
+  }
+
+  // ─── RESPONSIVE ────────────────────────────────────────────────────────────
+
+  @media (max-width: 1024px) {
+    .prts-dashboard-wrapper {
+      position: relative;
+    }
+
+    .prts-dashboard-sidebar {
+      position: fixed;
+      top: 133;
+      left: 0;
+      height: 100vh;
+      min-height: auto;
+      z-index: 150;
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      box-shadow: none;
+
+      &__header {
+        display: flex;
+      }
+
+      &__nav {
+        padding-top: 4rem;
+        max-height: 100% !important;
+      }
+
+      &__footer {
+        padding-bottom: max(1.5rem, env(safe-area-inset-bottom, 0px));
+      }
+
+      &--open {
+        transform: translateX(0);
+      }
+    }
+
+    .prts-dashboard-main {
+      width: 100%;
+      padding: 1.5rem 1.25rem;
+    }
+
+    .prts-service-section__grid {
+      grid-template-columns: repeat(2, 208px);
+    }
+
+    .prts-recent-activity__top {
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+  }
+
+  @media (max-width: 640px) {
+    .prts-dashboard-main {
+      padding: 1rem;
+    }
+
+    .prts-dashboard-greeting {
+      margin-bottom: 1.5rem;
+
+      h1 {
+        font-size: 1.4rem;
+        // padding-left: 2.5rem;
+      }
+    }
+
+    .prts-service-section__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .prts-service-card {
+      width: 100%;
+      min-height: 180px;
+
+      &--compact {
+        min-height: 160px;
+      }
+    }
+
+    .prts-recent-activity__actions {
+      flex-wrap: wrap;
+      gap: 0.4rem;
+
+      .prts-btn {
+        padding: 0.55rem 0.75rem;
+
+        img {
+          width: 13px;
+          height: 13px;
+        }
+
+        span {
+          font-size: 0.78rem;
+        }
+      }
+    }
+
+    .prts-recent-activity__header {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .prts-recent-activity__card {
+      overflow: hidden;
+    }
+
+    .prts-datatable-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+
+      .p-datatable {
+        min-width: 600px;
+
+        .p-datatable-wrapper {
+          overflow: visible;
+        }
+      }
+    }
+
+    .p-paginator-bottom.p-paginator.p-component {
+      padding: 0.75rem;
+      flex-wrap: wrap;
+
+      .p-paginator-page,
+      .p-paginator-prev,
+      .p-paginator-next {
+        min-width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.78rem;
+      }
+
+      .prts-paginator__report {
+        font-size: 0.75rem;
+      }
+
+      .prts-paginator__select {
+        font-size: 0.75rem;
+        height: 1.75rem;
+      }
+    }
+  }
+
+  @media (max-width: 380px) {
+    .prts-service-section__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .prts-service-card {
+      width: 100%;
+    }
+  }
+}
+
+// ─── PRIMEREACT OVERRIDES (scoped) ─────────────────────────────────────────
+// Add these inside .prts-pharmacy-dashboard in your existing SCSS file
+
+// 1. Column headers — prevent PrimeReact from uppercasing them
+.p-datatable .p-datatable-thead>tr>th {
+  text-transform: none !important;
+}
+
+// 2. Button — PrimeReact .p-button adds its own padding/flex/border styles
+//    We neutralise them so .prts-btn styles win
+.p-button.prts-btn {
+  // Reset PrimeReact defaults
+  font-family: inherit !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+
+  // PrimeReact injects a <span class="p-button-label"> wrapper around text —
+  // make it transparent so only our <span> shows
+  .p-button-label {
+    display: none !important;
+  }
+
+  // PrimeReact also wraps icons in .p-button-icon — reset any sizing it adds
+  .p-button-icon {
+    font-size: inherit !important;
+    margin: 0 !important;
+  }
+}

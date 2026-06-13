@@ -1,0 +1,547 @@
+// ─── Screen-reader only utility ────────────────────────────────────────────────
+.ob-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// ─── Page wrapper ──────────────────────────────────────────────────────────────
+.ob-page {
+  padding-bottom: 40px;
+}
+
+// ─── Header ────────────────────────────────────────────────────────────────────
+.ob-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: #3d5fa0;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    i {
+      font-size: 1.4rem;
+      color: #fff;
+    }
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 4px;
+    line-height: 1.2;
+  }
+
+  &__subtitle {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.72);
+    margin: 0;
+  }
+
+  &--skeleton {
+    .p-skeleton {
+      background: rgba(255, 255, 255, 0.15) !important;
+
+      &::after {
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.1),
+          transparent
+        ) !important;
+      }
+    }
+  }
+}
+
+// ─── Tenant status badge ───────────────────────────────────────────────────────
+.ob-tenant-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  white-space: nowrap;
+
+  &::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  &--live {
+    background: rgba(34, 197, 94, 0.2);
+    border-color: rgba(34, 197, 94, 0.45);
+    &::before { background: #86efac; }
+  }
+
+  &--ready {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+    &::before { background: #93c5fd; }
+  }
+
+  &--configuring {
+    background: rgba(251, 191, 36, 0.2);
+    border-color: rgba(251, 191, 36, 0.4);
+    &::before { background: #fde68a; }
+  }
+
+  &--provisioning {
+    background: rgba(148, 163, 184, 0.2);
+    border-color: rgba(148, 163, 184, 0.35);
+    &::before { background: #cbd5e1; }
+  }
+
+  &--suspended {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.4);
+    &::before { background: #fca5a5; }
+  }
+}
+
+// ─── Progress block ────────────────────────────────────────────────────────────
+.ob-progress-block {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin-bottom: 16px;
+
+  &__summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 0.875rem;
+    color: #475569;
+
+    strong {
+      color: #0f172a;
+      font-weight: 700;
+    }
+  }
+
+  &__pct {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #3d5fa0;
+  }
+}
+
+// ─── Progress bar ─────────────────────────────────────────────────────────────
+.ob-progress-bar {
+  height: 6px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  overflow: hidden;
+
+  &__fill {
+    height: 100%;
+    background: #22c55e;
+    border-radius: 999px;
+    transition: width 0.4s ease;
+    min-width: 0;
+  }
+}
+
+// ─── Checklist container ───────────────────────────────────────────────────────
+.ob-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+// ─── Step card ────────────────────────────────────────────────────────────────
+.ob-check-row {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+  }
+
+  &__main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__title-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #0f172a;
+    line-height: 1.4;
+  }
+
+  &__detail {
+    font-size: 0.8rem;
+    color: #64748b;
+    line-height: 1.45;
+  }
+
+  // Keeps pill + button right-aligned when no Configure is rendered
+  &__no-action {
+    display: block;
+    width: 96px;
+    flex-shrink: 0;
+  }
+
+  &--complete  { border-left-color: #22c55e; }
+  &--active    { border-left-color: #3d5fa0; background: #f8faff; }
+  &--locked    { border-left-color: #e2e8f0; opacity: 0.55; }
+  &--skeleton  { opacity: 1; }
+}
+
+// ─── Step marker circle ────────────────────────────────────────────────────────
+// Shape encodes state: ✓ (complete) / number (active) / 🔒 (locked)
+.ob-step-marker {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  &--complete {
+    background: #dcfce7;
+    i { color: #15803d; font-size: 0.95rem; }
+  }
+
+  &--active {
+    background: #3d5fa0;
+    color: #fff;
+  }
+
+  &--locked {
+    background: #f1f5f9;
+    i { color: #94a3b8; font-size: 0.85rem; }
+  }
+}
+
+// ─── Step number label ────────────────────────────────────────────────────────
+.ob-step-num {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+// ─── Sub-item count badge ─────────────────────────────────────────────────────
+.ob-subcount {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #3d5fa0;
+  background: #e0e8f5;
+  padding: 3px 10px;
+  border-radius: 999px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+// ─── Step-level Configure / Fix button (no-sub-item active steps only) ────────
+.ob-fix-btn {
+  &.p-button {
+    flex-shrink: 0;
+    font-size: 0.78rem !important;
+    padding: 7px 14px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    background: #3d5fa0 !important;
+    border-color: #3d5fa0 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+
+    .p-button-icon { font-size: 0.72rem !important; }
+
+    &:hover:not(:disabled) {
+      background: #1e3a5f !important;
+      border-color: #1e3a5f !important;
+    }
+  }
+}
+
+// ─── Sub-checklist container ──────────────────────────────────────────────────
+.ob-sub-list {
+  padding: 12px 20px 16px 70px; // left indent aligns with title text
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-top: 1px solid #f1f5f9;
+
+  &--done {
+    opacity: 0.72;
+  }
+}
+
+// ─── Sub-item row ─────────────────────────────────────────────────────────────
+// Layout: [label | flex:1] [fal-status badge] [Configure button]
+.ob-sub-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #f1f5f9;
+  background: #fff;
+  transition: background 0.12s, border-color 0.12s;
+
+  &:hover {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+  }
+
+  &--completed {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+
+    &:hover {
+      background: #f0fdf4;
+      border-color: #86efac;
+    }
+  }
+
+  &__label {
+    flex: 1;
+    font-size: 0.82rem;
+    color: #334155;
+    line-height: 1.5;
+
+    .ob-sub-item--completed & {
+      color: #15803d;
+    }
+  }
+
+  // Configure button inside a sub-item — slightly smaller than step-level
+  &__btn {
+    &.p-button {
+      flex-shrink: 0;
+      font-size: 0.75rem !important;
+      padding: 5px 12px !important;
+      border-radius: 7px !important;
+      font-weight: 600 !important;
+      background: #3d5fa0 !important;
+      border-color: #3d5fa0 !important;
+      color: #fff !important;
+      box-shadow: none !important;
+
+      .p-button-icon { font-size: 0.68rem !important; }
+
+      &:hover:not(:disabled) {
+        background: #1e3a5f !important;
+        border-color: #1e3a5f !important;
+      }
+    }
+  }
+}
+
+// ─── Footer ───────────────────────────────────────────────────────────────────
+.ob-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 20px 0 0;
+  border-top: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+  margin-top: 8px;
+
+  &--live {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 12px;
+    padding: 16px 20px;
+    justify-content: flex-start;
+    border-top: 1px solid #bbf7d0;
+  }
+}
+
+.ob-footer__ready {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #15803d;
+  margin: 0;
+
+  i {
+    font-size: 1rem;
+    color: #22c55e;
+    flex-shrink: 0;
+  }
+}
+
+// ─── Go-live button ────────────────────────────────────────────────────────────
+.ob-golive-btn {
+  &.p-button {
+    padding: 10px 28px !important;
+    font-weight: 700 !important;
+    font-size: 0.875rem !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    background: #3d5fa0 !important;
+    border-color: #3d5fa0 !important;
+    color: #fff !important;
+
+    &:hover:not(:disabled) {
+      background: #1e3a5f !important;
+      border-color: #1e3a5f !important;
+    }
+
+    &:disabled {
+      background: #e2e8f0 !important;
+      border-color: #e2e8f0 !important;
+      color: #94a3b8 !important;
+      cursor: not-allowed !important;
+    }
+  }
+}
+
+// ─── Error state ───────────────────────────────────────────────────────────────
+.ob-error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+  gap: 16px;
+
+  &__icon {
+    font-size: 3rem;
+    color: #f59e0b;
+  }
+
+  &__text {
+    font-size: 0.9rem;
+    color: #475569;
+    margin: 0;
+  }
+}
+
+// ─── Registrar Signature upload dialog ─────────────────────────────────────
+.ob-sig-upload-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  border: 2px dashed #c7d8f5;
+  border-radius: 12px;
+  background: #f8faff;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  overflow: hidden;
+  margin-bottom: 12px;
+
+  &:hover {
+    border-color: #3d5fa0;
+    background: #f0f5ff;
+  }
+}
+
+.ob-sig-preview {
+  max-width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.ob-sig-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #94a3b8;
+  padding: 24px;
+  text-align: center;
+  pointer-events: none;
+
+  i    { font-size: 2rem; color: #93c5fd; }
+  span { font-size: 0.8rem; line-height: 1.5; }
+}
+
+.ob-sig-file-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: #166534;
+
+  i { color: #16a34a; flex-shrink: 0; }
+}
+
+.ob-sig-file-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

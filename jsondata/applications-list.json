@@ -1,0 +1,28 @@
+{
+  "haryana": [
+    { "appNo": "HR2024001250", "applicantName": "Rohit Kumar", "regNo": "HR/12345", "submittedOn": "18 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "rohit.kumar@example.com", "phone": "+91 98765 43210", "qualification": "B.Pharm", "university": "Kurukshetra University" },
+    { "appNo": "HR2024001249", "applicantName": "Pooja Sharma", "regNo": "HR/12346", "submittedOn": "18 May 2024", "status": "Pending", "paymentStatus": "Paid", "email": "pooja.sharma@example.com", "phone": "+91 99887 76655", "qualification": "D.Pharm", "university": "Pt. B.D. Sharma UHS Rohtak" },
+    { "appNo": "HR2024001248", "applicantName": "Amit Verma", "regNo": "HR/12347", "submittedOn": "18 May 2024", "status": "Pending", "paymentStatus": "Unpaid", "email": "amit.verma@example.com", "phone": "+91 88776 65544", "qualification": "B.Pharm", "university": "Maharshi Dayanand University" },
+    { "appNo": "HR2024001247", "applicantName": "Neha Rani", "regNo": "HR/12348", "submittedOn": "16 May 2024", "status": "Rejected", "paymentStatus": "Paid", "email": "neha.rani@example.com", "phone": "+91 77665 54433", "qualification": "M.Pharm", "university": "Guru Jambheshwar University" },
+    { "appNo": "HR2024001246", "applicantName": "Sandeep Singh", "regNo": "HR/12349", "submittedOn": "15 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "sandeep.s@example.com", "phone": "+91 66554 43322", "qualification": "B.Pharm", "university": "Chaudhary Devi Lal University" },
+    { "appNo": "HR2024001245", "applicantName": "Priya Malik", "regNo": "HR/12350", "submittedOn": "17 May 2024", "status": "Pending", "paymentStatus": "Paid", "email": "priya.malik@example.com", "phone": "+91 98123 45678", "qualification": "B.Pharm", "university": "Pt. B.D. Sharma UHS Rohtak" },
+    { "appNo": "HR2024001244", "applicantName": "Ankit Yadav", "regNo": "HR/12351", "submittedOn": "16 May 2024", "status": "Pending", "paymentStatus": "Paid", "email": "ankit.yadav@example.com", "phone": "+91 98234 56789", "qualification": "D.Pharm", "university": "Kurukshetra University" },
+    { "appNo": "HR2024001243", "applicantName": "Kavita Singh", "regNo": "HR/12352", "submittedOn": "16 May 2024", "status": "Returned", "paymentStatus": "Paid", "email": "kavita.s@example.com", "phone": "+91 98345 67890", "qualification": "B.Pharm", "university": "Maharshi Dayanand University" },
+    { "appNo": "HR2024001242", "applicantName": "Mohit Jain", "regNo": "HR/12353", "submittedOn": "15 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "mohit.jain@example.com", "phone": "+91 98456 78901", "qualification": "B.Pharm", "university": "Kurukshetra University" },
+    { "appNo": "HR2024001241", "applicantName": "Ramesh Kumar", "regNo": "HR/12354", "submittedOn": "15 May 2024", "status": "Pending", "paymentStatus": "Unpaid", "email": "ramesh.k@example.com", "phone": "+91 98567 89012", "qualification": "D.Pharm", "university": "Pt. B.D. Sharma UHS Rohtak" }
+  ],
+  "uttar-pradesh": [
+    { "appNo": "UP2024005820", "applicantName": "Alok Dwivedi", "regNo": "UP/54321", "submittedOn": "19 May 2024", "status": "Pending", "paymentStatus": "Paid", "email": "alok.dwivedi@example.com", "phone": "+91 90000 11111", "qualification": "B.Pharm", "university": "Dr. A.P.J. Abdul Kalam Technical University" },
+    { "appNo": "UP2024005819", "applicantName": "Priyanka Singh", "regNo": "UP/54322", "submittedOn": "18 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "priyanka.s@example.com", "phone": "+91 90000 22222", "qualification": "B.Pharm", "university": "University of Lucknow" },
+    { "appNo": "UP2024005818", "applicantName": "Vikram Rathore", "regNo": "UP/54323", "submittedOn": "18 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "vikram.r@example.com", "phone": "+91 90000 33333", "qualification": "D.Pharm", "university": "AKTU" }
+  ],
+  "maharashtra": [
+    { "appNo": "MH2024003920", "applicantName": "Rahul Kulkarni", "regNo": "MH/98765", "submittedOn": "19 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "rahul.k@example.com", "phone": "+91 91111 22222", "qualification": "B.Pharm", "university": "Savitribai Phule Pune University" },
+    { "appNo": "MH2024003919", "applicantName": "Sneha Patil", "regNo": "MH/98766", "submittedOn": "19 May 2024", "status": "Pending", "paymentStatus": "Paid", "email": "sneha.p@example.com", "phone": "+91 92222 33333", "qualification": "M.Pharm", "university": "Mumbai University" },
+    { "appNo": "MH2024003918", "applicantName": "Siddharth Shinde", "regNo": "MH/98767", "submittedOn": "18 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "siddharth.s@example.com", "phone": "+91 93333 44444", "qualification": "B.Pharm", "university": "Shivaji University" }
+  ],
+  "default": [
+    { "appNo": "ST2024000101", "applicantName": "John Doe", "regNo": "ST/11111", "submittedOn": "15 May 2024", "status": "Approved", "paymentStatus": "Paid", "email": "john.doe@example.com", "phone": "+91 99999 88888", "qualification": "B.Pharm", "university": "State Pharmacy University" },
+    { "appNo": "ST2024000102", "applicantName": "Jane Smith", "regNo": "ST/11112", "submittedOn": "14 May 2024", "status": "Pending", "paymentStatus": "Unpaid", "email": "jane.smith@example.com", "phone": "+91 88888 99999", "qualification": "D.Pharm", "university": "State Board of Pharmacy" }
+  ]
+}

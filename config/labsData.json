@@ -1,0 +1,141 @@
+{
+    "data": [
+        {
+            "program": "D.Pharm",
+            "total_no_labs_reqd": 14,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:29:31.747112",
+            "docstatus": 0
+        },
+        {
+            "program": "Pharm.D",
+            "total_no_labs_reqd": 8,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2024-01-14T13:42:00.743912",
+            "docstatus": 0
+        },
+        {
+            "program": "Pharm.D(PB)",
+            "total_no_labs_reqd": 8,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2024-01-14T13:44:34.277723",
+            "docstatus": 0
+        },
+        {
+            "program": "B.Pharm",
+            "total_no_labs_reqd": 20,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T06:44:50.162486",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Regulatory Affairs",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:58:39.945263",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Phytopharmacy and Phytomedicine",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:57:39.922498",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmacy Practice",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:56:15.647646",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmacology",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:55:21.456501",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmacognosy",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:53:55.622241",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutics",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:52:37.046818",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutical Technology",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T08:49:21.586998",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutical Quality Assurance",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:53:04.018247",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutical Chemistry",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:51:07.234893",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutical Biotechnology",
+            "total_no_labs_reqd": 20,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:48:19.070231",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Pharmaceutical Analysis",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:34:20.336911",
+            "docstatus": 0
+        },
+        {
+            "program": "M.Pharm Industrial Pharmacy",
+            "total_no_labs_reqd": 2,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T07:32:38.005966",
+            "docstatus": 0
+        },
+        {
+            "program": "B.Pharm(Practice)",
+            "total_no_labs_reqd": 8,
+            "unit": "SQMT",
+            "description": "REQ",
+            "creation": "2023-12-17T06:50:28.991135",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 17
+}

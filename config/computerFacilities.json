@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "computerandotherfacilities_name": "Computer (Latest Configuration)",
+            "requirements": 1,
+            "area_available": "No",
+            "creation": "2023-07-02T14:19:29.304951",
+            "docstatus": 0
+        },
+        {
+            "computerandotherfacilities_name": "Generator (5KVA)",
+            "requirements": 1,
+            "area_available": "Yes",
+            "creation": "2023-07-02T14:20:54.94161",
+            "docstatus": 0
+        },
+        {
+            "computerandotherfacilities_name": "Multi Media Projector",
+            "requirements": 1,
+            "area_available": "No",
+            "creation": "2023-07-02T14:20:21.954717",
+            "docstatus": 0
+        },
+        {
+            "computerandotherfacilities_name": "Printers",
+            "requirements": 1,
+            "area_available": "No",
+            "creation": "2023-07-02T14:19:55.88513",
+            "docstatus": 0
+        },
+        {
+            "computerandotherfacilities_name": "Computer Room for B.Pharm Course",
+            "requirements": 1,
+            "area_available": "Yes",
+            "creation": "2023-07-02T14:18:19.381856",
+            "docstatus": 0
+        }
+    ],
+    "totalRecord": 5
+}

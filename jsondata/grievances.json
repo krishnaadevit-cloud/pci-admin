@@ -1,0 +1,57 @@
+[
+  {
+    "id": "TKT-8902",
+    "applicantName": "Amit R. Patel",
+    "userType": "Pharmacist",
+    "state": "Gujarat",
+    "category": "Registration Delay",
+    "submittedOn": "2024-05-18",
+    "priority": "High",
+    "status": "Open",
+    "description": "My fresh registration application is pending for over 45 days. The state council is not responding."
+  },
+  {
+    "id": "TKT-8895",
+    "applicantName": "Noida Pharmacy College",
+    "userType": "Institution",
+    "state": "Uttar Pradesh",
+    "category": "Portal Access Issue",
+    "submittedOn": "2024-05-16",
+    "priority": "Medium",
+    "status": "Resolved",
+    "description": "We are unable to log into the institution accreditation portal to upload compliance documents."
+  },
+  {
+    "id": "TKT-8890",
+    "applicantName": "Sunita Verma",
+    "userType": "Council Admin",
+    "state": "Haryana",
+    "category": "Data Migration",
+    "submittedOn": "2024-05-12",
+    "priority": "Critical",
+    "status": "In Progress",
+    "description": "Historical registration data mapping failed during the recent PRTS migration phase."
+  },
+  {
+    "id": "TKT-8875",
+    "applicantName": "Dr. Vivek Sharma",
+    "userType": "Pharmacist",
+    "state": "Delhi",
+    "category": "Certificate Error",
+    "submittedOn": "2024-05-05",
+    "priority": "Medium",
+    "status": "Resolved",
+    "description": "The middle name is misspelled on the final generated smart card certificate."
+  },
+  {
+    "id": "TKT-8862",
+    "applicantName": "Global Institute of Pharmacy",
+    "userType": "Institution",
+    "state": "Haryana",
+    "category": "Inspection Scheduling",
+    "submittedOn": "2024-04-28",
+    "priority": "High",
+    "status": "Open",
+    "description": "Requesting a reschedule for the PCI physical inspection due to severe weather alerts."
+  }
+]

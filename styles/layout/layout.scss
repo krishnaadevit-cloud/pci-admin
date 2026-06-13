@@ -1,0 +1,47 @@
+@use './variables' as *;
+@use '../layout/prts/variables-prts' as *;
+@use './_fonts';
+@use './_animation';
+// @use './_layout_light';
+// @use './layout_dark';
+@use './_main';
+@use './_sidebar_vertical';
+@use './_sidebar_slim';
+@use './_responsive';
+@use './_topbar';
+@use './_breadcrumb';
+@use './_profile';
+@use './_config';
+@use './_content';
+@use './_typography';
+@use './_utils';
+@use './pharmacy-form';
+@use './common-styles';
+@use './loader';
+@use './custom_table';
+
+
+// prts style
+@use '../layout/prts/dashboard.scss';
+@use '../layout/prts/sidebar.scss';
+@use '../layout/prts/variables-prts';
+@use '../layout/prts/fresh-registration.scss';
+@use '../layout/prts/layout-prts.scss';
+@use '../layout/prts//auth-prts.scss';
+
+// fresh-application module
+@use '../layout/prts/fresh-application-list';
+@use '../layout/prts/fresh-application-view';
+@use '../layout/prts/application-detail-tabs';
+
+// scrutiny module
+@use '../layout/prts/scrutiny-detail';
+@use '../layout/prts/scrutiny-config';
+
+// onboarding module
+@use '../layout/prts/onboarding';
+
+// super admin module
+@use '../layout/prts/super-admin';
+
+

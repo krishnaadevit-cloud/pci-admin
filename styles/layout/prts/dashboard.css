@@ -1,0 +1,1176 @@
+.prts-pharmacy-dashboard {
+  font-size: 16px !important;
+}
+.prts-pharmacy-dashboard .prts-field__wrapper:focus-within,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper:focus-within,
+.prts-pharmacy-dashboard .prts-calendar-wrapper:focus-within {
+  border-color: #2E29FF;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.prts-pharmacy-dashboard .prts-field__wrapper .p-inputtext,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-inputtext:enabled,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-inputtext:enabled:hover,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-inputtextarea:enabled:focus,
+.prts-pharmacy-dashboard .prts-field__wrapper input,
+.prts-pharmacy-dashboard .prts-field__wrapper textarea,
+.prts-pharmacy-dashboard .prts-field__wrapper select,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-inputtext,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-inputtext:enabled,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-inputtext:enabled:hover,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-inputtextarea:enabled:focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper input,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper textarea,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper select,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-inputtext,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-inputtext:enabled,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-inputtext:enabled:hover,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-inputtextarea:enabled:focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper input,
+.prts-pharmacy-dashboard .prts-calendar-wrapper textarea,
+.prts-pharmacy-dashboard .prts-calendar-wrapper select {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-dropdown,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-dropdown,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-dropdown {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar:not(.p-disabled):hover, .prts-pharmacy-dashboard .prts-field__wrapper .p-calendar:not(.p-disabled).p-focus, .prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-focus, .prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper.p-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-calendar.p-inputwrapper.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-dropdown:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-dropdown:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-dropdown.p-focus,
+.prts-pharmacy-dashboard .prts-field__wrapper .p-dropdown.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper.p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-calendar.p-inputwrapper.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-dropdown:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-dropdown:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-dropdown.p-focus,
+.prts-pharmacy-dashboard .prts-dropdown-wrapper .p-dropdown.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper.p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-calendar.p-inputwrapper.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-dropdown:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-dropdown:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-dropdown.p-focus,
+.prts-pharmacy-dashboard .prts-calendar-wrapper .p-dropdown.p-inputwrapper-focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__wrapper,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-dropdown-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 48px !important;
+  background: #ffffff;
+  transition: border-color 0.15s;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__wrapper:focus-within,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-dropdown-wrapper:focus-within {
+  border-color: #2E29FF;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown.prts-field--error .prts-field__wrapper, .prts-pharmacy-dashboard .prts-field--dropdown.prts-field--error .prts-dropdown-wrapper {
+  border-color: #dc3545;
+  background: #fce8e8;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown--disabled .prts-dropdown-wrapper {
+  background: #f3f4f6 !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown {
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown:not(.p-disabled):hover, .prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown:not(.p-disabled).p-focus, .prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown.p-focus, .prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown.p-inputwrapper-focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown:not(.p-disabled):hover,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown:not(.p-disabled).p-focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown.p-focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown.p-inputwrapper-focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown.p-disabled,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown.p-disabled {
+  background: #f3f4f6 !important;
+  cursor: not-allowed;
+  color: #727272 !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown.p-disabled .p-inputtext,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown.p-disabled .p-dropdown-label,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown.p-disabled .p-inputtext,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown.p-disabled .p-dropdown-label {
+  background: #f3f4f6 !important;
+  color: #727272 !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-inputtext,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-dropdown-label,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-inputtext,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-dropdown-label {
+  padding: 1rem 2.5rem 1rem 1.5rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: #4B4B4B !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-inputtext.p-placeholder,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-dropdown-label.p-placeholder,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-inputtext.p-placeholder,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-dropdown-label.p-placeholder {
+  font-weight: 500 !important;
+  color: #6c757d !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-dropdown-label:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-dropdown-label:enabled:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-field__dropdown.p-dropdown .p-dropdown-trigger,
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-custom-dropdown.p-dropdown .p-dropdown-trigger {
+  display: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--dropdown .prts-dropdown-icon {
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.75rem;
+  height: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+.prts-pharmacy-dashboard .prts-field--date .prts-field__wrapper,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__wrapper {
+  position: relative;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date],
+.prts-pharmacy-dashboard .prts-field--date input[type=month],
+.prts-pharmacy-dashboard .prts-field--date .prts-calendar-input,
+.prts-pharmacy-dashboard .prts-field--date .prts-field__calendar .p-inputtext,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date],
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month],
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-input,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar .p-inputtext {
+  padding-right: 2.75rem !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]:focus, .prts-pharmacy-dashboard .prts-field--date input[type=date]:focus-visible, .prts-pharmacy-dashboard .prts-field--date input[type=date]:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]:focus,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]:focus-visible,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--date .prts-calendar-input:focus,
+.prts-pharmacy-dashboard .prts-field--date .prts-calendar-input:focus-visible,
+.prts-pharmacy-dashboard .prts-field--date .prts-calendar-input:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--date .prts-field__calendar .p-inputtext:focus,
+.prts-pharmacy-dashboard .prts-field--date .prts-field__calendar .p-inputtext:focus-visible,
+.prts-pharmacy-dashboard .prts-field--date .prts-field__calendar .p-inputtext:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]:focus-visible,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]:focus-visible,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-input:focus,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-input:focus-visible,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-input:enabled:focus,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar .p-inputtext:focus,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar .p-inputtext:focus-visible,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar .p-inputtext:enabled:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date],
+.prts-pharmacy-dashboard .prts-field--date input[type=month],
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date],
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month] {
+  color-scheme: light;
+  font-family: inherit !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: #313033 !important;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit {
+  padding: 0;
+  line-height: 1;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-fields-wrapper,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-fields-wrapper,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-fields-wrapper,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-text,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-text,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-text,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-text {
+  color: #9ca3af;
+  padding: 0 1px;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-month-field, .prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-day-field, .prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-year-field,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-month-field,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-day-field,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-year-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-month-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-day-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-year-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-month-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-day-field,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-year-field {
+  color: #313033;
+  font-weight: 600;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-month-field:focus, .prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-day-field:focus, .prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-datetime-edit-year-field:focus,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-month-field:focus,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-day-field:focus,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-datetime-edit-year-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-month-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-day-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-datetime-edit-year-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-month-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-day-field:focus,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-datetime-edit-year-field:focus {
+  background: rgba(0, 85, 179, 0.12);
+  border-radius: 2px;
+  color: #313033;
+  outline: none;
+}
+.prts-pharmacy-dashboard .prts-field--date input[type=date]::-webkit-calendar-picker-indicator,
+.prts-pharmacy-dashboard .prts-field--date input[type=month]::-webkit-calendar-picker-indicator,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=date]::-webkit-calendar-picker-indicator,
+.prts-pharmacy-dashboard .prts-field--calendar input[type=month]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2.75rem;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.prts-pharmacy-dashboard .prts-field--date .prts-field__wrapper::after,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__wrapper::after {
+  content: "";
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: url("/assets/prts/calender.svg") no-repeat center/contain;
+  pointer-events: none;
+  z-index: 2;
+}
+.prts-pharmacy-dashboard .prts-field--date .prts-calendar-icon,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-icon {
+  display: none;
+}
+.prts-pharmacy-dashboard .prts-field--calendar .prts-calendar-wrapper {
+  position: relative;
+  width: 100%;
+}
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar {
+  width: 100%;
+}
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar {
+  width: 100%;
+}
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar .p-inputtext {
+  width: 100%;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar .p-datepicker-trigger,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar .p-input-icon,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar .p-input-icon-right,
+.prts-pharmacy-dashboard .prts-field--calendar .prts-field__calendar.p-calendar button.p-datepicker-trigger {
+  display: none !important;
+}
+.prts-pharmacy-dashboard .prts-btn {
+  width: auto !important;
+  white-space: nowrap;
+}
+.prts-pharmacy-dashboard .prts-dashboard-wrapper {
+  font-family: var(--font-poppins, "Poppins", sans-serif);
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar {
+  width: 317px;
+  min-height: 100vh;
+  background: #212121;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  overflow: auto;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__header {
+  display: none;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem 1.25rem 0;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__close {
+  width: 45px;
+  height: 45px;
+  border: solid 1px #E5E5E5;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #212121;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__close:hover {
+  background: #444;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__section {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin: 0 0 0.75rem;
+  color: rgba(255, 255, 255, 0.4509803922);
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__section:last-of-type {
+  margin-top: 1.5rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__nav {
+  padding: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  max-height: auto;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__nav ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  transition: background 0.15s;
+  border-radius: 0.75rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__link i {
+  font-size: 1rem;
+  width: 1.25rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__link:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__link--active {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__icon {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  flex-shrink: 0;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__badge {
+  margin-left: auto;
+  background: #961416;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 6px;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__profile {
+  margin-top: auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-top: 1px solid #333;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #444;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__name {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__role {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #888;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__footer {
+  flex-shrink: 0;
+  padding: 0 0rem 1.5rem;
+  background: #212121;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3019607843);
+  margin-bottom: 1.5rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #D4362E;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-btn:hover {
+  background: #D4362E;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-btn:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-btn span {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #ffffff;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-icon-wrapper {
+  background: #ffffff;
+  color: #d4362e;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-icon-wrapper img {
+  display: block;
+}
+.prts-pharmacy-dashboard .prts-dashboard-sidebar__logout-icon-wrapper i {
+  font-size: 1rem;
+  transform: rotate(180deg);
+}
+.prts-pharmacy-dashboard .prts-sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 149;
+}
+.prts-pharmacy-dashboard .prts-sidebar-overlay--visible {
+  display: block;
+}
+.prts-pharmacy-dashboard .prts-dashboard-main {
+  flex: 1;
+  padding: 32px;
+  background: #f4f5f7;
+}
+.prts-pharmacy-dashboard .prts-dashboard-greeting {
+  margin-bottom: 3rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-greeting h1 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: #313033;
+  margin-bottom: 16px;
+}
+.prts-pharmacy-dashboard .prts-dashboard-greeting p {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #727272;
+}
+.prts-pharmacy-dashboard .prts-dashboard-greeting__title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #212529;
+  margin-bottom: 0.35rem;
+}
+.prts-pharmacy-dashboard .prts-dashboard-greeting__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #6c757d;
+}
+.prts-pharmacy-dashboard .prts-service-section {
+  margin-bottom: 3rem;
+}
+.prts-pharmacy-dashboard .prts-service-section__title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #313033;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.prts-pharmacy-dashboard .prts-service-section:last-of-type {
+  border-bottom: 1px solid #c6c6c6;
+  padding-bottom: 3rem;
+}
+.prts-pharmacy-dashboard .prts-service-section__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 208px);
+  gap: 12px;
+}
+.prts-pharmacy-dashboard .prts-service-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 1.25rem;
+  text-align: left;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.15s;
+  width: 208px;
+  min-height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+.prts-pharmacy-dashboard .prts-service-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+.prts-pharmacy-dashboard .prts-service-card--compact {
+  min-height: 192px;
+}
+.prts-pharmacy-dashboard .prts-service-card__icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.prts-pharmacy-dashboard .prts-service-card__title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #313033;
+}
+.prts-pharmacy-dashboard .prts-service-card__desc {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #727272;
+  margin-top: 10px;
+}
+.prts-pharmacy-dashboard .prts-service-card--disabled {
+  opacity: 0.45;
+  filter: blur(0.4px);
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.prts-pharmacy-dashboard .prts-service-card--skeleton {
+  pointer-events: none;
+  cursor: default;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.prts-pharmacy-dashboard .prts-skeleton {
+  border-radius: 6px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: prts-shimmer 1.4s ease-in-out infinite;
+}
+.prts-pharmacy-dashboard .prts-skeleton--icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+}
+.prts-pharmacy-dashboard .prts-skeleton--title {
+  height: 15px;
+  width: 75%;
+  margin-bottom: 0.5rem;
+}
+.prts-pharmacy-dashboard .prts-skeleton--desc {
+  height: 11px;
+  width: 90%;
+  margin-top: 10px;
+}
+.prts-pharmacy-dashboard .prts-skeleton--desc-short {
+  width: 60%;
+  margin-top: 5px;
+}
+@keyframes prts-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+.prts-pharmacy-dashboard .prts-recent-activity__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__page-title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #313033;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__card {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: visible;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__title {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #313033;
+  margin-bottom: 0 !important;
+  font-weight: inherit !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+.prts-pharmacy-dashboard .prts-recent-activity__count {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  background: linear-gradient(to right, #961416 0%, #ea5e61 100%);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+.prts-pharmacy-dashboard .prts-recent-activity .prts-recent-activity__title {
+  font-weight: 600 !important;
+}
+.prts-pharmacy-dashboard .prts-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  border: none;
+  width: auto !important;
+  white-space: nowrap;
+}
+.prts-pharmacy-dashboard .prts-btn img {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+.prts-pharmacy-dashboard .prts-btn span {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+.prts-pharmacy-dashboard .prts-btn--dark {
+  background: #212121;
+  color: #fff;
+}
+.prts-pharmacy-dashboard .prts-btn--dark:hover {
+  background: #1e293b !important;
+}
+.prts-pharmacy-dashboard .prts-btn--purple {
+  background: #613af5;
+  color: #fff;
+}
+.prts-pharmacy-dashboard .prts-btn--purple:hover {
+  background: #4f46e5 !important;
+}
+.prts-pharmacy-dashboard .prts-btn--outline {
+  background: transparent;
+  border: 1px solid #0000c9;
+  color: #0000c9;
+  border-radius: 999px;
+  width: auto !important;
+  height: auto !important;
+  padding: 0.5rem 1.25rem;
+}
+.prts-pharmacy-dashboard .prts-btn--outline:hover {
+  background: #f5f5ff !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable {
+  border-top: 2px solid #e5e7eb !important;
+  border-radius: 0 !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-wrapper {
+  overflow: hidden;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-column-header-content {
+  justify-content: flex-start !important;
+  display: flex !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-thead > tr > th {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  background: #f6f7f8 !important;
+  border: 1px solid #e5e7eb !important;
+  font-weight: 500 !important;
+  color: #4b4b4b !important;
+  font-size: 14px !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-thead > tr > th:first-child {
+  border-left: none !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-thead > tr > th:last-child {
+  border-right: none !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr > td {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  border: 1px solid #e5e7eb !important;
+  padding: 0.75rem 1rem !important;
+  color: #4b4b4b !important;
+  background: transparent;
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr > td:first-child {
+  border-left: none !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr > td:last-child {
+  border-right: none !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr:nth-child(odd) {
+  background: #ffffff;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background: #f7f7f7 !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-tbody > tr:hover {
+  background: #f3f4f6 !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component {
+  background: #fff;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border-top: 1px solid #e5e7eb;
+  border-radius: 0 0 10px;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-first,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-last {
+  display: none !important;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-next {
+  margin-right: auto;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-rpp-options {
+  margin-left: 0;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .prts-paginator__report {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #6c757d;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .prts-paginator__select {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  color: #111827;
+  cursor: pointer;
+  background: #fff;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  height: 2rem;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-pages {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-pages .p-disabled {
+  border: none !important;
+  background: transparent !important;
+  cursor: default !important;
+  pointer-events: none;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-page,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-prev,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-next {
+  min-width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background: #fff;
+  color: #5f6368;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-page:hover:not(.p-disabled),
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-prev:hover:not(.p-disabled),
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-next:hover:not(.p-disabled) {
+  background: #f5f5f5;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-page.p-highlight,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-prev.p-highlight,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-next.p-highlight {
+  background: #fff;
+  border-color: #6366f1;
+  color: #6366f1;
+  font-weight: 700;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-page.p-disabled,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-prev.p-disabled,
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-paginator-next.p-disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-dropdown {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  min-width: 80px;
+  height: 2.25rem;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-dropdown .p-dropdown-label {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.875rem;
+  color: #111827;
+}
+.prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-paginator-bottom.p-paginator.p-component .p-dropdown .p-dropdown-trigger {
+  width: 2rem;
+}
+.prts-pharmacy-dashboard .prts-status-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px !important;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.prts-pharmacy-dashboard .prts-status-tag img {
+  width: 14px;
+  height: 14px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.prts-pharmacy-dashboard .prts-status-tag--pending {
+  background: #fff8e1;
+  color: #f59e0b;
+  border: 1px solid #fde68a;
+}
+.prts-pharmacy-dashboard .prts-status-tag--review {
+  background: #ede9fe;
+  color: #7c3aed;
+  border: 1px solid #ddd6fe;
+}
+.prts-pharmacy-dashboard .prts-status-tag--approved {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+}
+@media (max-width: 1024px) {
+  .prts-pharmacy-dashboard .prts-dashboard-wrapper {
+    position: relative;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-sidebar {
+    position: fixed;
+    top: 133;
+    left: 0;
+    height: 100vh;
+    min-height: auto;
+    z-index: 150;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    box-shadow: none;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-sidebar__header {
+    display: flex;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-sidebar__nav {
+    padding-top: 4rem;
+    max-height: 100% !important;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-sidebar__footer {
+    padding-bottom: max(1.5rem, env(safe-area-inset-bottom, 0px));
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-sidebar--open {
+    transform: translateX(0);
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-main {
+    width: 100%;
+    padding: 1.5rem 1.25rem;
+  }
+  .prts-pharmacy-dashboard .prts-service-section__grid {
+    grid-template-columns: repeat(2, 208px);
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__top {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}
+@media (max-width: 640px) {
+  .prts-pharmacy-dashboard .prts-dashboard-main {
+    padding: 1rem;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-greeting {
+    margin-bottom: 1.5rem;
+  }
+  .prts-pharmacy-dashboard .prts-dashboard-greeting h1 {
+    font-size: 1.4rem;
+  }
+  .prts-pharmacy-dashboard .prts-service-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .prts-pharmacy-dashboard .prts-service-card {
+    width: 100%;
+    min-height: 180px;
+  }
+  .prts-pharmacy-dashboard .prts-service-card--compact {
+    min-height: 160px;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__actions {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__actions .prts-btn {
+    padding: 0.55rem 0.75rem;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__actions .prts-btn img {
+    width: 13px;
+    height: 13px;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__actions .prts-btn span {
+    font-size: 0.78rem;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .prts-pharmacy-dashboard .prts-recent-activity__card {
+    overflow: hidden;
+  }
+  .prts-pharmacy-dashboard .prts-datatable-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable {
+    min-width: 600px;
+  }
+  .prts-pharmacy-dashboard .prts-datatable-wrapper .p-datatable .p-datatable-wrapper {
+    overflow: visible;
+  }
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component {
+    padding: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component .p-paginator-page,
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component .p-paginator-prev,
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component .p-paginator-next {
+    min-width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.78rem;
+  }
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component .prts-paginator__report {
+    font-size: 0.75rem;
+  }
+  .prts-pharmacy-dashboard .p-paginator-bottom.p-paginator.p-component .prts-paginator__select {
+    font-size: 0.75rem;
+    height: 1.75rem;
+  }
+}
+@media (max-width: 380px) {
+  .prts-pharmacy-dashboard .prts-service-section__grid {
+    grid-template-columns: 1fr;
+  }
+  .prts-pharmacy-dashboard .prts-service-card {
+    width: 100%;
+  }
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  text-transform: none !important;
+}
+
+.p-button.prts-btn {
+  font-family: inherit !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+.p-button.prts-btn .p-button-label {
+  display: none !important;
+}
+.p-button.prts-btn .p-button-icon {
+  font-size: inherit !important;
+  margin: 0 !important;
+}/*# sourceMappingURL=dashboard.css.map */
