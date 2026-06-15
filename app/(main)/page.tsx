@@ -1,14 +1,16 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/navigation";
 
-const DashboardRedirect = () => {
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
+const Dashboard = () => {
   const router = useRouter();
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
     setMounted(true);
-    router.push("/super-admin/dashboard");
+    router.push("/pci-admin/dashboard");
   }, [router]);
 
   if (!mounted) return null;
@@ -23,4 +25,4 @@ const DashboardRedirect = () => {
   );
 };
 
-export default DashboardRedirect;
+export default Dashboard;

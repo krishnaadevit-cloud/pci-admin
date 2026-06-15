@@ -3,7 +3,7 @@
 import React, { useMemo } from 'react';
 import { TabMenu } from 'primereact/tabmenu';
 import { usePathname, useRouter } from 'next/navigation';
-import { menuModel } from './AppMenu';
+import { pciAdminMenuModel } from './AppMenu';
 
 const AppTabs = () => {
     const pathname = usePathname();
@@ -22,7 +22,7 @@ const AppTabs = () => {
     const activeGroups = useMemo(() => {
         if (!pathname) return [];
 
-        const allMenuItems = menuModel.filter((m) => m.items).flatMap((m) => m.items ?? []);
+        const allMenuItems = pciAdminMenuModel.filter((m) => m.items).flatMap((m) => m.items ?? []);
         const groups: any[][] = [];
 
         const search = (currentItems: any[]) => {

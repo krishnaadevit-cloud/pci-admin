@@ -46,7 +46,6 @@ export default function PrtsLoginForm() {
   };
 
   const handleContinue = async (e: React.FormEvent) => {
-    console.log("handleContinue called");
     e.preventDefault();
     if (!validate()) return;
 

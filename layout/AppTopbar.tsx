@@ -1,8 +1,7 @@
 'use client';
 
 import React, { forwardRef, useImperativeHandle, useContext, useRef, useState } from 'react';
-import { clearUser, clearPending, clearOtpFlowCookies, clearAuthToken } from "@/lib/auth/cookieStorage";
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { LayoutContext } from './context/layoutcontext';
 import AppSidebar from './AppSidebar';
 import { Ripple } from 'primereact/ripple';
@@ -19,15 +18,35 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
     const menu = useRef<Menu>(null);
 
     const router = useRouter();
+    const pathname = usePathname();
 
     const { onMenuToggle, showConfigSidebar, showSidebar, layoutConfig, setLayoutState, globalFilterState, setGlobalFilterState } = useContext(LayoutContext);
 
+    // Sync globalFilterState.stateId with the URL path
+    React.useEffect(() => {
+        if (pathname.startsWith('/pci-admin/state-council/')) {
+            const parts = pathname.split('/');
+            const stateIdFromPath = parts[parts.length - 1];
+            if (stateIdFromPath && globalFilterState?.stateId !== stateIdFromPath) {
+                setGlobalFilterState(prev => ({ ...prev, stateId: stateIdFromPath }));
+            }
+        } else if (pathname === '/pci-admin/dashboard') {
+            if (globalFilterState?.stateId !== 'all') {
+                setGlobalFilterState(prev => ({ ...prev, stateId: 'all' }));
+            }
+        }
+    }, [pathname, globalFilterState?.stateId]);
+
+    const handleStateChange = (val: string) => {
+        setGlobalFilterState({ ...globalFilterState, stateId: val });
+        if (val === 'all') {
+            router.push('/pci-admin/dashboard');
+        } else {
+            router.push(`/pci-admin/state-council/${val}`);
+        }
+    };
+
     const menuItems = [
-        {
-            label: 'Change Password',
-            icon: 'pi pi-lock',
-            command: () => { router.push('/office-portal/change-password'); }
-        },
         {
             label: 'Reload',
             icon: 'pi pi-refresh',
@@ -44,25 +63,6 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
                     staticMenuDesktopInactive: true,
                     staticMenuMobileActive: false
                 }));
-            }
-        },
-        {
-            label: 'Logout',
-            icon: 'pi pi-sign-out',
-            command: () => {
-                // Clear auth token cookie directly (SameSite=Strict, JS-readable).
-                clearAuthToken();
-                // Clear auth cookies (pci_auth_user, pci_pending, pci_otp_*).
-                clearUser();
-                clearPending();
-                clearOtpFlowCookies();
-                // Also clear RBAC permission cache from sessionStorage.
-                if (typeof window !== 'undefined') {
-                    sessionStorage.removeItem('module_actions');
-                }
-                // localStorage is intentionally NOT cleared — pci-layout-config,
-                // pci-layout-state preferences are preserved across sessions.
-                router.push('/pharmacy/login');
             }
         }
     ];
@@ -90,66 +90,91 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
                 </div>
                 <AppSidebar sidebarRef={props.sidebarRef} />
 
-                {/* Center: Global Filters & Search */}
-                <div className="flex-1 flex justify-content-center align-items-center gap-3">
-                    <Dropdown 
-                        value={globalFilterState?.stateId || 'all'} 
-                        options={[
-                            { label: 'All States (National)', value: 'all' },
-                            { label: 'Uttar Pradesh', value: 'uttar-pradesh' },
-                            { label: 'Maharashtra', value: 'maharashtra' },
-                            { label: 'Karnataka', value: 'karnataka' },
-                            { label: 'Gujarat', value: 'gujarat' },
-                            { label: 'Haryana', value: 'haryana' },
-                            { label: 'Kerala', value: 'kerala' },
-                            { label: 'Rajasthan', value: 'rajasthan' },
-                            { label: 'Tamil Nadu', value: 'tamil-nadu' },
-                            { label: 'Delhi', value: 'delhi' }
-                        ]} 
-                        onChange={(e) => setGlobalFilterState({ ...globalFilterState, stateId: e.value })} 
-                        className="w-full md:w-14rem" 
-                        style={{ borderRadius: '20px', fontSize: '0.9rem', border: '1px solid #e2e8f0', background: '#f8fafc' }}
-                    />
-                    <Calendar
-                        value={globalFilterState?.dateRange || null}
-                        onChange={(e) => setGlobalFilterState({ ...globalFilterState, dateRange: e.value as Nullable<(Date | null)[]> })}
-                        selectionMode="range"
-                        readOnlyInput
-                        dateFormat="dd M y"
-                        className="w-full md:w-15rem"
-                        inputStyle={{ borderRadius: '20px', fontSize: '0.9rem', border: '1px solid #e2e8f0', background: '#f8fafc', padding: '0.55rem 1rem' }}
-                        showIcon
-                    />
-                    <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '250px' }}>
-                        <i className="pi pi-search" style={{ color: '#94a3b8', left: '1rem' }}></i>
-                        <InputText
-                            placeholder="Search..."
-                            className="w-full"
-                            style={{
-                                borderRadius: '20px',
-                                border: '1px solid #e2e8f0',
-                                padding: '0.55rem 1rem 0.55rem 2.5rem',
-                                background: '#EEF3F8',
-                                color: '#1e293b',
-                                transition: 'all 0.3s ease',
-                                outline: 'none',
-                                fontSize: '0.9rem'
-                            }}
-                            onFocus={(e) => {
-                                e.currentTarget.style.background = '#ffffff';
-                                e.currentTarget.style.borderColor = 'var(--primary-color)';
-                                e.currentTarget.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.15)';
-                                (e.currentTarget.previousSibling as HTMLElement).style.color = 'var(--primary-color)';
-                            }}
-                            onBlur={(e) => {
-                                e.currentTarget.style.background = '#f8fafc';
-                                e.currentTarget.style.borderColor = '#e2e8f0';
-                                e.currentTarget.style.boxShadow = 'none';
-                                (e.currentTarget.previousSibling as HTMLElement).style.color = '#94a3b8';
-                            }}
+                {/* Center: Search Bar & Global Filters (if on /pci-admin path) */}
+                {pathname.startsWith('/pci-admin') ? (
+                    <div className="flex-1 flex justify-content-center align-items-center gap-3">
+                        <Dropdown 
+                            value={globalFilterState?.stateId || 'all'} 
+                            options={[
+                                { label: 'All States (National)', value: 'all' },
+                                { label: 'Uttar Pradesh', value: 'uttar-pradesh' },
+                                { label: 'Maharashtra', value: 'maharashtra' },
+                                { label: 'Karnataka', value: 'karnataka' },
+                                { label: 'Gujarat', value: 'gujarat' },
+                                { label: 'Haryana', value: 'haryana' },
+                                { label: 'Kerala', value: 'kerala' },
+                                { label: 'Rajasthan', value: 'rajasthan' },
+                                { label: 'Tamil Nadu', value: 'tamil-nadu' },
+                                { label: 'Delhi', value: 'delhi' }
+                            ]} 
+                            onChange={(e) => handleStateChange(e.value)} 
+                            className="w-full md:w-14rem" 
+                            style={{ borderRadius: '20px', fontSize: '0.9rem', border: '1px solid #e2e8f0', background: '#f8fafc',maxWidth: '300px' }}
                         />
-                    </span>
-                </div>
+                   
+                        <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '250px' }}>
+                            <i className="pi pi-search" style={{ color: '#94a3b8', left: '1rem' }}></i>
+                            <InputText
+                                placeholder="Search..."
+                                className="w-full"
+                                style={{
+                                    borderRadius: '20px',
+                                    border: '1px solid #e2e8f0',
+                                    padding: '0.55rem 1rem 0.55rem 2.5rem',
+                                    background: '#EEF3F8',
+                                    color: '#1e293b',
+                                    transition: 'all 0.3s ease',
+                                    outline: 'none',
+                                    fontSize: '0.9rem'
+                                }}
+                                onFocus={(e) => {
+                                    e.currentTarget.style.background = '#ffffff';
+                                    e.currentTarget.style.borderColor = 'var(--primary-color)';
+                                    e.currentTarget.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.15)';
+                                    (e.currentTarget.previousSibling as HTMLElement).style.color = 'var(--primary-color)';
+                                }}
+                                onBlur={(e) => {
+                                    e.currentTarget.style.background = '#f8fafc';
+                                    e.currentTarget.style.borderColor = '#e2e8f0';
+                                    e.currentTarget.style.boxShadow = 'none';
+                                    (e.currentTarget.previousSibling as HTMLElement).style.color = '#94a3b8';
+                                }}
+                            />
+                        </span>
+                    </div>
+                ) : (
+                    <div className="flex-1 flex justify-content-center">
+                        <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '400px' }}>
+                            <i className="pi pi-search" style={{ color: '#94a3b8', left: '1rem' }}></i>
+                            <InputText
+                                placeholder="Search..."
+                                className="w-full"
+                                style={{
+                                    borderRadius: '20px',
+                                    border: '1px solid #e2e8f0',
+                                    padding: '0.55rem 1rem 0.55rem 2.5rem',
+                                    background: '#EEF3F8',
+                                    color: '#1e293b',
+                                    transition: 'all 0.3s ease',
+                                    outline: 'none',
+                                    fontSize: '0.9rem'
+                                }}
+                                onFocus={(e) => {
+                                    e.currentTarget.style.background = '#ffffff';
+                                    e.currentTarget.style.borderColor = 'var(--primary-color)';
+                                    e.currentTarget.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.15)';
+                                    (e.currentTarget.previousSibling as HTMLElement).style.color = 'var(--primary-color)';
+                                }}
+                                onBlur={(e) => {
+                                    e.currentTarget.style.background = '#f8fafc';
+                                    e.currentTarget.style.borderColor = '#e2e8f0';
+                                    e.currentTarget.style.boxShadow = 'none';
+                                    (e.currentTarget.previousSibling as HTMLElement).style.color = '#94a3b8';
+                                }}
+                            />
+                        </span>
+                    </div>
+                )}
 
                 {/* Right side: Icons and Avatar */}
                 <div className="flex align-items-center gap-4">

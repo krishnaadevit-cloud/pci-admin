@@ -1,8 +1,7 @@
 {
   "summaryCards": [
-    { "id": "states", "title": "Total States / UTs", "value": "36", "subText": "View all states", "icon": "pi pi-map", "color": "blue" },
+    { "id": "states", "title": "State Pharmacy Councils", "value": "36", "subText": "View all states", "icon": "pi pi-map", "color": "blue" },
     { "id": "pharmacists", "title": "Total Pharmacists", "value": "18,45,221", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-    { "id": "applications", "title": "Total Applications", "value": "2,54,120", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
     { "id": "pending", "title": "Applications Pending", "value": "85,120", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
     { "id": "approved", "title": "Applications Approved", "value": "1,28,450", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
     { "id": "rejected", "title": "Applications Rejected", "value": "28,450", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" }
@@ -26,13 +25,7 @@
     { "status": "Rejected", "value": 28450, "percentage": "11.2%", "color": "#EF4444" },
     { "status": "Returned", "value": 12100, "percentage": "4.7%", "color": "#3B82F6" }
   ],
-  "topPerformingCouncils": [
-    { "rank": 1, "name": "Haryana State Pharmacy Council", "stateId": "haryana", "approvalRate": 92, "tat": 3.2 },
-    { "rank": 2, "name": "Maharashtra State Pharmacy Council", "stateId": "maharashtra", "approvalRate": 89, "tat": 3.8 },
-    { "rank": 3, "name": "Karnataka State Pharmacy Council", "stateId": "karnataka", "approvalRate": 87, "tat": 4.1 },
-    { "rank": 4, "name": "Gujarat State Pharmacy Council", "stateId": "gujarat", "approvalRate": 85, "tat": 4.3 },
-    { "rank": 5, "name": "Tamil Nadu State Pharmacy Council", "stateId": "tamil-nadu", "approvalRate": 83, "tat": 4.6 }
-  ],
+ 
   "statewiseApplicationSummary": [
     { "stateId": "uttar-pradesh", "stateName": "Uttar Pradesh", "total": 30100, "pending": 6450, "approved": 20400, "rejected": 1500, "returned": 1750 },
     { "stateId": "maharashtra", "stateName": "Maharashtra", "total": 23450, "pending": 3120, "approved": 17200, "rejected": 1180, "returned": 1950 },
@@ -42,13 +35,7 @@
     { "stateId": "haryana", "stateName": "Haryana", "total": 12450, "pending": 1240, "approved": 8450, "rejected": 520, "returned": 240 },
     { "stateId": "gujarat", "stateName": "Gujarat", "total": 11300, "pending": 900, "approved": 7700, "rejected": 420, "returned": 300 }
   ],
-  "criticalAlerts": [
-    { "id": "alert-1", "title": "States with pending > 30 days", "count": 8, "severity": "high" },
-    { "id": "alert-2", "title": "States with pending > 15 days", "count": 12, "severity": "medium" },
-    { "id": "alert-3", "title": "High rejection rate (> 20%)", "count": 5, "severity": "medium" },
-    { "id": "alert-4", "title": "Applications pending for scrutiny", "count": 18450, "severity": "info" },
-    { "id": "alert-5", "title": "Returned applications pending", "count": 7250, "severity": "info" }
-  ],
+ 
   "statewisePharmacistsDistribution": [
     { "stateId": "maharashtra", "stateName": "Maharashtra", "count": 250000, "range": "> 2,00,000" },
     { "stateId": "uttar-pradesh", "stateName": "Uttar Pradesh", "count": 280000, "range": "> 2,00,000" },

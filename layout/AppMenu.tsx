@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { MenuModal } from "../types/layout";
 import AppSubMenu from "./AppSubMenu";
 
-export const menuModel: MenuModal[] = [
+export const pciAdminMenuModel: MenuModal[] = [
   {
     label: "",
     icon: "pi pi-fw pi-users",
@@ -11,22 +11,22 @@ export const menuModel: MenuModal[] = [
       {
         label: "National Dashboard",
         icon: "pi pi-fw pi-home",
-        to: "/super-admin/dashboard",
+        to: "/pci-admin/dashboard",
       },
       {
         label: "Council Users",
         icon: "pi pi-fw pi-users",
-        to: "/super-admin/state-council/users",
+        to: "/pci-admin/state-council/users",
       },
       {
         label: "Circulars & Notices",
         icon: "pi pi-fw pi-bell",
-        to: "/super-admin/circulars",
+        to: "/pci-admin/circulars",
       },
       {
         label: "IT Support Desk",
         icon: "pi pi-fw pi-headphones",
-        to: "/super-admin/support",
+        to: "/pci-admin/support",
       },
       {
         label: "REPORTS & ANALYTICS",
@@ -34,15 +34,15 @@ export const menuModel: MenuModal[] = [
         items: [
           {
             label: "Application Analytics",
-            to: "/super-admin/reports/applications",
+            to: "/pci-admin/reports/applications",
           },
           {
             label: "Revenue Analytics",
-            to: "/super-admin/reports/revenue",
+            to: "/pci-admin/reports/revenue",
           },
           {
             label: "State Comparison",
-            to: "/super-admin/reports/comparison",
+            to: "/pci-admin/reports/comparison",
           }
         ]
       },
@@ -52,19 +52,19 @@ export const menuModel: MenuModal[] = [
         items: [
           {
             label: "Institutions & Colleges",
-            to: "/super-admin/masters/institutions",
+            to: "/pci-admin/masters/institutions",
           },
           {
             label: "Application Types",
-            to: "/super-admin/masters/application-types",
+            to: "/pci-admin/masters/application-types",
           },
           {
             label: "Documents",
-            to: "/super-admin/masters/documents",
+            to: "/pci-admin/masters/documents",
           },
           {
             label: "Application Mapping",
-            to: "/super-admin/masters/mapping",
+            to: "/pci-admin/masters/mapping",
           }
         ]
       }
@@ -73,7 +73,7 @@ export const menuModel: MenuModal[] = [
 ];
 
 const AppMenu = memo(() => {
-  return <AppSubMenu model={menuModel} />;
+  return <AppSubMenu model={pciAdminMenuModel} />;
 });
 
 export default AppMenu;

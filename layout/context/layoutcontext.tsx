@@ -9,6 +9,10 @@ export const LayoutContext = React.createContext({} as LayoutContextProps);
 
 export const LayoutProvider = (props: ChildContainerProps) => {
     const [breadcrumbs, setBreadcrumbs] = useState<Breadcrumb[]>([]);
+    const [globalFilterState, setGlobalFilterState] = useState<GlobalFilterState>({
+        stateId: 'all',
+        dateRange: [new Date(2024, 4, 1), new Date(2024, 4, 20)]
+    });
     const [layoutConfig, setLayoutConfig] = useState<LayoutConfig>({
         ripple: false,
         inputStyle: 'outlined',
@@ -35,10 +39,6 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         loading: true
     });
 
-    const [globalFilterState, setGlobalFilterState] = useState<GlobalFilterState>({
-        stateId: 'all',
-        dateRange: [new Date(2024, 4, 1), new Date(2024, 4, 20)]
-    });
 
     React.useEffect(() => {
         const config = localStorage.getItem('pci-layout-config');

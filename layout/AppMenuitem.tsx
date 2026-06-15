@@ -11,7 +11,6 @@ import { AppMenuItemProps } from "../types/layout";
 
 const AppMenuitem = (props: AppMenuItemProps) => {
   const { activeMenu, setActiveMenu } = useContext(MenuContext);
-  const [mounted, setMounted] = React.useState(false);
   const {
     isSlim,
     isSlimPlus,
@@ -34,11 +33,6 @@ const AppMenuitem = (props: AppMenuItemProps) => {
   const isActiveRoute = item.to && pathname === item.to;
   const active =
     activeMenu === key || !!(activeMenu && activeMenu.startsWith(key + "-"));
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
 
   useSubmenuOverlayPosition({
     target: menuitemRef.current,
@@ -191,7 +185,7 @@ const AppMenuitem = (props: AppMenuItemProps) => {
       ref={menuitemRef}
       className={classNames({
         "layout-root-menuitem": props.root,
-        "active-menuitem": mounted && active,
+        "active-menuitem": active,
       })}
 
     >
@@ -208,8 +202,8 @@ const AppMenuitem = (props: AppMenuItemProps) => {
               href={item.to}
               onClick={(e) => itemClick(e as any)}
               className={classNames(item.class, "p-ripple tooltip-target", {
-                "active-route": mounted && isActiveRoute,
-                'border-b-2 border-blue-500': mounted && active && !props.root
+                "active-route": isActiveRoute,
+                'border-b-2 border-blue-500': active && !props.root
               })}
               target={item.target}
               data-pr-tooltip={item.label}
@@ -260,14 +254,14 @@ const AppMenuitem = (props: AppMenuItemProps) => {
             href={item.to}
             onClick={(e) => itemClick(e as any)}
             className={classNames(item.class, "p-ripple", {
-              "active-route": mounted && isActiveRoute,
-              'border-b-2 border-blue-500': mounted && active && !props.root
+              "active-route": isActiveRoute,
+              'border-b-2 border-blue-500': active && !props.root
             })}
             tabIndex={0}
             onMouseEnter={onMouseEnter}
             target={item.target}
           >
-            <i className={classNames("layout-menuitem-icon", item.icon)}></i>
+            {/* <i className={classNames("layout-menuitem-icon", item.icon)}></i> */}
             <span className="layout-menuitem-text">{item.label}</span>
             {item.items && (
               <i className="pi pi-fw pi-angle-down layout-submenu-toggler"></i>

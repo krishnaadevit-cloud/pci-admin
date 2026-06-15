@@ -51,7 +51,6 @@ export type GlobalFilterState = {
     dateRange: (Date | null)[] | null;
 };
 
-
 export type LayoutConfig = {
     ripple: boolean;
     inputStyle: string;
