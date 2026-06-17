@@ -402,6 +402,11 @@
     100% { background-position: -100% 0; }
   }
 
+  @keyframes prts-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
   // ─── RECENT ACTIVITY ───────────────────────────────────────────────────────
 
   .prts-recent-activity {
@@ -425,8 +430,10 @@
 
     &__card {
       background: #fff;
+      border: 1px solid #e5e7eb;
       border-radius: 1rem;
-      overflow: visible;
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.07);
+      overflow: hidden;
     }
 
     &__header {
@@ -440,6 +447,11 @@
       display: flex;
       align-items: center;
       gap: 0.75rem;
+
+      &--spread {
+        flex: 1;
+        justify-content: space-between;
+      }
     }
 
     &__title {
@@ -559,7 +571,7 @@
         @include title-3;
         border: 1px solid #e5e7eb !important;
         padding: 0.75rem 1rem !important;
-        color: #4b4b4b !important;
+        color: #313033 !important;
         background: transparent;
         text-align: left !important;
         font-weight: 400 !important;
@@ -733,7 +745,225 @@
 
   }
 
+  // ─── SKELETON TABLE ────────────────────────────────────────────────────────
+
+  .prts-datatable-skeleton {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #e5e7eb;
+
+    .prts-skeleton-th {
+      background: #f6f7f8;
+      border: 1px solid #e5e7eb;
+      padding: 0.75rem 1rem;
+      text-align: left;
+
+      &:first-child { border-left: none; }
+      &:last-child  { border-right: none; }
+    }
+
+    .prts-skeleton-td {
+      border: 1px solid #e5e7eb;
+      padding: 0.75rem 1rem;
+
+      &:first-child { border-left: none; }
+      &:last-child  { border-right: none; }
+    }
+
+    .prts-skeleton-row--odd  { background: #ffffff; }
+    .prts-skeleton-row--even { background: #f7f7f7; }
+  }
+
+  // ─── FEE RECEIPT LINK ──────────────────────────────────────────────────────
+
+  .prts-fee-receipt-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: $prts-primary;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.15s;
+
+    &:hover {
+      opacity: 0.75;
+      text-decoration: underline;
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+
+  // ─── VIEW BUTTON (eye icon circle) ─────────────────────────────────────────
+
+  .prts-view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1.5px solid #DDDDDD;
+    background: #f5f5f5;
+    color: #212121;
+    text-decoration: none;
+    transition: background 0.15s ease, border-color 0.15s ease;
+    flex-shrink: 0;
+
+    &:hover {
+      background: #ebebeb;
+      border-color: #c3c2c2;
+    }
+
+    svg {
+      display: block;
+      flex-shrink: 0;
+    }
+  }
+
+  // ─── SMART CARD ────────────────────────────────────────────────────────────
+
+  .prts-smart-card-page {
+    width: 100%;
+  }
+
+  .prts-smart-card {
+    background: $prts-white;
+    border-radius: $prts-radius-lg;
+    padding: 2rem;
+    box-shadow: $prts-shadow-md;
+
+    &__avatar-wrap {
+      margin-bottom: 1.5rem;
+    }
+
+    &__avatar-circle {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid $prts-border;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #e0e0e0;
+
+      .prts-user-avatar__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+
+    &__personal-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+
+      &--full {
+        grid-column: 1 / -1;
+      }
+    }
+
+    &__field-label {
+      @include label-2;
+      color: $prts-text-muted;
+      text-transform: none;
+    }
+
+    &__field-value {
+      @include title-2;
+      color: $prts-text;
+      font-weight: 600;
+    }
+
+    &__divider {
+      border: none;
+      border-top: 1px solid $prts-border;
+      margin: 1.5rem 0;
+    }
+
+    &__reg-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    &__download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+
+      &:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+      }
+
+      &:not(:disabled):hover .prts-smart-card__download-icon {
+        background: #231dcf;
+      }
+    }
+
+    &__download-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: $prts-primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.2s ease;
+    }
+
+    &__download-label {
+      @include title-2;
+      color: $prts-text;
+      font-weight: 600;
+    }
+  }
+
   // ─── RESPONSIVE ────────────────────────────────────────────────────────────
+
+  @media (max-width: 768px) {
+    .prts-smart-card {
+      &__personal-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      &__reg-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .prts-smart-card {
+      padding: 1.25rem;
+
+      &__personal-grid {
+        grid-template-columns: 1fr;
+      }
+
+      &__reg-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
 
   @media (max-width: 1024px) {
     .prts-dashboard-wrapper {
@@ -834,10 +1064,6 @@
     .prts-recent-activity__header {
       flex-wrap: wrap;
       gap: 0.5rem;
-    }
-
-    .prts-recent-activity__card {
-      overflow: hidden;
     }
 
     .prts-datatable-wrapper {

@@ -9,10 +9,14 @@ export const LayoutContext = React.createContext({} as LayoutContextProps);
 
 export const LayoutProvider = (props: ChildContainerProps) => {
     const [breadcrumbs, setBreadcrumbs] = useState<Breadcrumb[]>([]);
+    const [globalFilterState, setGlobalFilterState] = useState<GlobalFilterState>({
+        stateId: 'all',
+        dateRange: [new Date(2024, 4, 1), new Date(2024, 4, 20)]
+    });
     const [layoutConfig, setLayoutConfig] = useState<LayoutConfig>({
         ripple: false,
         inputStyle: 'outlined',
-        menuMode: 'static',
+        menuMode: 'slim',
         colorScheme: 'light',
         theme: 'blue',
         themeColor: "#0F8BFD",
@@ -35,17 +39,13 @@ export const LayoutProvider = (props: ChildContainerProps) => {
         loading: true
     });
 
-    const [globalFilterState, setGlobalFilterState] = useState<GlobalFilterState>({
-        stateId: 'all',
-        dateRange: [new Date(2024, 4, 1), new Date(2024, 4, 20)]
-    });
 
     React.useEffect(() => {
         const config = localStorage.getItem('pci-layout-config');
         if (config) {
             const parsed = JSON.parse(config);
-            // Always default to light theme regardless of what was saved
-            setLayoutConfig({ ...parsed, colorScheme: 'light' });
+            // Always enforce light theme and slim sidebar mode
+            setLayoutConfig({ ...parsed, colorScheme: 'light', menuMode: 'slim' });
         }
         const state = localStorage.getItem('pci-layout-state');
         if (state) {

@@ -332,7 +332,14 @@
   border-top: 1px solid #f1f5f9;
 
   &--done {
-    opacity: 0.72;
+    // Mute only the text and status badge — NOT the action button
+    .ob-sub-item__label {
+      opacity: 0.72;
+    }
+
+    .fal-status {
+      opacity: 0.72;
+    }
   }
 }
 

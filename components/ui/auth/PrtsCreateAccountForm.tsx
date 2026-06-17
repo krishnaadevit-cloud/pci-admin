@@ -162,7 +162,7 @@ export default function PrtsCreateAccountForm() {
       saveOtpFlowData({
         userId: response?.data?.userId ?? "",
         type: response?.type ?? "REGISTER",
-        otpExpiresAt: String(Date.now() + 180 * 1000),
+        otpExpiresAt: String(Date.now() + 60 * 1000),
       });
 
       setPending({
@@ -212,7 +212,7 @@ export default function PrtsCreateAccountForm() {
 
   return (
     <>
-      <Toast ref={toast} position="top-right" />
+      <Toast ref={toast} position="top-right" appendTo={document.body} />
       <article className="prts-auth-card">
         <header className="prts-auth-card__header">
           <span className="prts-auth-card__icon" aria-hidden>
@@ -223,7 +223,7 @@ export default function PrtsCreateAccountForm() {
               height={24}
             />
           </span>
-          <h1>Create an account</h1>
+          <h1 className="m-0">Create an account</h1>
         </header>
 
         <form className="prts-auth-form" onSubmit={onSubmit} noValidate>
@@ -239,7 +239,7 @@ export default function PrtsCreateAccountForm() {
                   checked={registered === "yes"}
                   onChange={() => {
                     setRegistered("yes");
-                    update("isPharmacistRegistered", "yes");
+                    setDraft((prev) => ({ ...prev, isPharmacistRegistered: "yes", fullName: "" }));
                     setFieldErrors({});
                     setHasBhsNo("no");
                     setBhsNumber("");
@@ -258,7 +258,7 @@ export default function PrtsCreateAccountForm() {
                   checked={registered === "no"}
                   onChange={() => {
                     setRegistered("no");
-                    update("isPharmacistRegistered", "no");
+                    setDraft((prev) => ({ ...prev, isPharmacistRegistered: "no", fullName: "" }));
                     setFieldErrors({});
                   }}
                 />

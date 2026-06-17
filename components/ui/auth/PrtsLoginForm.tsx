@@ -46,7 +46,6 @@ export default function PrtsLoginForm() {
   };
 
   const handleContinue = async (e: React.FormEvent) => {
-    console.log("handleContinue called");
     e.preventDefault();
     if (!validate()) return;
 
@@ -72,7 +71,7 @@ export default function PrtsLoginForm() {
       saveOtpFlowData({
         userId: response?.data?.userId ?? "",
         type:   response?.type ?? "LOGIN",
-        otpExpiresAt: String(Date.now() + (response?.expiresInSeconds ?? 180) * 1000),
+        otpExpiresAt: String(Date.now() + (response?.expiresInSeconds ?? 60) * 1000),
       });
 
       setPending({
@@ -112,7 +111,7 @@ export default function PrtsLoginForm() {
 
   return (
     <>
-      <Toast ref={toast} position="top-right" />
+      <Toast ref={toast} position="top-right" appendTo={document.body}/>
       <article className="prts-auth-card">
       <header className="prts-auth-card__header2">
         <span className="prts-auth-card__icon" aria-hidden>

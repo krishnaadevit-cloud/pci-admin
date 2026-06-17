@@ -3,6 +3,10 @@ import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { fetchDashboard } from "@/services/dashboardService";
 import { fetchPreview } from "@/services/previewService";
 import { fetchBoards, fetchHospitals } from "@/services/educationService";
+import { fetchApplicationList } from "@/services/applicationListService";
+import { fetchFeePaymentList } from "@/services/feePaymentService";
+import { fetchCertificateList } from "@/services/certificateListService";
+import { fetchSmartCard } from "@/services/smartCardService";
 
 export const fetchDashboardData = createAsyncThunk(
   "freshRegistration/fetchDashboard",
@@ -12,6 +16,26 @@ export const fetchDashboardData = createAsyncThunk(
 export const fetchApplicationPreview = createAsyncThunk(
   "freshRegistration/fetchPreview",
   async (appUuid: string) => fetchPreview(appUuid),
+);
+
+export const fetchApplicationListData = createAsyncThunk(
+  "freshRegistration/fetchApplicationList",
+  async () => fetchApplicationList(),
+);
+
+export const fetchFeePaymentListData = createAsyncThunk(
+  "freshRegistration/fetchFeePaymentList",
+  async () => fetchFeePaymentList(),
+);
+
+export const fetchCertificateListData = createAsyncThunk(
+  "freshRegistration/fetchCertificateList",
+  async () => fetchCertificateList(),
+);
+
+export const fetchSmartCardData = createAsyncThunk(
+  "freshRegistration/fetchSmartCard",
+  async () => fetchSmartCard(),
 );
 
 export const fetchBoardOptions = createAsyncThunk(
@@ -38,6 +62,14 @@ export interface FreshRegistrationState {
   boardsLoading: boolean;
   hospitalOptions: { label: string; value: string }[];
   hospitalsLoading: boolean;
+  applicationList: any[];
+  applicationListLoading: boolean;
+  feePaymentList: any[];
+  feePaymentListLoading: boolean;
+  certificateList: any[];
+  certificateListLoading: boolean;
+  smartCardData: any | null;
+  smartCardLoading: boolean;
 }
 
 const initialState: FreshRegistrationState = {
@@ -52,6 +84,14 @@ const initialState: FreshRegistrationState = {
   boardsLoading: false,
   hospitalOptions: [],
   hospitalsLoading: false,
+  applicationList: [],
+  applicationListLoading: false,
+  feePaymentList: [],
+  feePaymentListLoading: false,
+  certificateList: [],
+  certificateListLoading: false,
+  smartCardData: null,
+  smartCardLoading: false,
 };
 
 const freshRegistrationSlice = createSlice({
@@ -200,6 +240,12 @@ const freshRegistrationSlice = createSlice({
     setApplicationId: (state, action: PayloadAction<string>) => {
       state.registration.applicationId = action.payload;
     },
+
+    patchDashboardData: (state, action: PayloadAction<Record<string, any>>) => {
+      if (state.dashboardData) {
+        state.dashboardData = { ...state.dashboardData, ...action.payload };
+      }
+    },
   },
 
   extraReducers: (builder) => {
@@ -214,7 +260,7 @@ const freshRegistrationSlice = createSlice({
 
         const data = action.payload;
         // Only pre-fill when the API confirms an existing application
-        if (!data?.fresh_app_status || !data?.fresh_app_details) return;
+        if (!data?.application_status?.fresh_status || !data?.fresh_app_details) return;
 
         const details = data?.fresh_app_details;
 
@@ -237,11 +283,19 @@ const freshRegistrationSlice = createSlice({
         const pd = details?.personalDetails;
         if (pd) {
           state.registration.applicationId = pd.uuid ?? "";
+          const surname    = pd.surname    ?? "";
+          const firstName  = pd.firstName  ?? "";
+          const middleName = pd.middleName ?? "";
+          const fullName   =
+            pd.full_name ?? pd.fullName ??
+            [surname, firstName, middleName].filter(Boolean).join(" ") ?? "";
+
           state.registration.personal = {
             ...state.registration.personal,
-            surname:         pd.surname             ?? "",
-            firstName:       pd.firstName           ?? "",
-            middleName:      pd.middleName          ?? "",
+            fullName,
+            surname,
+            firstName,
+            middleName,
             email:           pd.email               ?? "",
             gender:          pd.gender              ?? "",
             dob:             pd.birthDate           ?? "",
@@ -557,6 +611,86 @@ const freshRegistrationSlice = createSlice({
       })
       .addCase(fetchHospitalOptions.rejected, (state) => {
         state.hospitalsLoading = false;
+      })
+
+      // ── Application List ─────────────────────────────────────────────────
+      .addCase(fetchApplicationListData.pending, (state) => {
+        state.applicationListLoading = true;
+      })
+      .addCase(fetchApplicationListData.fulfilled, (state, action) => {
+        state.applicationListLoading = false;
+        const payload = action.payload;
+        // Normalise: API may return array, or { data: [] }, or { list: [] }
+        if (Array.isArray(payload)) {
+          state.applicationList = payload;
+        } else if (Array.isArray(payload?.data)) {
+          state.applicationList = payload.data;
+        } else if (Array.isArray(payload?.list)) {
+          state.applicationList = payload.list;
+        } else {
+          state.applicationList = [];
+        }
+      })
+      .addCase(fetchApplicationListData.rejected, (state) => {
+        state.applicationListLoading = false;
+        state.applicationList = [];
+      })
+
+      // ── Fee Payment List ─────────────────────────────────────────────────
+      .addCase(fetchFeePaymentListData.pending, (state) => {
+        state.feePaymentListLoading = true;
+      })
+      .addCase(fetchFeePaymentListData.fulfilled, (state, action) => {
+        state.feePaymentListLoading = false;
+        const payload = action.payload;
+        if (Array.isArray(payload)) {
+          state.feePaymentList = payload;
+        } else if (Array.isArray(payload?.data)) {
+          state.feePaymentList = payload.data;
+        } else if (Array.isArray(payload?.list)) {
+          state.feePaymentList = payload.list;
+        } else {
+          state.feePaymentList = [];
+        }
+      })
+      .addCase(fetchFeePaymentListData.rejected, (state) => {
+        state.feePaymentListLoading = false;
+        state.feePaymentList = [];
+      })
+
+      // ── Certificate List ─────────────────────────────────────────────────
+      .addCase(fetchCertificateListData.pending, (state) => {
+        state.certificateListLoading = true;
+      })
+      .addCase(fetchCertificateListData.fulfilled, (state, action) => {
+        state.certificateListLoading = false;
+        const payload = action.payload;
+        if (Array.isArray(payload)) {
+          state.certificateList = payload;
+        } else if (Array.isArray(payload?.data)) {
+          state.certificateList = payload.data;
+        } else if (Array.isArray(payload?.list)) {
+          state.certificateList = payload.list;
+        } else {
+          state.certificateList = [];
+        }
+      })
+      .addCase(fetchCertificateListData.rejected, (state) => {
+        state.certificateListLoading = false;
+        state.certificateList = [];
+      })
+
+      // ── Smart Card ───────────────────────────────────────────────────────
+      .addCase(fetchSmartCardData.pending, (state) => {
+        state.smartCardLoading = true;
+      })
+      .addCase(fetchSmartCardData.fulfilled, (state, action) => {
+        state.smartCardLoading = false;
+        state.smartCardData = action.payload ?? null;
+      })
+      .addCase(fetchSmartCardData.rejected, (state) => {
+        state.smartCardLoading = false;
+        state.smartCardData = null;
       });
   },
 });
@@ -583,6 +717,9 @@ export const {
   setLoading,
   setError,
   setApplicationId,
+  patchDashboardData,
 } = freshRegistrationSlice.actions;
+
+export { fetchApplicationListData, fetchFeePaymentListData, fetchCertificateListData, fetchSmartCardData };
 
 export default freshRegistrationSlice.reducer;

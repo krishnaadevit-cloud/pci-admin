@@ -1,5 +1,5 @@
 export { default as freshRegistrationReducer } from "./freshRegistrationSlice";
-export { fetchDashboardData, fetchApplicationPreview, fetchBoardOptions, fetchHospitalOptions } from "./freshRegistrationSlice";
+export { fetchDashboardData, fetchApplicationPreview, fetchBoardOptions, fetchHospitalOptions, fetchApplicationListData, fetchFeePaymentListData, fetchCertificateListData, fetchSmartCardData } from "./freshRegistrationSlice";
 export { submitRenewalApplication, fetchApplicationTypesData, setRenewalPeriod, setEmploymentDetails, setApplicationUuid, resetOtherApplicationState } from "./otherApplicationSlice";
 export {
   updatePersonal,
@@ -23,6 +23,7 @@ export {
   setLoading,
   setError,
   setApplicationId,
+  patchDashboardData,
 } from "./freshRegistrationSlice";
 
 export {
@@ -42,6 +43,14 @@ export {
   selectBoardsLoading,
   selectHospitalOptions,
   selectHospitalsLoading,
+  selectApplicationList,
+  selectApplicationListLoading,
+  selectFeePaymentList,
+  selectFeePaymentListLoading,
+  selectCertificateList,
+  selectCertificateListLoading,
+  selectSmartCardData,
+  selectSmartCardLoading,
 } from "../selectors/freshRegistrationSelectors";
 
 export {

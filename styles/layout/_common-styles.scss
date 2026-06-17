@@ -53,6 +53,7 @@
 .p-inputtext:enabled:not(.p-dropdown-label):not(.p-multiselect-label),
 .p-inputtextarea:enabled {
   background: var(--color-surface) !important;
+  color: var(--color-text) !important;
   border: 1px solid var(--color-input-border) !important;
   box-shadow: none !important;
 
@@ -115,7 +116,8 @@
 .p-dropdown:not(.p-disabled) .p-inputtext:enabled,
 .p-multiselect:not(.p-disabled) .p-inputtext:enabled,
 .p-treeselect:not(.p-disabled) .p-inputtext:enabled,
-.p-cascadeselect:not(.p-disabled) .p-inputtext:enabled {
+.p-cascadeselect:not(.p-disabled) .p-inputtext:enabled,
+.p-calendar:not(.p-disabled) .p-inputtext:enabled {
   border: none !important;
   box-shadow: none !important;
   background: transparent !important;
@@ -124,11 +126,53 @@
 
 .p-calendar {
   width: 100%;
+  background: var(--color-surface) !important;
+  border: 1px solid var(--color-input-border) !important;
+  border-radius: var(--radius-sm) !important;
+  overflow: hidden;
+
+  &:not(.p-disabled):hover {
+    border-color: var(--color-input-border-hover) !important;
+  }
+
+  &:not(.p-disabled).p-focus,
+  &:not(.p-disabled).p-inputwrapper-focus {
+    border-color: var(--color-primary) !important;
+    box-shadow: 0 0 0 3px var(--color-primary-light) !important;
+    outline: none !important;
+  }
 
   .p-inputtext {
     color: var(--color-text) !important;
-    background: var(--color-surface) !important;
-    border: 1px solid var(--color-input-border) !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+    &:enabled:hover,
+    &:enabled:focus {
+      border: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  // Icon trigger button — matches the light-themed input
+  .p-datepicker-trigger {
+    background: transparent !important;
+    color: var(--color-text-muted) !important;
+    border: none !important;
+    border-left: 1px solid var(--color-input-border) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+    &:not(:disabled):hover {
+      background: var(--color-bg) !important;
+      color: var(--color-text) !important;
+    }
+
+    &:focus {
+      box-shadow: none !important;
+    }
   }
 }
 

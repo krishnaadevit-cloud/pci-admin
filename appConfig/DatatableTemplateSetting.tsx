@@ -31,8 +31,7 @@ export const nameTemplate = (rowData: any, canView: boolean) => {
 
                 <div className="hc-employee-info">
                     <div className="hc-employee-name">
-                        {capitalizeFirstLetter(rowData?.first_name)}{' '}
-                        {capitalizeFirstLetter(rowData?.last_name)}
+                        {capitalizeFirstLetter(rowData?.full_name)}
                     </div>
 
                     {/* Email */}
@@ -79,7 +78,7 @@ export const nameLeaveListTemplate = (rowData: any) => {
 
                 <div className="hc-employee-info">
                     <div className="hc-employee-name">
-                        {rowData?.employee?.first_name} {rowData?.employee?.last_name}
+                        {rowData?.employee?.full_name}
                     </div>
 
                     {/* Email */}
@@ -126,8 +125,7 @@ export const employeeNameTemplate = (rowData: any) => {
             </div>
             <div className="hc-employee-info">
                 <div className="hc-employee-name">
-                    {capitalizeFirstLetter(employee?.first_name)}{' '}
-                    {capitalizeFirstLetter(employee?.last_name)}
+                    {capitalizeFirstLetter(employee?.full_name)}
                 </div>
                 {employee?.email && (
                     <div className="hc-employee-contact">
@@ -172,7 +170,7 @@ export const myLeaveEmployeeTemplate = (rowData: any) => {
 
             <div className="hc-employee-info">
                 <div className="hc-employee-name">
-                    {capitalizeFirstLetter(employee?.first_name)}{' '} {capitalizeFirstLetter(employee?.last_name)}
+                    {capitalizeFirstLetter(employee?.full_name)}
                 </div>
                 {employee?.email && (
                     <div className="hc-employee-contact">

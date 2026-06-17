@@ -37,8 +37,8 @@ export function GET() {
       subItems: [
         { key: 'documents', label: 'Documents — at least one record', completed: false, fixRoute: '/office-portal/master/documents/list' },
         { key: 'app_documents', label: 'Application Documents — every application type has at least one document', completed: false, fixRoute: '/office-portal/master/application-document-master/list' },
-        { key: 'hospital', label: 'Hospital — at least one record', completed: false, fixRoute: '/office-portal/master/hospital-application/list' },
-        { key: 'board', label: 'Board — at least one record', completed: false, fixRoute: '/office-portal/master/board-application/list' },
+        { key: 'hospitals', label: 'Hospital — at least one record', completed: false, fixRoute: '/office-portal/master/hospital-application/list' },
+        { key: 'boards', label: 'Board — at least one record', completed: false, fixRoute: '/office-portal/master/board-application/list' },
       ],
     },
     {

@@ -148,7 +148,7 @@ export const SCRUTINY_FRESH_APPLICATIONS_DATATABLE_SETTING = [
   { field: "qualification", header: "Registrable Qualification"},
   { field: "instituteCode", header: "Institute Code"          },
   { field: "collegeName",    header: "College Name"  },
-  { field: "verifiedByName", header: "Verified By"  },
+  { field: "verifiedByName", header: "Revied By"  },
   { field: "action",         header: "Action"        },
 ];
 
@@ -280,4 +280,19 @@ export const RENEWAL_REGISTRATION_OPTIONS = [
     { field: "paymentDate",        header: "Payment Date"         },
     { field: "status",             header: "Status"               },
     { field: "action",             header: "Action"               },
+];
+
+// Refresher Course List Columns
+export const REFRESHER_COURSE_DATATABLE_SETTING = [
+{ field: "srNo", header: "Sr No."},
+{ field: "courseName", header: "Refresher Course Name"},
+{ field: "startDate", header: "Start Date"},
+{ field: "endDate", header: "End Date"},
+{ field: "totalSlots", header: "Total Slots"},
+{ field: "bookedSlots", header: "Booked Slots"},
+{ field: "availableSlots", header: "Available Slots"},
+{ field: "bookingStatus", header: "Booking Status"},
+{ field: "publishedStatus", header: "Published Status"},
+{ field: "examStatus", header: "Exam Status"},
+{ field: "action",header: "Action"},
 ];

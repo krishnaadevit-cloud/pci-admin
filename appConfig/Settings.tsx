@@ -4,6 +4,7 @@ export const USER_BASE_URL = '/proxy/users';
 export const LOGIN_BASE_URL = '/proxy/auth';
 export const ELIGIBILITY_BASE_URL = '/proxy/eligibility';
 export const SCRUTINY_BASE_URL = '/proxy/v1/scrutiny';
+export const REFRESHER_BASE_URL = '/proxy/v1/refresher-course';
 
 // PHARMACY
 export const PHARMACY_FRESH_APPLICATION_BASE_URL = '/proxy/v1/application';

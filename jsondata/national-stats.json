@@ -1,63 +1,660 @@
 {
   "summaryCards": [
-    { "id": "states", "title": "Total States / UTs", "value": "36", "subText": "View all states", "icon": "pi pi-map", "color": "blue" },
-    { "id": "pharmacists", "title": "Total Pharmacists", "value": "18,45,221", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-    { "id": "applications", "title": "Total Applications", "value": "2,54,120", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
-    { "id": "pending", "title": "Applications Pending", "value": "85,120", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
-    { "id": "approved", "title": "Applications Approved", "value": "1,28,450", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
-    { "id": "rejected", "title": "Applications Rejected", "value": "28,450", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" }
+    {
+      "id": "states",
+      "title": "State Pharmacy Councils",
+      "value": "36",
+      "subText": "View all states",
+      "icon": "pi pi-map",
+      "color": "blue"
+    },
+    {
+      "id": "pharmacists",
+      "title": "Total Pharmacists",
+      "value": "19,908",
+      "subText": "View details",
+      "icon": "pi pi-users",
+      "color": "cyan"
+    },
+    {
+      "id": "pending",
+      "title": "Applications Pending",
+      "value": "69",
+      "subText": "View details",
+      "icon": "pi pi-clock",
+      "color": "orange"
+    },
+    {
+      "id": "approved",
+      "title": "Applications Approved",
+      "value": "72",
+      "subText": "View details",
+      "icon": "pi pi-check-circle",
+      "color": "green"
+    },
+    {
+      "id": "rejected",
+      "title": "Applications Rejected",
+      "value": "80",
+      "subText": "View details",
+      "icon": "pi pi-times-circle",
+      "color": "red"
+    }
   ],
   "applicationStatistics": [
-    { "label": "Fresh Registration", "value": 80120 },
-    { "label": "Renewal", "value": 90450 },
-    { "label": "Additional Qualification", "value": 25410 },
-    { "label": "Duplicate Certificate", "value": 12500 },
-    { "label": "Migration", "value": 10345 },
-    { "label": "NOC", "value": 18450 },
-    { "label": "Good Standing Certificate", "value": 8765 },
-    { "label": "Name Change", "value": 6800 },
-    { "label": "Address Change", "value": 4620 },
-    { "label": "Restoration", "value": 12000 },
-    { "label": "Others", "value": 13850 }
+    {
+      "label": "Fresh Registration",
+      "value": 32
+    },
+    {
+      "label": "Additional Qualification",
+      "value": 26
+    },
+    {
+      "label": "Others",
+      "value": 32
+    },
+    {
+      "label": "Migration",
+      "value": 34
+    },
+    {
+      "label": "NOC",
+      "value": 27
+    },
+    {
+      "label": "Renewal",
+      "value": 34
+    },
+    {
+      "label": "Restoration",
+      "value": 21
+    },
+    {
+      "label": "Good Standing Certificate",
+      "value": 26
+    },
+    {
+      "label": "Duplicate Certificate",
+      "value": 27
+    },
+    {
+      "label": "Address Change",
+      "value": 27
+    },
+    {
+      "label": "Name Change",
+      "value": 23
+    }
   ],
   "applicationStatusOverview": [
-    { "status": "Approved", "value": 128450, "percentage": "50.6%", "color": "#22C55E" },
-    { "status": "Pending", "value": 85120, "percentage": "33.5%", "color": "#F59E0B" },
-    { "status": "Rejected", "value": 28450, "percentage": "11.2%", "color": "#EF4444" },
-    { "status": "Returned", "value": 12100, "percentage": "4.7%", "color": "#3B82F6" }
-  ],
-  "topPerformingCouncils": [
-    { "rank": 1, "name": "Haryana State Pharmacy Council", "stateId": "haryana", "approvalRate": 92, "tat": 3.2 },
-    { "rank": 2, "name": "Maharashtra State Pharmacy Council", "stateId": "maharashtra", "approvalRate": 89, "tat": 3.8 },
-    { "rank": 3, "name": "Karnataka State Pharmacy Council", "stateId": "karnataka", "approvalRate": 87, "tat": 4.1 },
-    { "rank": 4, "name": "Gujarat State Pharmacy Council", "stateId": "gujarat", "approvalRate": 85, "tat": 4.3 },
-    { "rank": 5, "name": "Tamil Nadu State Pharmacy Council", "stateId": "tamil-nadu", "approvalRate": 83, "tat": 4.6 }
+    {
+      "status": "Approved",
+      "value": 72,
+      "percentage": "23.3%",
+      "color": "#10B981"
+    },
+    {
+      "status": "Pending",
+      "value": 69,
+      "percentage": "22.3%",
+      "color": "#F59E0B"
+    },
+    {
+      "status": "Rejected",
+      "value": 80,
+      "percentage": "25.9%",
+      "color": "#EF4444"
+    },
+    {
+      "status": "Returned",
+      "value": 88,
+      "percentage": "28.5%",
+      "color": "#3B82F6"
+    }
   ],
   "statewiseApplicationSummary": [
-    { "stateId": "uttar-pradesh", "stateName": "Uttar Pradesh", "total": 30100, "pending": 6450, "approved": 20400, "rejected": 1500, "returned": 1750 },
-    { "stateId": "maharashtra", "stateName": "Maharashtra", "total": 23450, "pending": 3120, "approved": 17200, "rejected": 1180, "returned": 1950 },
-    { "stateId": "bihar", "stateName": "Bihar", "total": 18000, "pending": 4250, "approved": 12300, "rejected": 840, "returned": 610 },
-    { "stateId": "rajasthan", "stateName": "Rajasthan", "total": 16200, "pending": 2150, "approved": 12800, "rejected": 680, "returned": 570 },
-    { "stateId": "madhya-pradesh", "stateName": "Madhya Pradesh", "total": 14250, "pending": 1980, "approved": 11650, "rejected": 520, "returned": 460 },
-    { "stateId": "haryana", "stateName": "Haryana", "total": 12450, "pending": 1240, "approved": 8450, "rejected": 520, "returned": 240 },
-    { "stateId": "gujarat", "stateName": "Gujarat", "total": 11300, "pending": 900, "approved": 7700, "rejected": 420, "returned": 300 }
+    {
+      "stateId": "haryana",
+      "stateName": "Haryana",
+      "total": 18,
+      "pending": 2,
+      "approved": 7,
+      "rejected": 5,
+      "returned": 4
+    },
+    {
+      "stateId": "uttar-pradesh",
+      "stateName": "Uttar Pradesh",
+      "total": 15,
+      "pending": 3,
+      "approved": 6,
+      "rejected": 4,
+      "returned": 2
+    },
+    {
+      "stateId": "maharashtra",
+      "stateName": "Maharashtra",
+      "total": 14,
+      "pending": 3,
+      "approved": 1,
+      "rejected": 4,
+      "returned": 6
+    },
+    {
+      "stateId": "andaman-nicobar",
+      "stateName": "Andaman and Nicobar Islands",
+      "total": 10,
+      "pending": 3,
+      "approved": 3,
+      "rejected": 2,
+      "returned": 2
+    },
+    {
+      "stateId": "karnataka",
+      "stateName": "Karnataka",
+      "total": 10,
+      "pending": 2,
+      "approved": 3,
+      "rejected": 4,
+      "returned": 1
+    },
+    {
+      "stateId": "manipur",
+      "stateName": "Manipur",
+      "total": 10,
+      "pending": 1,
+      "approved": 1,
+      "rejected": 2,
+      "returned": 6
+    },
+    {
+      "stateId": "meghalaya",
+      "stateName": "Meghalaya",
+      "total": 10,
+      "pending": 0,
+      "approved": 4,
+      "rejected": 3,
+      "returned": 3
+    },
+    {
+      "stateId": "rajasthan",
+      "stateName": "Rajasthan",
+      "total": 10,
+      "pending": 3,
+      "approved": 2,
+      "rejected": 2,
+      "returned": 3
+    },
+    {
+      "stateId": "telangana",
+      "stateName": "Telangana",
+      "total": 10,
+      "pending": 2,
+      "approved": 4,
+      "rejected": 1,
+      "returned": 3
+    },
+    {
+      "stateId": "andhra-pradesh",
+      "stateName": "Andhra Pradesh",
+      "total": 9,
+      "pending": 0,
+      "approved": 0,
+      "rejected": 3,
+      "returned": 6
+    },
+    {
+      "stateId": "bihar",
+      "stateName": "Bihar",
+      "total": 9,
+      "pending": 2,
+      "approved": 2,
+      "rejected": 1,
+      "returned": 4
+    },
+    {
+      "stateId": "lakshadweep",
+      "stateName": "Lakshadweep",
+      "total": 9,
+      "pending": 1,
+      "approved": 1,
+      "rejected": 4,
+      "returned": 3
+    },
+    {
+      "stateId": "tripura",
+      "stateName": "Tripura",
+      "total": 9,
+      "pending": 4,
+      "approved": 1,
+      "rejected": 2,
+      "returned": 2
+    },
+    {
+      "stateId": "chandigarh",
+      "stateName": "Chandigarh",
+      "total": 8,
+      "pending": 1,
+      "approved": 4,
+      "rejected": 0,
+      "returned": 3
+    },
+    {
+      "stateId": "dadra-nagar-haveli-daman-diu",
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "total": 8,
+      "pending": 3,
+      "approved": 3,
+      "rejected": 1,
+      "returned": 1
+    },
+    {
+      "stateId": "delhi",
+      "stateName": "Delhi",
+      "total": 8,
+      "pending": 3,
+      "approved": 1,
+      "rejected": 4,
+      "returned": 0
+    },
+    {
+      "stateId": "goa",
+      "stateName": "Goa",
+      "total": 8,
+      "pending": 2,
+      "approved": 1,
+      "rejected": 2,
+      "returned": 3
+    },
+    {
+      "stateId": "himachal-pradesh",
+      "stateName": "Himachal Pradesh",
+      "total": 8,
+      "pending": 3,
+      "approved": 0,
+      "rejected": 2,
+      "returned": 3
+    },
+    {
+      "stateId": "jammu-kashmir",
+      "stateName": "Jammu and Kashmir",
+      "total": 8,
+      "pending": 0,
+      "approved": 2,
+      "rejected": 1,
+      "returned": 5
+    },
+    {
+      "stateId": "jharkhand",
+      "stateName": "Jharkhand",
+      "total": 8,
+      "pending": 1,
+      "approved": 2,
+      "rejected": 5,
+      "returned": 0
+    },
+    {
+      "stateId": "mizoram",
+      "stateName": "Mizoram",
+      "total": 8,
+      "pending": 3,
+      "approved": 2,
+      "rejected": 0,
+      "returned": 3
+    },
+    {
+      "stateId": "puducherry",
+      "stateName": "Puducherry",
+      "total": 8,
+      "pending": 1,
+      "approved": 3,
+      "rejected": 1,
+      "returned": 3
+    },
+    {
+      "stateId": "tamil-nadu",
+      "stateName": "Tamil Nadu",
+      "total": 8,
+      "pending": 2,
+      "approved": 3,
+      "rejected": 2,
+      "returned": 1
+    },
+    {
+      "stateId": "uttarakhand",
+      "stateName": "Uttarakhand",
+      "total": 8,
+      "pending": 1,
+      "approved": 2,
+      "rejected": 4,
+      "returned": 1
+    },
+    {
+      "stateId": "arunachal-pradesh",
+      "stateName": "Arunachal Pradesh",
+      "total": 7,
+      "pending": 3,
+      "approved": 1,
+      "rejected": 2,
+      "returned": 1
+    },
+    {
+      "stateId": "chhattisgarh",
+      "stateName": "Chhattisgarh",
+      "total": 7,
+      "pending": 1,
+      "approved": 3,
+      "rejected": 1,
+      "returned": 2
+    },
+    {
+      "stateId": "kerala",
+      "stateName": "Kerala",
+      "total": 7,
+      "pending": 2,
+      "approved": 4,
+      "rejected": 1,
+      "returned": 0
+    },
+    {
+      "stateId": "madhya-pradesh",
+      "stateName": "Madhya Pradesh",
+      "total": 7,
+      "pending": 1,
+      "approved": 2,
+      "rejected": 2,
+      "returned": 2
+    },
+    {
+      "stateId": "punjab",
+      "stateName": "Punjab",
+      "total": 7,
+      "pending": 4,
+      "approved": 0,
+      "rejected": 1,
+      "returned": 2
+    },
+    {
+      "stateId": "sikkim",
+      "stateName": "Sikkim",
+      "total": 7,
+      "pending": 0,
+      "approved": 0,
+      "rejected": 2,
+      "returned": 5
+    },
+    {
+      "stateId": "assam",
+      "stateName": "Assam",
+      "total": 6,
+      "pending": 1,
+      "approved": 1,
+      "rejected": 1,
+      "returned": 3
+    },
+    {
+      "stateId": "gujarat",
+      "stateName": "Gujarat",
+      "total": 6,
+      "pending": 3,
+      "approved": 0,
+      "rejected": 3,
+      "returned": 0
+    },
+    {
+      "stateId": "ladakh",
+      "stateName": "Ladakh",
+      "total": 6,
+      "pending": 3,
+      "approved": 2,
+      "rejected": 0,
+      "returned": 1
+    },
+    {
+      "stateId": "nagaland",
+      "stateName": "Nagaland",
+      "total": 6,
+      "pending": 2,
+      "approved": 1,
+      "rejected": 2,
+      "returned": 1
+    },
+    {
+      "stateId": "odisha",
+      "stateName": "Odisha",
+      "total": 6,
+      "pending": 1,
+      "approved": 0,
+      "rejected": 2,
+      "returned": 3
+    },
+    {
+      "stateId": "west-bengal",
+      "stateName": "West Bengal",
+      "total": 6,
+      "pending": 2,
+      "approved": 0,
+      "rejected": 4,
+      "returned": 0
+    }
   ],
-  "criticalAlerts": [
-    { "id": "alert-1", "title": "States with pending > 30 days", "count": 8, "severity": "high" },
-    { "id": "alert-2", "title": "States with pending > 15 days", "count": 12, "severity": "medium" },
-    { "id": "alert-3", "title": "High rejection rate (> 20%)", "count": 5, "severity": "medium" },
-    { "id": "alert-4", "title": "Applications pending for scrutiny", "count": 18450, "severity": "info" },
-    { "id": "alert-5", "title": "Returned applications pending", "count": 7250, "severity": "info" }
-  ],
-  "statewisePharmacistsDistribution": [
-    { "stateId": "maharashtra", "stateName": "Maharashtra", "count": 250000, "range": "> 2,00,000" },
-    { "stateId": "uttar-pradesh", "stateName": "Uttar Pradesh", "count": 280000, "range": "> 2,00,000" },
-    { "stateId": "gujarat", "stateName": "Gujarat", "count": 120000, "range": "1,00,000 - 2,00,000" },
-    { "stateId": "tamil-nadu", "stateName": "Tamil Nadu", "count": 140000, "range": "1,00,000 - 2,00,000" },
-    { "stateId": "karnataka", "stateName": "Karnataka", "count": 115000, "range": "1,00,000 - 2,00,000" },
-    { "stateId": "kerala", "stateName": "Kerala", "count": 95000, "range": "50,000 - 1,00,000" },
-    { "stateId": "rajasthan", "stateName": "Rajasthan", "count": 85000, "range": "50,000 - 1,00,000" },
-    { "stateId": "haryana", "stateName": "Haryana", "count": 125430, "range": "1,00,000 - 2,00,000" },
-    { "stateId": "bihar", "stateName": "Bihar", "count": 110000, "range": "1,00,000 - 2,00,000" }
+ "statewisePharmacistsDistribution": [
+    {
+      "stateId": "uttar-pradesh",
+      "stateName": "Uttar Pradesh",
+      "count": 24500,
+      "range": "> 2L"
+    },
+    {
+      "stateId": "maharashtra",
+      "stateName": "Maharashtra",
+      "count": 210000,
+      "range": "> 2L"
+    },
+    {
+      "stateId": "rajasthan",
+      "stateName": "Rajasthan",
+      "count": 175000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "karnataka",
+      "stateName": "Karnataka",
+      "count": 155000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "gujarat",
+      "stateName": "Gujarat",
+      "count": 142000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "tamil-nadu",
+      "stateName": "Tamil Nadu",
+      "count": 138000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "west-bengal",
+      "stateName": "West Bengal",
+      "count": 125000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "andhra-pradesh",
+      "stateName": "Andhra Pradesh",
+      "count": 112000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "madhya-pradesh",
+      "stateName": "Madhya Pradesh",
+      "count": 108000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "telangana",
+      "stateName": "Telangana",
+      "count": 102000,
+      "range": "1L - 2L"
+    },
+    {
+      "stateId": "haryana",
+      "stateName": "Haryana",
+      "count": 88000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "kerala",
+      "stateName": "Kerala",
+      "count": 82000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "punjab",
+      "stateName": "Punjab",
+      "count": 74000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "bihar",
+      "stateName": "Bihar",
+      "count": 68000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "odisha",
+      "stateName": "Odisha",
+      "count": 61000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "chhattisgarh",
+      "stateName": "Chhattisgarh",
+      "count": 54000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "delhi",
+      "stateName": "Delhi",
+      "count": 720000,
+      "range": "50k - 1L"
+    },
+    {
+      "stateId": "uttarakhand",
+      "stateName": "Uttarakhand",
+      "count": 38000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "jharkhand",
+      "stateName": "Jharkhand",
+      "count": 34000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "assam",
+      "stateName": "Assam",
+      "count": 29000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "himachal-pradesh",
+      "stateName": "Himachal Pradesh",
+      "count": 22000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "jammu-kashmir",
+      "stateName": "Jammu and Kashmir",
+      "count": 18000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "chandigarh",
+      "stateName": "Chandigarh",
+      "count": 14000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "goa",
+      "stateName": "Goa",
+      "count": 12000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "puducherry",
+      "stateName": "Puducherry",
+      "count": 11000,
+      "range": "10k - 50k"
+    },
+    {
+      "stateId": "tripura",
+      "stateName": "Tripura",
+      "count": 8500,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "manipur",
+      "stateName": "Manipur",
+      "count": 7200,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "meghalaya",
+      "stateName": "Meghalaya",
+      "count": 6800,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "nagaland",
+      "stateName": "Nagaland",
+      "count": 5400,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "arunachal-pradesh",
+      "stateName": "Arunachal Pradesh",
+      "count": 4900,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "mizoram",
+      "stateName": "Mizoram",
+      "count": 4200,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "sikkim",
+      "stateName": "Sikkim",
+      "count": 3100,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "dadra-nagar-haveli-daman-diu",
+      "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+      "count": 2800,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "ladakh",
+      "stateName": "Ladakh",
+      "count": 2100,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "andaman-nicobar",
+      "stateName": "Andaman and Nicobar Islands",
+      "count": 1800,
+      "range": "< 10k"
+    },
+    {
+      "stateId": "lakshadweep",
+      "stateName": "Lakshadweep",
+      "count": 650,
+      "range": "< 10k"
+    }
   ]
 }

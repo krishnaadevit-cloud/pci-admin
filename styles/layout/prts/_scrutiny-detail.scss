@@ -819,6 +819,122 @@
   }
 }
 
+// ─── Timeline History ─────────────────────────────────────────────────────────
+
+.sc-timeline {
+  margin-top: 16px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 20px;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #334155;
+
+    i { font-size: 0.85rem; color: #64748b; }
+  }
+
+  &__list {
+    padding: 8px 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  &__item {
+    display: flex;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px dashed #e2e8f0;
+    position: relative;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  &__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3d5fa0;
+    border: 2px solid #bfdbfe;
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    &--meta {
+      span {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 0.75rem;
+        color: #64748b;
+
+        i { font-size: 0.68rem; }
+      }
+    }
+  }
+
+  &__step {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #334155;
+    background: #f1f5f9;
+    padding: 2px 10px;
+    border-radius: 999px;
+  }
+
+  &__action {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 999px;
+    text-transform: uppercase;
+
+    &--approved {
+      background: #dcfce7;
+      color: #15803d;
+    }
+
+    &--rejected {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    &--pending {
+      background: #fef9c3;
+      color: #854d0e;
+    }
+  }
+
+  &__remarks {
+    font-size: 0.78rem;
+    color: #475569;
+    margin: 0;
+    font-style: italic;
+  }
+}
+
 // ─── Navigation Bar ───────────────────────────────────────────────────────────
 
 .sc-nav-bar {

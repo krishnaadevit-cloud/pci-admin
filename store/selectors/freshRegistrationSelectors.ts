@@ -268,6 +268,30 @@ export const selectHospitalOptions = (state: RootState) =>
 export const selectHospitalsLoading = (state: RootState) =>
   state?.freshRegistration?.hospitalsLoading ?? false;
 
+export const selectApplicationList = (state: RootState) =>
+  state?.freshRegistration?.applicationList ?? [];
+
+export const selectApplicationListLoading = (state: RootState) =>
+  state?.freshRegistration?.applicationListLoading ?? false;
+
+export const selectFeePaymentList = (state: RootState) =>
+  state?.freshRegistration?.feePaymentList ?? [];
+
+export const selectFeePaymentListLoading = (state: RootState) =>
+  state?.freshRegistration?.feePaymentListLoading ?? false;
+
+export const selectCertificateList = (state: RootState) =>
+  state?.freshRegistration?.certificateList ?? [];
+
+export const selectCertificateListLoading = (state: RootState) =>
+  state?.freshRegistration?.certificateListLoading ?? false;
+
+export const selectSmartCardData = (state: RootState) =>
+  state?.freshRegistration?.smartCardData ?? null;
+
+export const selectSmartCardLoading = (state: RootState) =>
+  state?.freshRegistration?.smartCardLoading ?? false;
+
 // -----------------------------
 // Computed Selectors
 // -----------------------------

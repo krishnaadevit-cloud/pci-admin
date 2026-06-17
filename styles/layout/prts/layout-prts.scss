@@ -304,15 +304,29 @@
   }
 
   &__login-link {
-    color: #0000C9;
-    background: none;
-    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #1E1E1E;
+    background: $prts-white;
+    border: 1.5px solid #1E1E1E33;
+    border-radius: $prts-radius-pill;
+    padding: 0.4rem 1.1rem;
+    white-space: nowrap;
     cursor: pointer;
+    height: 36px;
+    text-decoration: none;
 
     @include title-3;
 
+    svg {
+      flex-shrink: 0;
+    }
+
     &:hover {
-      text-decoration: underline;
+      background: #f5f5f5;
+      color: #1E1E1E;
+      text-decoration: none;
     }
   }
 
@@ -322,15 +336,20 @@
     padding: 0.5rem 1.35rem;
     border-radius: $prts-radius-pill;
     white-space: nowrap;
-    border: none;
+    border: 1.5px solid #2E29FF;
     outline: none;
-    width: 110px;
     height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     @include title-3;
 
     &:hover {
       background: $prts-primary-hover;
+      border-color: $prts-primary-hover;
+      color: $prts-white;
+      text-decoration: none;
     }
   }
 

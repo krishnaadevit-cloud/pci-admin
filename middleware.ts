@@ -12,10 +12,20 @@ import { NextRequest, NextResponse } from "next/server";
  * bypasses async rewrites, which would break the /proxy/* → devtunnel routing.
  *
  * Route guards:
- *   /office-portal/*              → requires auth_token + STATE_COUNCIL role
- *   /pharmacy/dashboard/*         → requires auth_token (any authenticated user)
- *   /pharmacy/fresh-registration/* → requires auth_token
- *   /pharmacy/login|register/*    → redirect authenticated users to their dashboard
+ *   /office-portal/*                     → requires auth_token + STATE_COUNCIL role
+ *   /pharmacy/dashboard/*                → requires auth_token (any authenticated user)
+ *   /pharmacy/fresh-registration/*       → requires auth_token
+ *   /pharmacy/renewal/*                  → requires auth_token
+ *   /pharmacy/re-entry/*                 → requires auth_token
+ *   /pharmacy/add-qualification/*        → requires auth_token
+ *   /pharmacy/change-address/*           → requires auth_token
+ *   /pharmacy/change-name/*              → requires auth_token
+ *   /pharmacy/duplicate-certificate/*    → requires auth_token
+ *   /pharmacy/good-standing-certificate/*→ requires auth_token
+ *   /pharmacy/login|register/*           → redirect authenticated users to their dashboard
+ *
+ * NOTE: application_status eligibility checks are client-side only (useDashboardGuard hook)
+ * because the status requires an API call that middleware cannot make.
  */
 
 const PHARMACY_AUTH_PATHS = [
@@ -35,6 +45,7 @@ const ONBOARDING_ALLOWED_PREFIXES = [
   "/office-portal/master/application-document-master",
   "/office-portal/master/hospital-application",
   "/office-portal/master/board-application",
+  "/office-portal/fee-structure",
   "/office-portal/role-permission/role-management",
   "/office-portal/role-permission/role-configuration",
   "/office-portal/role-permission/user-management",
@@ -71,10 +82,24 @@ export function middleware(request: NextRequest) {
     }
   }
 
+  // ── 1.5. PCI Admin: requires auth_token ───────────────────────────────────
+  if (pathname.startsWith("/pci-admin")) {
+    if (!token) {
+      return NextResponse.redirect(new URL("/pharmacy/login", request.url));
+    }
+  }
+
   // ── 2. Pharmacy protected pages: require any authenticated user ───────────
   if (
     pathname.startsWith("/pharmacy/dashboard") ||
-    pathname.startsWith("/pharmacy/fresh-registration")
+    pathname.startsWith("/pharmacy/fresh-registration") ||
+    pathname.startsWith("/pharmacy/renewal") ||
+    pathname.startsWith("/pharmacy/re-entry") ||
+    pathname.startsWith("/pharmacy/add-qualification") ||
+    pathname.startsWith("/pharmacy/change-address") ||
+    pathname.startsWith("/pharmacy/change-name") ||
+    pathname.startsWith("/pharmacy/duplicate-certificate") ||
+    pathname.startsWith("/pharmacy/good-standing-certificate")
   ) {
     if (!token) {
       return NextResponse.redirect(new URL("/pharmacy/login", request.url));
@@ -106,8 +131,16 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/office-portal/:path*",
+    "/pci-admin/:path*",
     "/pharmacy/dashboard/:path*",
     "/pharmacy/fresh-registration/:path*",
+    "/pharmacy/renewal/:path*",
+    "/pharmacy/re-entry/:path*",
+    "/pharmacy/add-qualification/:path*",
+    "/pharmacy/change-address/:path*",
+    "/pharmacy/change-name/:path*",
+    "/pharmacy/duplicate-certificate/:path*",
+    "/pharmacy/good-standing-certificate/:path*",
     "/pharmacy/login/:path*",
     "/pharmacy/register/:path*",
   ],

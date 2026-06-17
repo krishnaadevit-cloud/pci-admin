@@ -1,0 +1,1161 @@
+.page {
+  padding: 0;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.headerBreadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.headerBlock {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 24px;
+  background: #ffffff;
+}
+
+.headerTitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.headerMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.metaSep {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.headerTag {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.paymentStatus {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.paymentLabel {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.paymentValue {
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #059669;
+}
+
+.actionCard {
+  margin: 0 24px 24px;
+  border: 1px solid #f59e0b;
+  background: #fffbeb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.actionCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: #fef3c7;
+  border-bottom: 1px solid #fcd34d;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #92400e;
+}
+
+.actionCardHeader i {
+  font-size: 1rem;
+}
+
+.actionCardBody {
+  padding: 16px 18px;
+  display: grid;
+  gap: 12px;
+}
+
+.actionRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+}
+
+.actionLabel {
+  color: #7c2d12;
+  font-weight: 600;
+}
+
+.actionValue {
+  color: #92400e;
+  font-weight: 600;
+}
+
+.daysLeft {
+  font-size: 12px;
+  color: #ea580c;
+  margin-left: 6px;
+}
+
+.actionFooter {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #fcd34d;
+}
+
+.detailCard {
+  margin: 24px 0px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.overviewGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.overviewLeft {
+  display: grid;
+  gap: 0;
+}
+
+.matrixDocGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.bottomGrid {
+  display: grid;
+  gap: 0;
+  margin-top: 24px;
+}
+
+.marginSpacer {
+  height: 32px;
+}
+
+.docsWrapper {
+  display: grid;
+  gap: 0;
+}
+
+.docsGridFull {
+  display: grid;
+  gap: 16px;
+}
+
+.tabContent {
+  padding: 16px 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.fieldLabel {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #4b5563;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.fieldValue {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.fieldRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.fieldRow[data-cols="2"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.fieldRow[data-cols="3"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.fieldRow[data-cols=full] {
+  grid-template-columns: 1fr;
+}
+
+.section {
+  background: transparent;
+  padding: 20px 0 0;
+  border-top: none;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.sectionIcon {
+  font-size: 1rem;
+  color: #0b5394;
+}
+
+.sectionTitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.sectionBody {
+  padding: 0;
+}
+
+.subSection {
+  padding: 0 0 20px;
+}
+
+.subSectionTitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #0b5394;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 14px;
+}
+
+.docCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.docCardLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+}
+
+.docIcon {
+  font-size: 1.2rem;
+  color: #dc2626;
+}
+
+.docCardName {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.docCardMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.docMetaDot {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.docCardActions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.timelineWrapper {
+  padding: 12px 0;
+}
+
+.timelineContent {
+  display: grid;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.timelineLabel {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+.timelineLabel.timelineCompleted {
+  color: #059669;
+}
+.timelineLabel.timelineCurrent {
+  color: #0b5394;
+}
+
+.timelineDate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+}
+.timelineDate i {
+  font-size: 0.8rem;
+}
+
+.timelineTag {
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.scrutinyTable {
+  border: none;
+}
+.scrutinyTable :global(.p-datatable-thead > tr > th) {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #4b5563;
+  background: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.scrutinyTable :global(.p-datatable-tbody > tr) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.scrutinyTable :global(.p-datatable-tbody > tr > td) {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #111827;
+  padding: 12px 14px;
+}
+
+.activityList {
+  display: grid;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.activityItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  padding: 14px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.activityIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2px;
+}
+.activityIcon i {
+  font-size: 0.5rem;
+  color: #0b5394;
+}
+
+.activityContent {
+  display: grid;
+  gap: 6px;
+}
+
+.activityEvent {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.activityMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.activitySep {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.paymentBlock {
+  display: grid;
+  gap: 16px;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.paymentItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.paymentItem:last-child {
+  border-bottom: none;
+}
+
+.paymentItemLabel {
+  color: #6b7280;
+}
+
+.paymentNote {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #4b5563;
+  margin-top: 8px;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.communicationBlock {
+  display: grid;
+  gap: 16px;
+}
+
+.commItem {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  display: grid;
+  gap: 10px;
+}
+
+.commLabel {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #0b5394;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.commText {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  color: #111827;
+  line-height: 1.4;
+}
+
+.commTime {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.otherAppsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px 0;
+}
+
+.otherAppCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.otherAppCard:hover {
+  border-color: #0b5394;
+  box-shadow: 0 8px 16px rgba(11, 83, 148, 0.08);
+}
+
+.otherAppHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.otherAppType {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.otherAppId {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.otherAppFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e5e7eb;
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.otherAppDate {
+  font-size: 12px;
+}
+
+.newAppCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d1d5db;
+  background: #f9fafb;
+  cursor: pointer;
+  min-height: 140px;
+  transition: all 0.2s ease;
+}
+.newAppCard:hover {
+  border-color: #0b5394;
+  background: #f0f9ff;
+}
+
+.newAppContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.newAppContent i {
+  font-size: 1.4rem;
+  color: #0b5394;
+}
+.newAppContent span {
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0b5394;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+:global(.p-tabview .p-tabview-nav li .p-tabview-nav-link) {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  border: none;
+  padding: 14px 20px;
+  border-bottom: 2px solid transparent;
+}
+
+:global(.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link) {
+  color: #0b5394;
+  border-bottom-color: #0b5394;
+}
+
+:global(.p-tabview .p-tabview-panels) {
+  background: transparent;
+  padding: 24px 0;
+}
+
+:global(.p-card) {
+  background: #ffffff;
+  color: #1a1a1a !important;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.splitLayoutContainer {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  align-items: flex-start;
+  padding: 24px;
+  background: #f8fafc;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .splitLayoutContainer {
+    flex-direction: column;
+  }
+}
+
+.leftColumn {
+  flex: 0 0 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .leftColumn {
+    width: 100%;
+    flex: 1;
+  }
+}
+
+.rightColumn {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .rightColumn {
+    width: 100%;
+  }
+}
+
+.profileCard {
+  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  border: 1px solid #bae6fd;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.profileCardLeft {
+  flex: 1;
+  z-index: 2;
+}
+
+.profileWelcome {
+  font-family: "Archivo", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0369a1 !important;
+  margin: 0 0 12px 0;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profileRow {
+  display: flex;
+  font-size: 13px;
+  font-family: "Archivo", sans-serif;
+}
+
+.profileLabel {
+  color: #0369a1;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.profileValue {
+  color: #0c4a6e;
+  font-weight: 700;
+}
+
+.profileCardRight {
+  flex: 0 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.doctorIllustration {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctorImg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.actionButtonsRow {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+.actionButtonsRow button {
+  flex: 1;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.actionButtonsRow .newAppButton {
+  background: #0b5394 !important;
+  border-color: #0b5394 !important;
+  color: #ffffff !important;
+}
+.actionButtonsRow .newAppButton:hover {
+  background: #094376 !important;
+  border-color: #094376 !important;
+}
+.actionButtonsRow .downloadButton {
+  color: #0b5394 !important;
+  border-color: #0b5394 !important;
+  background: transparent !important;
+}
+.actionButtonsRow .downloadButton:hover {
+  background: rgba(11, 83, 148, 0.05) !important;
+}
+
+.leftTabsCard {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+.leftTabsCard :global(.p-tabview-panels) {
+  padding: 16px 0 0 0 !important;
+}
+
+.selectPlaceholderCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 48px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  box-sizing: border-box;
+}
+.selectPlaceholderCard h3 {
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f2937 !important;
+  margin: 0 0 8px 0;
+}
+.selectPlaceholderCard p {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  color: #6b7280 !important;
+  max-width: 320px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.overviewTwoColumnGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+@media (max-width: 1200px) {
+  .overviewTwoColumnGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.overviewColumnLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.overviewColumnRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.timelineSection {
+  background: transparent;
+  padding: 8px 0;
+}
+
+.timelineSectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.timelineSectionIcon {
+  font-size: 1.1rem;
+  color: #0b5394;
+}
+
+.timelineSectionTitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.historyTimelineItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.historyDate {
+  font-size: 11px;
+  color: #555555 !important;
+  font-weight: 600;
+}
+
+.historyAppHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+.historyAppHeader strong {
+  color: #0b5394 !important;
+}
+
+.historyAppType {
+  color: #555555 !important;
+  background: #eef2fa;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.historyEvent {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a1a1a !important;
+}
+
+.historyActor {
+  font-size: 11px;
+  color: #555555 !important;
+}
+
+.historyRemarks {
+  font-size: 12px;
+  color: #ea580c !important;
+  background: #fffbeb;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #fcd34d;
+  margin-top: 4px;
+}
+
+.headerAvatarIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #f0f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+:global(.p-timeline-event-opposite) {
+  display: none !important;
+}
+
+:global(.p-timeline-event-content) {
+  padding-left: 1.25rem !important;
+  width: 100% !important;
+}
+
+:global(.p-timeline-event-connector) {
+  background-color: #3b82f6 !important;
+  width: 2px !important;
+  min-height: 40px !important;
+}
+
+:global(.p-timeline-event-separator) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fieldLabel, .paymentItemLabel, .paymentLabel, .actionLabel, .docCardMeta, .timelineDate, .activityMeta, .commTime, .otherAppId, .otherAppDate, .historyDate, .historyActor, .paymentItemLabel, .detailsLabel {
+  color: #555555 !important;
+}
+
+.fieldValue, .paymentValue, .actionValue, .docCardName, .timelineLabel, .activityEvent, .commText, .otherAppType, .profileWelcome, .profileLabel, .profileValue, .historyEvent, .detailsValue {
+  color: #1a1a1a !important;
+}
+
+.paymentValue {
+  color: #059669 !important;
+}
+
+.headerTitle {
+  color: #111827 !important;
+}
+
+.timelineLabel.timelineCompleted {
+  color: #059669 !important;
+}
+.timelineLabel.timelineCurrent {
+  color: #0b5394 !important;
+}
+
+:global(.p-datatable-thead > tr > th) {
+  color: #333333 !important;
+  background: #f3f4f6 !important;
+  font-weight: 700 !important;
+}
+
+:global(.p-datatable-tbody > tr > td) {
+  color: #1a1a1a !important;
+}
+
+.paymentBlock strong {
+  color: #1a1a1a !important;
+}
+
+.avatarCircle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
+}
+
+.headerRightTags {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.appIdTag {
+  background-color: #f1f5f9;
+  color: #475569 !important;
+  font-family: "Archivo", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.statusTagPill {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.statusTagPill.underreview, .statusTagPill.pending, .statusTagPill.underscrutiny, .statusTagPill.verificationinprogress, .statusTagPill.clarificationrequested, .statusTagPill.clarificationrequired {
+  background-color: #fef3c7;
+  color: #d97706 !important;
+  border: 1px solid #fde68a;
+}
+.statusTagPill.approved, .statusTagPill.completed {
+  background-color: #d1fae5;
+  color: #059669 !important;
+  border: 1px solid #a7f3d0;
+}
+.statusTagPill.submitted {
+  background-color: #dbeafe;
+  color: #2563eb !important;
+  border: 1px solid #bfdbfe;
+}
+
+.detailsPanelCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  width: 100%;
+}
+
+.detailsPanelHeader {
+  background: #f8fafc;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0b5394 !important;
+  display: flex;
+  align-items: center;
+}
+
+.detailsPanelBody {
+  padding: 16px;
+}
+
+.detailsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .detailsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .detailsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.detailsCol {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detailsLabel {
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b !important;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.detailsValue {
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b !important;
+}
+
+.paymentStatusLabel {
+  font-weight: 800;
+}
+
+.tableSectionTitle {
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0b5394 !important;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.documentTable {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+}/*# sourceMappingURL=ApplicationDetailPage.module.css.map */

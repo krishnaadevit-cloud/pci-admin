@@ -1,118 +1,5032 @@
 {
-  "haryana": {
-    "stateName": "Haryana State Pharmacy Council",
+  "andaman-nicobar": {
+    "stateName": "Andaman and Nicobar Islands Pharmacy Council",
     "summaryCards": [
-      { "id": "pharmacists", "title": "Total Pharmacists", "value": "1,25,430", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-      { "id": "applications", "title": "Total Applications", "value": "12,450", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
-      { "id": "pending", "title": "Pending Scrutiny", "value": "1,240", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
-      { "id": "approved", "title": "Approved", "value": "8,450", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
-      { "id": "rejected", "title": "Rejected", "value": "520", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
-      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 18,45,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
     ],
     "applicationTypeDistribution": [
-      { "label": "Fresh Registration", "value": 4520, "percentage": "36.3%" },
-      { "label": "Renewal", "value": 3250, "percentage": "26.1%" },
-      { "label": "Re-entry Registration", "value": 1120, "percentage": "9.0%" },
-      { "label": "Add Qualification", "value": 580, "percentage": "4.7%" },
-      { "label": "Change Name", "value": 840, "percentage": "6.7%" },
-      { "label": "Change Address", "value": 630, "percentage": "5.1%" },
-      { "label": "Duplicate Certificate", "value": 460, "percentage": "3.7%" },
-      { "label": "Others", "value": 1050, "percentage": "8.4%" }
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "10.0%"
+      }
     ],
     "monthlyTrend": {
-      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
-      "data": [500, 1200, 1800, 2500, 2800]
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
     },
     "recentApplications": [
-      { "appNo": "HR2024001250", "applicantName": "Rohit Kumar", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" },
-      { "appNo": "HR2024001249", "applicantName": "Pooja Sharma", "appType": "Renewal", "submittedOn": "18 May 2024", "status": "Pending" },
-      { "appNo": "HR2024001248", "applicantName": "Amit Verma", "appType": "Additional Qualification", "submittedOn": "17 May 2024", "status": "Pending" },
-      { "appNo": "HR2024001247", "applicantName": "Neha Rani", "appType": "Duplicate Certificate", "submittedOn": "16 May 2024", "status": "Rejected" },
-      { "appNo": "HR2024001246", "applicantName": "Sandeep Singh", "appType": "Migration", "submittedOn": "15 May 2024", "status": "Approved" }
+      {
+        "appNo": "AN2024001000",
+        "applicantName": "Harish Malik",
+        "appType": "Fresh Registration",
+        "submittedOn": "20 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AN2024001001",
+        "applicantName": "Manoj Joshi",
+        "appType": "Additional Qualification",
+        "submittedOn": "16 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "AN2024001002",
+        "applicantName": "Rajesh Rao",
+        "appType": "Others",
+        "submittedOn": "24 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "AN2024001003",
+        "applicantName": "Deepa Gupta",
+        "appType": "Migration",
+        "submittedOn": "4 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "AN2024001004",
+        "applicantName": "Sneha Prabhu",
+        "appType": "Others",
+        "submittedOn": "24 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "andhra-pradesh": {
+    "stateName": "Andhra Pradesh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "558",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "9",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 13,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Good Standing Certificate",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "11.1%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "AP2024001000",
+        "applicantName": "Neha Chatterjee",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "2 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "AP2024001001",
+        "applicantName": "Ananya Das",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "18 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AP2024001002",
+        "applicantName": "Ankit Choudhury",
+        "appType": "Migration",
+        "submittedOn": "5 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AP2024001003",
+        "applicantName": "Priya Rani",
+        "appType": "Address Change",
+        "submittedOn": "5 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AP2024001004",
+        "applicantName": "Neha Jain",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "20 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "arunachal-pradesh": {
+    "stateName": "Arunachal Pradesh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Duplicate Certificate",
+        "value": 3,
+        "percentage": "42.9%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "28.6%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "14.3%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "AR2024001000",
+        "applicantName": "Abhishek Das",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "3 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "AR2024001001",
+        "applicantName": "Abhishek Nair",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "7 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AR2024001002",
+        "applicantName": "Jyoti Banerjee",
+        "appType": "Restoration",
+        "submittedOn": "6 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "AR2024001003",
+        "applicantName": "Jyoti Dasgupta",
+        "appType": "Others",
+        "submittedOn": "17 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "AR2024001004",
+        "applicantName": "Manoj Joshi",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "2 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "assam": {
+    "stateName": "Assam Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "AS2024001000",
+        "applicantName": "Sanjay Jain",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "24 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "AS2024001001",
+        "applicantName": "Kiran Kulkarni",
+        "appType": "Additional Qualification",
+        "submittedOn": "25 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "AS2024001002",
+        "applicantName": "Priya Kumar",
+        "appType": "Name Change",
+        "submittedOn": "22 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "AS2024001003",
+        "applicantName": "Priya Banerjee",
+        "appType": "Others",
+        "submittedOn": "22 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "AS2024001004",
+        "applicantName": "Sandeep Rani",
+        "appType": "Restoration",
+        "submittedOn": "19 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "bihar": {
+    "stateName": "Bihar Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "558",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "9",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 13,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Name Change",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "11.1%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "BR2024001000",
+        "applicantName": "Vikram Nair",
+        "appType": "Others",
+        "submittedOn": "13 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "BR2024001001",
+        "applicantName": "Alok Malik",
+        "appType": "Name Change",
+        "submittedOn": "17 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "BR2024001002",
+        "applicantName": "Divya Dwivedi",
+        "appType": "Restoration",
+        "submittedOn": "20 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "BR2024001003",
+        "applicantName": "Swati Chatterjee",
+        "appType": "Fresh Registration",
+        "submittedOn": "10 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "BR2024001004",
+        "applicantName": "Rahul Kumar",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "21 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "chandigarh": {
+    "stateName": "Chandigarh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Name Change",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "NOC",
+        "value": 2,
+        "percentage": "25.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "CH2024001000",
+        "applicantName": "Sanjay Reddy",
+        "appType": "Additional Qualification",
+        "submittedOn": "21 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "CH2024001001",
+        "applicantName": "Sanjay Rani",
+        "appType": "Name Change",
+        "submittedOn": "5 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "CH2024001002",
+        "applicantName": "Divya Patel",
+        "appType": "Address Change",
+        "submittedOn": "23 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "CH2024001003",
+        "applicantName": "Vijay Sen",
+        "appType": "Name Change",
+        "submittedOn": "10 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "CH2024001004",
+        "applicantName": "Jyoti Dutta",
+        "appType": "Fresh Registration",
+        "submittedOn": "16 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "chhattisgarh": {
+    "stateName": "Chhattisgarh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Address Change",
+        "value": 2,
+        "percentage": "28.6%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 2,
+        "percentage": "28.6%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "14.3%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "CG2024001000",
+        "applicantName": "Sneha Das",
+        "appType": "Address Change",
+        "submittedOn": "21 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "CG2024001001",
+        "applicantName": "Priyanka Balakrishnan",
+        "appType": "Renewal",
+        "submittedOn": "18 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "CG2024001002",
+        "applicantName": "Harish Dasgupta",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "22 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "CG2024001003",
+        "applicantName": "Priya Gupta",
+        "appType": "Others",
+        "submittedOn": "8 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "CG2024001004",
+        "applicantName": "Kavitha Singh",
+        "appType": "Address Change",
+        "submittedOn": "10 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "dadra-nagar-haveli-daman-diu": {
+    "stateName": "Dadra and Nagar Haveli and Daman and Diu Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Fresh Registration",
+        "value": 3,
+        "percentage": "37.5%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 4,
+        "percentage": "50.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "DD2024001000",
+        "applicantName": "Harish Chatterjee",
+        "appType": "Fresh Registration",
+        "submittedOn": "3 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "DD2024001001",
+        "applicantName": "Ananya Rao",
+        "appType": "Fresh Registration",
+        "submittedOn": "3 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "DD2024001002",
+        "applicantName": "Meera Prabhu",
+        "appType": "Additional Qualification",
+        "submittedOn": "23 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "DD2024001003",
+        "applicantName": "Vikram Kumar",
+        "appType": "Additional Qualification",
+        "submittedOn": "6 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "DD2024001004",
+        "applicantName": "Deepa Balakrishnan",
+        "appType": "Additional Qualification",
+        "submittedOn": "16 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "delhi": {
+    "stateName": "Delhi Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Address Change",
+        "value": 3,
+        "percentage": "37.5%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "DL2024001000",
+        "applicantName": "Sunita Kumar",
+        "appType": "Address Change",
+        "submittedOn": "16 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "DL2024001001",
+        "applicantName": "Alok Gupta",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "2 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "DL2024001002",
+        "applicantName": "Swati Malik",
+        "appType": "NOC",
+        "submittedOn": "19 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "DL2024001003",
+        "applicantName": "Kiran Dasgupta",
+        "appType": "Fresh Registration",
+        "submittedOn": "17 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "DL2024001004",
+        "applicantName": "Vijay Dasgupta",
+        "appType": "Others",
+        "submittedOn": "22 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "goa": {
+    "stateName": "Goa Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Address Change",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "GA2024001000",
+        "applicantName": "Swati Roy",
+        "appType": "Address Change",
+        "submittedOn": "10 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "GA2024001001",
+        "applicantName": "Sunita Rani",
+        "appType": "Others",
+        "submittedOn": "24 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "GA2024001002",
+        "applicantName": "Kiran Dutta",
+        "appType": "Name Change",
+        "submittedOn": "20 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "GA2024001003",
+        "applicantName": "Jyoti Rathore",
+        "appType": "Additional Qualification",
+        "submittedOn": "4 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "GA2024001004",
+        "applicantName": "Amit Banerjee",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "24 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "gujarat": {
+    "stateName": "Gujarat Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "GJ2024001000",
+        "applicantName": "Sandeep Prabhu",
+        "appType": "Renewal",
+        "submittedOn": "7 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "GJ2024001001",
+        "applicantName": "Suresh Kumar",
+        "appType": "Migration",
+        "submittedOn": "14 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "GJ2024001002",
+        "applicantName": "Arjun Prabhu",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "12 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "GJ2024001003",
+        "applicantName": "Pooja Nair",
+        "appType": "NOC",
+        "submittedOn": "22 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "GJ2024001004",
+        "applicantName": "Harish Shinde",
+        "appType": "Fresh Registration",
+        "submittedOn": "3 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "haryana": {
+    "stateName": "Haryana Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "666",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "18",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "5",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 27,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Good Standing Certificate",
+        "value": 5,
+        "percentage": "27.8%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "5.6%"
+      },
+      {
+        "label": "Address Change",
+        "value": 2,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Others",
+        "value": 3,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "NOC",
+        "value": 3,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 3,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "5.6%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        5,
+        9,
+        14,
+        18
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "HR2024001000",
+        "applicantName": "Ananya Roy",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "7 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "HR2024001001",
+        "applicantName": "Swati Das",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "18 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "HR2024001002",
+        "applicantName": "Alok Jain",
+        "appType": "Migration",
+        "submittedOn": "11 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "HR2024001003",
+        "applicantName": "Ritu Roy",
+        "appType": "Address Change",
+        "submittedOn": "5 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "HR2024001004",
+        "applicantName": "Divya Mishra",
+        "appType": "Address Change",
+        "submittedOn": "18 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "himachal-pradesh": {
+    "stateName": "Himachal Pradesh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "HP2024001000",
+        "applicantName": "Vijay Dasgupta",
+        "appType": "Fresh Registration",
+        "submittedOn": "18 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "HP2024001001",
+        "applicantName": "Jyoti Banerjee",
+        "appType": "Renewal",
+        "submittedOn": "5 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "HP2024001002",
+        "applicantName": "Rajesh Verma",
+        "appType": "Others",
+        "submittedOn": "2 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "HP2024001003",
+        "applicantName": "Rohan Singh",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "17 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "HP2024001004",
+        "applicantName": "Vijay Kulkarni",
+        "appType": "Name Change",
+        "submittedOn": "23 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "jammu-kashmir": {
+    "stateName": "Jammu and Kashmir Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Migration",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "25.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "JK2024001000",
+        "applicantName": "Harish Choudhury",
+        "appType": "Address Change",
+        "submittedOn": "15 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "JK2024001001",
+        "applicantName": "Sunita Kumar",
+        "appType": "Migration",
+        "submittedOn": "3 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "JK2024001002",
+        "applicantName": "Suresh Sharma",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "16 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "JK2024001003",
+        "applicantName": "Rajesh Patil",
+        "appType": "Migration",
+        "submittedOn": "20 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "JK2024001004",
+        "applicantName": "Alok Banerjee",
+        "appType": "NOC",
+        "submittedOn": "7 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "jharkhand": {
+    "stateName": "Jharkhand Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "5",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Duplicate Certificate",
+        "value": 3,
+        "percentage": "37.5%"
+      },
+      {
+        "label": "Name Change",
+        "value": 3,
+        "percentage": "37.5%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "JH2024001000",
+        "applicantName": "Rahul Kumar",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "1 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "JH2024001001",
+        "applicantName": "Amit Das",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "15 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "JH2024001002",
+        "applicantName": "Neha Rathore",
+        "appType": "Name Change",
+        "submittedOn": "11 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "JH2024001003",
+        "applicantName": "Ananya Rani",
+        "appType": "Name Change",
+        "submittedOn": "6 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "JH2024001004",
+        "applicantName": "Ankit Malik",
+        "appType": "Fresh Registration",
+        "submittedOn": "3 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "karnataka": {
+    "stateName": "Karnataka Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Restoration",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Migration",
+        "value": 3,
+        "percentage": "30.0%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "10.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "KA2024001000",
+        "applicantName": "Sanjay Sen",
+        "appType": "Restoration",
+        "submittedOn": "11 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "KA2024001001",
+        "applicantName": "Ritu Choudhury",
+        "appType": "Fresh Registration",
+        "submittedOn": "5 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "KA2024001002",
+        "applicantName": "Rohan Banerjee",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "3 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "KA2024001003",
+        "applicantName": "Meera Patel",
+        "appType": "Restoration",
+        "submittedOn": "22 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "KA2024001004",
+        "applicantName": "Divya Chatterjee",
+        "appType": "Migration",
+        "submittedOn": "15 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "kerala": {
+    "stateName": "Kerala Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "28.6%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "28.6%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "KL2024001000",
+        "applicantName": "Rahul Roy",
+        "appType": "Address Change",
+        "submittedOn": "10 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "KL2024001001",
+        "applicantName": "Arjun Dasgupta",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "16 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "KL2024001002",
+        "applicantName": "Deepa Yadav",
+        "appType": "Others",
+        "submittedOn": "20 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "KL2024001003",
+        "applicantName": "Kavitha Singh",
+        "appType": "Name Change",
+        "submittedOn": "16 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "KL2024001004",
+        "applicantName": "Pooja Joshi",
+        "appType": "Renewal",
+        "submittedOn": "16 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "ladakh": {
+    "stateName": "Ladakh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "LA2024001000",
+        "applicantName": "Ankit Kulkarni",
+        "appType": "NOC",
+        "submittedOn": "25 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "LA2024001001",
+        "applicantName": "Harish Banerjee",
+        "appType": "Address Change",
+        "submittedOn": "17 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "LA2024001002",
+        "applicantName": "Arjun Kumar",
+        "appType": "Fresh Registration",
+        "submittedOn": "23 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "LA2024001003",
+        "applicantName": "Abhishek Rathore",
+        "appType": "Renewal",
+        "submittedOn": "7 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "LA2024001004",
+        "applicantName": "Ritu Sen",
+        "appType": "Renewal",
+        "submittedOn": "11 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "lakshadweep": {
+    "stateName": "Lakshadweep Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "558",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "9",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 13,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Migration",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "11.1%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "LD2024001000",
+        "applicantName": "Ankit Malik",
+        "appType": "Name Change",
+        "submittedOn": "23 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "LD2024001001",
+        "applicantName": "Pooja Kumar",
+        "appType": "Migration",
+        "submittedOn": "7 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "LD2024001002",
+        "applicantName": "Alok Choudhury",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "21 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "LD2024001003",
+        "applicantName": "Kiran Verma",
+        "appType": "Restoration",
+        "submittedOn": "24 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "LD2024001004",
+        "applicantName": "Sandeep Kumar",
+        "appType": "Renewal",
+        "submittedOn": "23 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "madhya-pradesh": {
+    "stateName": "Madhya Pradesh Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "14.3%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "MP2024001000",
+        "applicantName": "Priyanka Prabhu",
+        "appType": "Name Change",
+        "submittedOn": "16 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "MP2024001001",
+        "applicantName": "Sneha Chatterjee",
+        "appType": "Migration",
+        "submittedOn": "9 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "MP2024001002",
+        "applicantName": "Vikram Chatterjee",
+        "appType": "Others",
+        "submittedOn": "9 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MP2024001003",
+        "applicantName": "Priya Chatterjee",
+        "appType": "NOC",
+        "submittedOn": "10 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "MP2024001004",
+        "applicantName": "Deepa Dutta",
+        "appType": "Fresh Registration",
+        "submittedOn": "19 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "maharashtra": {
+    "stateName": "Maharashtra Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "618",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "14",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 21,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "7.1%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 3,
+        "percentage": "21.4%"
+      },
+      {
+        "label": "Restoration",
+        "value": 5,
+        "percentage": "35.7%"
+      },
+      {
+        "label": "Migration",
+        "value": 2,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "7.1%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        4,
+        7,
+        11,
+        14
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "MH2024001000",
+        "applicantName": "Priyanka Nair",
+        "appType": "Fresh Registration",
+        "submittedOn": "7 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MH2024001001",
+        "applicantName": "Rahul Dasgupta",
+        "appType": "Fresh Registration",
+        "submittedOn": "16 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "MH2024001002",
+        "applicantName": "Suresh Balakrishnan",
+        "appType": "Renewal",
+        "submittedOn": "20 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "MH2024001003",
+        "applicantName": "Divya Rao",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "11 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MH2024001004",
+        "applicantName": "Manoj Rani",
+        "appType": "Restoration",
+        "submittedOn": "15 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "manipur": {
+    "stateName": "Manipur Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 3,
+        "percentage": "30.0%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "10.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "MN2024001000",
+        "applicantName": "Alok Roy",
+        "appType": "Fresh Registration",
+        "submittedOn": "2 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MN2024001001",
+        "applicantName": "Rohan Kulkarni",
+        "appType": "NOC",
+        "submittedOn": "21 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "MN2024001002",
+        "applicantName": "Sanjay Yadav",
+        "appType": "Renewal",
+        "submittedOn": "8 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MN2024001003",
+        "applicantName": "Neha Choudhury",
+        "appType": "Additional Qualification",
+        "submittedOn": "8 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "MN2024001004",
+        "applicantName": "Sneha Patel",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "3 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "meghalaya": {
+    "stateName": "Meghalaya Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Migration",
+        "value": 4,
+        "percentage": "40.0%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "10.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "ML2024001000",
+        "applicantName": "Ritu Balakrishnan",
+        "appType": "Migration",
+        "submittedOn": "12 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "ML2024001001",
+        "applicantName": "Sandeep Mishra",
+        "appType": "Migration",
+        "submittedOn": "20 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "ML2024001002",
+        "applicantName": "Ritu Das",
+        "appType": "Good Standing Certificate",
+        "submittedOn": "17 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "ML2024001003",
+        "applicantName": "Suresh Reddy",
+        "appType": "Fresh Registration",
+        "submittedOn": "3 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "ML2024001004",
+        "applicantName": "Manoj Dasgupta",
+        "appType": "Others",
+        "submittedOn": "22 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "mizoram": {
+    "stateName": "Mizoram Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Additional Qualification",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "MZ2024001000",
+        "applicantName": "Suresh Patil",
+        "appType": "Additional Qualification",
+        "submittedOn": "13 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "MZ2024001001",
+        "applicantName": "Vikram Banerjee",
+        "appType": "Migration",
+        "submittedOn": "25 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "MZ2024001002",
+        "applicantName": "Alok Choudhury",
+        "appType": "Others",
+        "submittedOn": "19 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MZ2024001003",
+        "applicantName": "Alok Yadav",
+        "appType": "NOC",
+        "submittedOn": "25 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "MZ2024001004",
+        "applicantName": "Sunita Jain",
+        "appType": "Address Change",
+        "submittedOn": "6 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "nagaland": {
+    "stateName": "Nagaland Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 2,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "NL2024001000",
+        "applicantName": "Ankit Balakrishnan",
+        "appType": "Migration",
+        "submittedOn": "10 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "NL2024001001",
+        "applicantName": "Rahul Dutta",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "4 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "NL2024001002",
+        "applicantName": "Kiran Sen",
+        "appType": "Name Change",
+        "submittedOn": "12 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "NL2024001003",
+        "applicantName": "Arjun Chatterjee",
+        "appType": "NOC",
+        "submittedOn": "7 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "NL2024001004",
+        "applicantName": "Sandeep Kumar",
+        "appType": "Additional Qualification",
+        "submittedOn": "19 May 2024",
+        "status": "Pending"
+      }
+    ]
+  },
+  "odisha": {
+    "stateName": "Odisha Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Name Change",
+        "value": 2,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "OD2024001000",
+        "applicantName": "Rajesh Malik",
+        "appType": "Others",
+        "submittedOn": "2 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "OD2024001001",
+        "applicantName": "Sandeep Choudhury",
+        "appType": "Name Change",
+        "submittedOn": "1 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "OD2024001002",
+        "applicantName": "Harish Shinde",
+        "appType": "Name Change",
+        "submittedOn": "17 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "OD2024001003",
+        "applicantName": "Kavitha Patil",
+        "appType": "Address Change",
+        "submittedOn": "6 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "OD2024001004",
+        "applicantName": "Abhishek Joshi",
+        "appType": "NOC",
+        "submittedOn": "1 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "puducherry": {
+    "stateName": "Puducherry Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Restoration",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Name Change",
+        "value": 3,
+        "percentage": "37.5%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "PY2024001000",
+        "applicantName": "Sneha Banerjee",
+        "appType": "Restoration",
+        "submittedOn": "13 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "PY2024001001",
+        "applicantName": "Amit Prabhu",
+        "appType": "Renewal",
+        "submittedOn": "21 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "PY2024001002",
+        "applicantName": "Manoj Nair",
+        "appType": "Migration",
+        "submittedOn": "14 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "PY2024001003",
+        "applicantName": "Rahul Verma",
+        "appType": "Restoration",
+        "submittedOn": "9 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "PY2024001004",
+        "applicantName": "Kavitha Singh",
+        "appType": "Name Change",
+        "submittedOn": "17 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "punjab": {
+    "stateName": "Punjab Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Others",
+        "value": 2,
+        "percentage": "28.6%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "14.3%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "PB2024001000",
+        "applicantName": "Sneha Malik",
+        "appType": "Others",
+        "submittedOn": "1 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "PB2024001001",
+        "applicantName": "Sunita Dutta",
+        "appType": "Renewal",
+        "submittedOn": "15 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "PB2024001002",
+        "applicantName": "Abhishek Singh",
+        "appType": "Address Change",
+        "submittedOn": "2 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "PB2024001003",
+        "applicantName": "Divya Sharma",
+        "appType": "Fresh Registration",
+        "submittedOn": "23 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "PB2024001004",
+        "applicantName": "Jyoti Das",
+        "appType": "Others",
+        "submittedOn": "6 May 2024",
+        "status": "Returned"
+      }
+    ]
+  },
+  "rajasthan": {
+    "stateName": "Rajasthan Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Duplicate Certificate",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 3,
+        "percentage": "30.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "10.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "RJ2024001000",
+        "applicantName": "Swati Dasgupta",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "22 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "RJ2024001001",
+        "applicantName": "Kavitha Malik",
+        "appType": "Renewal",
+        "submittedOn": "22 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "RJ2024001002",
+        "applicantName": "Kiran Joshi",
+        "appType": "Fresh Registration",
+        "submittedOn": "24 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "RJ2024001003",
+        "applicantName": "Jyoti Banerjee",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "2 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "RJ2024001004",
+        "applicantName": "Divya Rao",
+        "appType": "Additional Qualification",
+        "submittedOn": "14 May 2024",
+        "status": "Approved"
+      }
+    ]
+  },
+  "sikkim": {
+    "stateName": "Sikkim Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "534",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "7",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 10,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "14.3%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "14.3%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "SK2024001000",
+        "applicantName": "Pooja Kumar",
+        "appType": "Others",
+        "submittedOn": "24 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "SK2024001001",
+        "applicantName": "Sanjay Malik",
+        "appType": "Name Change",
+        "submittedOn": "6 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "SK2024001002",
+        "applicantName": "Rohan Chatterjee",
+        "appType": "Migration",
+        "submittedOn": "4 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "SK2024001003",
+        "applicantName": "Abhishek Dasgupta",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "25 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "SK2024001004",
+        "applicantName": "Sandeep Banerjee",
+        "appType": "NOC",
+        "submittedOn": "2 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "tamil-nadu": {
+    "stateName": "Tamil Nadu Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Name Change",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Renewal",
+        "value": 4,
+        "percentage": "50.0%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "TN2024001000",
+        "applicantName": "Ankit Dwivedi",
+        "appType": "Name Change",
+        "submittedOn": "8 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "TN2024001001",
+        "applicantName": "Amit Yadav",
+        "appType": "Renewal",
+        "submittedOn": "18 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "TN2024001002",
+        "applicantName": "Sneha Kulkarni",
+        "appType": "Fresh Registration",
+        "submittedOn": "9 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "TN2024001003",
+        "applicantName": "Jyoti Chatterjee",
+        "appType": "Renewal",
+        "submittedOn": "13 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "TN2024001004",
+        "applicantName": "Rajesh Gupta",
+        "appType": "Renewal",
+        "submittedOn": "23 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "telangana": {
+    "stateName": "Telangana Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "570",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "10",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "10.0%"
+      },
+      {
+        "label": "Renewal",
+        "value": 3,
+        "percentage": "30.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "10.0%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "TG2024001000",
+        "applicantName": "Arjun Sen",
+        "appType": "Others",
+        "submittedOn": "5 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "TG2024001001",
+        "applicantName": "Deepa Kumar",
+        "appType": "Address Change",
+        "submittedOn": "4 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "TG2024001002",
+        "applicantName": "Sanjay Rani",
+        "appType": "Migration",
+        "submittedOn": "21 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "TG2024001003",
+        "applicantName": "Swati Sharma",
+        "appType": "Fresh Registration",
+        "submittedOn": "13 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "TG2024001004",
+        "applicantName": "Sneha Kumar",
+        "appType": "Additional Qualification",
+        "submittedOn": "21 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "tripura": {
+    "stateName": "Tripura Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "558",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "9",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 13,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Additional Qualification",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Others",
+        "value": 3,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "Migration",
+        "value": 2,
+        "percentage": "22.2%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "11.1%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "11.1%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "TR2024001000",
+        "applicantName": "Harish Das",
+        "appType": "Additional Qualification",
+        "submittedOn": "3 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "TR2024001001",
+        "applicantName": "Rahul Banerjee",
+        "appType": "Others",
+        "submittedOn": "6 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "TR2024001002",
+        "applicantName": "Harish Yadav",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "10 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "TR2024001003",
+        "applicantName": "Rajesh Rani",
+        "appType": "Migration",
+        "submittedOn": "18 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "TR2024001004",
+        "applicantName": "Rahul Gupta",
+        "appType": "Restoration",
+        "submittedOn": "18 May 2024",
+        "status": "Pending"
+      }
     ]
   },
   "uttar-pradesh": {
     "stateName": "Uttar Pradesh Pharmacy Council",
     "summaryCards": [
-      { "id": "pharmacists", "title": "Total Pharmacists", "value": "2,80,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-      { "id": "applications", "title": "Total Applications", "value": "30,100", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
-      { "id": "pending", "title": "Pending Scrutiny", "value": "6,450", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
-      { "id": "approved", "title": "Approved", "value": "20,400", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
-      { "id": "rejected", "title": "Rejected", "value": "1,500", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
-      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 45,15,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "630",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "15",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "3",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 22,500",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
     ],
     "applicationTypeDistribution": [
-      { "label": "Fresh Registration", "value": 12500, "percentage": "41.5%" },
-      { "label": "Renewal", "value": 8900, "percentage": "29.6%" },
-      { "label": "Re-entry Registration", "value": 2400, "percentage": "8.0%" },
-      { "label": "Add Qualification", "value": 1500, "percentage": "5.0%" },
-      { "label": "Change Name", "value": 1200, "percentage": "4.0%" },
-      { "label": "Change Address", "value": 900, "percentage": "3.0%" },
-      { "label": "Duplicate Certificate", "value": 1100, "percentage": "3.6%" },
-      { "label": "Others", "value": 1600, "percentage": "5.3%" }
+      {
+        "label": "Others",
+        "value": 1,
+        "percentage": "6.7%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "13.3%"
+      },
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "6.7%"
+      },
+      {
+        "label": "Migration",
+        "value": 3,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 2,
+        "percentage": "13.3%"
+      },
+      {
+        "label": "Additional Qualification",
+        "value": 3,
+        "percentage": "20.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 2,
+        "percentage": "13.3%"
+      },
+      {
+        "label": "Renewal",
+        "value": 1,
+        "percentage": "6.7%"
+      }
     ],
     "monthlyTrend": {
-      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
-      "data": [1100, 2400, 3900, 5200, 6450]
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        4,
+        7,
+        12,
+        15
+      ]
     },
     "recentApplications": [
-      { "appNo": "UP2024005820", "applicantName": "Alok Dwivedi", "appType": "Fresh Registration", "submittedOn": "19 May 2024", "status": "Pending" },
-      { "appNo": "UP2024005819", "applicantName": "Priyanka Singh", "appType": "Renewal", "submittedOn": "18 May 2024", "status": "Approved" },
-      { "appNo": "UP2024005818", "applicantName": "Vikram Rathore", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" }
+      {
+        "appNo": "UP2024001000",
+        "applicantName": "Vikram Dutta",
+        "appType": "Others",
+        "submittedOn": "4 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "UP2024001001",
+        "applicantName": "Vijay Rao",
+        "appType": "Fresh Registration",
+        "submittedOn": "10 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "UP2024001002",
+        "applicantName": "Priya Yadav",
+        "appType": "Restoration",
+        "submittedOn": "12 May 2024",
+        "status": "Approved"
+      },
+      {
+        "appNo": "UP2024001003",
+        "applicantName": "Amit Patel",
+        "appType": "Fresh Registration",
+        "submittedOn": "11 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "UP2024001004",
+        "applicantName": "Amit Choudhury",
+        "appType": "Migration",
+        "submittedOn": "3 May 2024",
+        "status": "Returned"
+      }
     ]
   },
-  "maharashtra": {
-    "stateName": "Maharashtra State Pharmacy Council",
+  "uttarakhand": {
+    "stateName": "Uttarakhand Pharmacy Council",
     "summaryCards": [
-      { "id": "pharmacists", "title": "Total Pharmacists", "value": "2,50,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-      { "id": "applications", "title": "Total Applications", "value": "23,450", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
-      { "id": "pending", "title": "Pending Scrutiny", "value": "3,120", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
-      { "id": "approved", "title": "Approved", "value": "17,200", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
-      { "id": "rejected", "title": "Rejected", "value": "1,180", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
-      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 38,90,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "546",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "8",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "1",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 12,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
     ],
     "applicationTypeDistribution": [
-      { "label": "Fresh Registration", "value": 9800, "percentage": "41.8%" },
-      { "label": "Renewal", "value": 6200, "percentage": "26.4%" },
-      { "label": "Re-entry Registration", "value": 2100, "percentage": "9.0%" },
-      { "label": "Add Qualification", "value": 1150, "percentage": "4.9%" },
-      { "label": "Change Name", "value": 1300, "percentage": "5.5%" },
-      { "label": "Change Address", "value": 900, "percentage": "3.8%" },
-      { "label": "Duplicate Certificate", "value": 800, "percentage": "3.4%" },
-      { "label": "Others", "value": 1200, "percentage": "5.1%" }
+      {
+        "label": "Restoration",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "NOC",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Address Change",
+        "value": 2,
+        "percentage": "25.0%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "12.5%"
+      },
+      {
+        "label": "Good Standing Certificate",
+        "value": 1,
+        "percentage": "12.5%"
+      }
     ],
     "monthlyTrend": {
-      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
-      "data": [900, 1800, 2600, 3100, 3120]
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        2,
+        4,
+        6,
+        8
+      ]
     },
     "recentApplications": [
-      { "appNo": "MH2024003920", "applicantName": "Rahul Kulkarni", "appType": "Fresh Registration", "submittedOn": "19 May 2024", "status": "Approved" },
-      { "appNo": "MH2024003919", "applicantName": "Sneha Patil", "appType": "Renewal", "submittedOn": "19 May 2024", "status": "Pending" },
-      { "appNo": "MH2024003918", "applicantName": "Siddharth Shinde", "appType": "Fresh Registration", "submittedOn": "18 May 2024", "status": "Approved" }
+      {
+        "appNo": "UK2024001000",
+        "applicantName": "Amit Nair",
+        "appType": "Restoration",
+        "submittedOn": "9 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "UK2024001001",
+        "applicantName": "Vikram Malik",
+        "appType": "Restoration",
+        "submittedOn": "24 May 2024",
+        "status": "Returned"
+      },
+      {
+        "appNo": "UK2024001002",
+        "applicantName": "Deepa Patil",
+        "appType": "NOC",
+        "submittedOn": "25 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "UK2024001003",
+        "applicantName": "Swati Rao",
+        "appType": "NOC",
+        "submittedOn": "19 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "UK2024001004",
+        "applicantName": "Ankit Dutta",
+        "appType": "Address Change",
+        "submittedOn": "9 May 2024",
+        "status": "Rejected"
+      }
+    ]
+  },
+  "west-bengal": {
+    "stateName": "West Bengal Pharmacy Council",
+    "summaryCards": [
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "522",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "6",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "2",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "0",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "4",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 9,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
+    ],
+    "applicationTypeDistribution": [
+      {
+        "label": "Restoration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Duplicate Certificate",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Migration",
+        "value": 1,
+        "percentage": "16.7%"
+      },
+      {
+        "label": "Fresh Registration",
+        "value": 2,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "NOC",
+        "value": 1,
+        "percentage": "16.7%"
+      }
+    ],
+    "monthlyTrend": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        1,
+        1,
+        3,
+        4,
+        6
+      ]
+    },
+    "recentApplications": [
+      {
+        "appNo": "WB2024001000",
+        "applicantName": "Harish Rani",
+        "appType": "Restoration",
+        "submittedOn": "7 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "WB2024001001",
+        "applicantName": "Abhishek Das",
+        "appType": "Duplicate Certificate",
+        "submittedOn": "24 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "WB2024001002",
+        "applicantName": "Ankit Dasgupta",
+        "appType": "Migration",
+        "submittedOn": "13 May 2024",
+        "status": "Rejected"
+      },
+      {
+        "appNo": "WB2024001003",
+        "applicantName": "Suresh Patil",
+        "appType": "Fresh Registration",
+        "submittedOn": "19 May 2024",
+        "status": "Pending"
+      },
+      {
+        "appNo": "WB2024001004",
+        "applicantName": "Ritu Patil",
+        "appType": "Fresh Registration",
+        "submittedOn": "19 May 2024",
+        "status": "Rejected"
+      }
     ]
   },
   "default": {
     "stateName": "State Pharmacy Council",
     "summaryCards": [
-      { "id": "pharmacists", "title": "Total Pharmacists", "value": "10,000", "subText": "View details", "icon": "pi pi-users", "color": "cyan" },
-      { "id": "applications", "title": "Total Applications", "value": "1,500", "subText": "View details", "icon": "pi pi-file", "color": "purple" },
-      { "id": "pending", "title": "Pending Scrutiny", "value": "150", "subText": "View details", "icon": "pi pi-clock", "color": "orange" },
-      { "id": "approved", "title": "Approved", "value": "1,200", "subText": "View details", "icon": "pi pi-check-circle", "color": "green" },
-      { "id": "rejected", "title": "Rejected", "value": "100", "subText": "View details", "icon": "pi pi-times-circle", "color": "red" },
-      { "id": "revenue", "title": "Revenue Collected", "value": "₹ 2,50,000", "subText": "View details", "icon": "pi pi-wallet", "color": "blue" }
+      {
+        "id": "pharmacists",
+        "title": "Total Pharmacists",
+        "value": "10,000",
+        "subText": "View details",
+        "icon": "pi pi-users",
+        "color": "cyan"
+      },
+      {
+        "id": "applications",
+        "title": "Total Applications",
+        "value": "1,500",
+        "subText": "View details",
+        "icon": "pi pi-file",
+        "color": "purple"
+      },
+      {
+        "id": "pending",
+        "title": "Pending Scrutiny",
+        "value": "150",
+        "subText": "View details",
+        "icon": "pi pi-clock",
+        "color": "orange"
+      },
+      {
+        "id": "approved",
+        "title": "Approved",
+        "value": "1,200",
+        "subText": "View details",
+        "icon": "pi pi-check-circle",
+        "color": "green"
+      },
+      {
+        "id": "rejected",
+        "title": "Rejected",
+        "value": "120",
+        "subText": "View details",
+        "icon": "pi pi-times-circle",
+        "color": "red"
+      },
+      {
+        "id": "revenue",
+        "title": "Revenue Collected",
+        "value": "₹ 15,00,000",
+        "subText": "View details",
+        "icon": "pi pi-wallet",
+        "color": "blue"
+      }
     ],
     "applicationTypeDistribution": [
-      { "label": "Fresh Registration", "value": 600, "percentage": "40%" },
-      { "label": "Renewal", "value": 450, "percentage": "30%" },
-      { "label": "Others", "value": 450, "percentage": "30%" }
+      {
+        "label": "Fresh Registration",
+        "value": 500,
+        "percentage": "33.3%"
+      },
+      {
+        "label": "Renewal",
+        "value": 400,
+        "percentage": "26.7%"
+      }
     ],
     "monthlyTrend": {
-      "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
-      "data": [30, 60, 90, 120, 150]
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "data": [
+        100,
+        300,
+        600,
+        1000,
+        1500
+      ]
     },
-    "recentApplications": [
-      { "appNo": "ST2024000101", "applicantName": "John Doe", "appType": "Fresh Registration", "submittedOn": "15 May 2024", "status": "Approved" },
-      { "appNo": "ST2024000102", "applicantName": "Jane Smith", "appType": "Renewal", "submittedOn": "14 May 2024", "status": "Pending" }
-    ]
+    "recentApplications": []
   }
 }

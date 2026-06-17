@@ -152,3 +152,23 @@ export function getTenantStatus(): string | null {
 export function clearTenantStatus(): void {
   Cookies.remove(TENANT_STATUS_KEY, { path: "/" });
 }
+
+// ─── Council Logo URL (7-day expiry, shown in topbar for STATE_COUNCIL users) ──
+
+const COUNCIL_LOGO_KEY = "council_logo_url";
+
+export function saveCouncilLogo(url: string): void {
+  Cookies.set(COUNCIL_LOGO_KEY, url, {
+    ...BASE_OPTS,
+    secure: isSecure(),
+    expires: 7,
+  });
+}
+
+export function getCouncilLogo(): string | null {
+  return Cookies.get(COUNCIL_LOGO_KEY) ?? null;
+}
+
+export function clearCouncilLogo(): void {
+  Cookies.remove(COUNCIL_LOGO_KEY, { path: "/" });
+}

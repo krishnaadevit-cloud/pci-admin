@@ -488,6 +488,10 @@ html {
     &--3a {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       margin-top: 2rem !important;
+
+      .prts-field--full {
+        grid-column: 1 / -1;
+      }
     }
 
     &--3a:first-child {
@@ -514,6 +518,12 @@ html {
     // Registrable qualification: 25% / 25% / 50% per row
     &--3-1-2 {
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+    }
+
+    // Same as --3-1-2 but with an auto column for an inline action button
+    &--3-1-2-action {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr) auto;
+      align-items: end;
     }
 
     &--5 {
@@ -724,7 +734,7 @@ html {
 
     .prts-personal-accordion__header {
       display: flex !important;
-      align-items: flex-start !important;
+      align-items: center !important;
       gap: 0.5rem !important;
       justify-content: space-between !important;
       flex-direction: column !important;
@@ -734,7 +744,7 @@ html {
 
       .prts-personal-accordion__header {
         display: flex !important;
-        align-items: flex-start !important;
+        align-items: center !important;
         gap: 1rem !important;
         justify-content: space-between !important;
         flex-direction: row !important;

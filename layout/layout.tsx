@@ -26,7 +26,12 @@ const Layout = (props: ChildContainerProps) => {
     const [bindMenuOutsideClickListener, unbindMenuOutsideClickListener] = useEventListener({
         type: 'click',
         listener: (event) => {
-            const isOutsideClicked = !(sidebarRef.current.isSameNode(event.target) || sidebarRef.current.contains(event.target) || topbarRef.current.menubutton.isSameNode(event.target) || topbarRef.current.menubutton.contains(event.target));
+            const isOutsideClicked = !(
+                sidebarRef.current?.isSameNode(event.target) ||
+                sidebarRef.current?.contains(event.target) ||
+                topbarRef.current?.menubutton?.isSameNode(event.target) ||
+                topbarRef.current?.menubutton?.contains(event.target)
+            );
 
             if (isOutsideClicked) {
                 hideMenu();

@@ -1,5 +1,5 @@
 "use client";
-import React, { memo, useContext, useEffect, useRef } from "react";
+import React, { memo, useContext, useEffect, useMemo, useRef } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Ripple } from "primereact/ripple";
@@ -11,7 +11,6 @@ import { AppMenuItemProps } from "../types/layout";
 
 const AppMenuitem = (props: AppMenuItemProps) => {
   const { activeMenu, setActiveMenu } = useContext(MenuContext);
-  const [mounted, setMounted] = React.useState(false);
   const {
     isSlim,
     isSlimPlus,
@@ -35,10 +34,13 @@ const AppMenuitem = (props: AppMenuItemProps) => {
   const active =
     activeMenu === key || !!(activeMenu && activeMenu.startsWith(key + "-"));
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
+  // True whenever the current page belongs to this root item's children — persists after submenu closes
+  const hasActiveChild = useMemo(() => {
+    if (!props.root || !item.items) return false;
+    const check = (items: typeof item.items): boolean =>
+      items.some(child => (child.to && pathname === child.to) || (child.items && check(child.items)));
+    return check(item.items);
+  }, [pathname, item.items, props.root]);
 
   useSubmenuOverlayPosition({
     target: menuitemRef.current,
@@ -119,14 +121,10 @@ const AppMenuitem = (props: AppMenuItemProps) => {
     if (item.items) {
       setActiveMenu(active ? props.parentKey : key);
 
-      if (
-        props.root &&
-        !active &&
-        (isSlim() || isHorizontal() || isSlimPlus())
-      ) {
+      if (props.root && (isSlim() || isHorizontal() || isSlimPlus())) {
         setLayoutState((prevLayoutState) => ({
           ...prevLayoutState,
-          overlaySubmenuActive: true,
+          overlaySubmenuActive: !active,
         }));
       }
     } else {
@@ -152,18 +150,11 @@ const AppMenuitem = (props: AppMenuItemProps) => {
     }
   };
 
-  const onMouseEnter = () => {
-    // activate item on hover
-    if (
-      props.root &&
-      (isSlim() || isHorizontal() || isSlimPlus()) &&
-      isDesktop()
-    ) {
-      if (!active && layoutState.menuHoverActive) {
-        setActiveMenu(key);
-      }
-    }
-  };
+  const onMouseEnter = () => {};
+
+  const onMenuItemMouseLeave = () => {};
+
+  const onMenuItemMouseEnter = () => {};
 
   const subMenu =
     item.items && item.visible !== false ? (
@@ -191,9 +182,11 @@ const AppMenuitem = (props: AppMenuItemProps) => {
       ref={menuitemRef}
       className={classNames({
         "layout-root-menuitem": props.root,
-        "active-menuitem": mounted && active,
+        "active-menuitem": active,
+        "active-parent-menuitem": hasActiveChild,
       })}
-
+      onMouseEnter={onMenuItemMouseEnter}
+      onMouseLeave={onMenuItemMouseLeave}
     >
       {props.root && item.visible !== false && item.label && (
         <div className="layout-menuitem-root-text">{item.label}</div>
@@ -208,14 +201,12 @@ const AppMenuitem = (props: AppMenuItemProps) => {
               href={item.to}
               onClick={(e) => itemClick(e as any)}
               className={classNames(item.class, "p-ripple tooltip-target", {
-                "active-route": mounted && isActiveRoute,
-                'border-b-2 border-blue-500': mounted && active && !props.root
+                "active-route": isActiveRoute,
+                'border-b-2 border-blue-500': active && !props.root
               })}
               target={item.target}
               data-pr-tooltip={item.label}
-              data-pr-disabled={
-                !(isSlim() && props.root && !layoutState.menuHoverActive)
-              }
+              data-pr-disabled={true}
               tabIndex={0}
               onMouseEnter={onMouseEnter}
             >
@@ -233,9 +224,7 @@ const AppMenuitem = (props: AppMenuItemProps) => {
               className={classNames(item.class, "p-ripple tooltip-target")}
               target={item.target}
               data-pr-tooltip={item.label}
-              data-pr-disabled={
-                !(isSlim() && props.root && !layoutState.menuHoverActive)
-              }
+              data-pr-disabled={true}
 
               tabIndex={0}
               onMouseEnter={onMouseEnter}
@@ -260,14 +249,16 @@ const AppMenuitem = (props: AppMenuItemProps) => {
             href={item.to}
             onClick={(e) => itemClick(e as any)}
             className={classNames(item.class, "p-ripple", {
-              "active-route": mounted && isActiveRoute,
-              'border-b-2 border-blue-500': mounted && active && !props.root
+              "active-route": isActiveRoute,
+              'border-b-2 border-blue-500': active && !props.root
             })}
             tabIndex={0}
             onMouseEnter={onMouseEnter}
             target={item.target}
           >
-            <i className={classNames("layout-menuitem-icon", item.icon)}></i>
+            {(isSlim() || isSlimPlus()) && (
+              <i className={classNames("layout-menuitem-icon", item.icon)}></i>
+            )}
             <span className="layout-menuitem-text">{item.label}</span>
             {item.items && (
               <i className="pi pi-fw pi-angle-down layout-submenu-toggler"></i>

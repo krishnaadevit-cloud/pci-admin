@@ -17,6 +17,8 @@ import {
   saveUser,
   saveTenantStatus,
   clearTenantStatus,
+  saveCouncilLogo,
+  clearCouncilLogo,
 } from "@/lib/auth/cookieStorage";
 import type { AuthUser } from "@/lib/auth/types";
 
@@ -46,9 +48,9 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
   const [mobileOtp, setMobileOtp] = useState<string[]>(Array(6).fill(""));
 
   const [secondsLeft, setSecondsLeft] = useState(() => {
-    if (typeof window === "undefined") return 180;
+    if (typeof window === "undefined") return 60;
     const expiresAt = getOtpExpiresAt();
-    if (!expiresAt) return 180;
+    if (!expiresAt) return 60;
     return Math.max(0, Math.ceil((parseInt(expiresAt) - Date.now()) / 1000));
   });
   const [otpExpired, setOtpExpired] = useState(false);
@@ -88,7 +90,7 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
     const expiresAt = getOtpExpiresAt();
     const remaining = expiresAt
       ? Math.max(0, Math.ceil((parseInt(expiresAt) - Date.now()) / 1000))
-      : 180;
+      : 60;
     startTimer(remaining);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -106,7 +108,7 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
       const type = getOtpType();
       try {
         const response = await resendOtp({ user_id, type });
-        saveOtpFlowData({ otpExpiresAt: String(Date.now() + 180 * 1000) });
+        saveOtpFlowData({ otpExpiresAt: String(Date.now() + 60 * 1000) });
         toast.current?.show({
           severity: "success",
           summary: "OTP Resent",
@@ -136,7 +138,7 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
       }
     }
 
-    startTimer(180);
+    startTimer(60);
     setOtpExpired(false);
     setOtp(Array(6).fill(""));
     setEmailOtp(Array(6).fill(""));
@@ -265,12 +267,19 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
       const userData: AuthUser = response?.data?.user ?? {};
       saveUser(userData);
 
-      // Always clear stale tenant_status first; only set it if the response
-      // explicitly carries CONFIGURABLE (absent means tenant is LIVE or normal).
       clearTenantStatus();
       const tenantStatus = response?.data?.tenantStatus;
-      if (tenantStatus === 'CONFIGURABLE') {
+      if (tenantStatus) {
         saveTenantStatus(tenantStatus);
+      }
+
+      clearCouncilLogo();
+      if (userData?.userType === 'STATE_COUNCIL') {
+        const logoUrl =
+          response?.data?.council_logo_url ??
+          response?.data?.user?.council_logo_url ??
+          response?.data?.tenantDetails?.council_logo;
+        if (logoUrl) saveCouncilLogo(logoUrl);
       }
 
       clearOtpFlowCookies();
@@ -353,7 +362,7 @@ export default function PrtsOtpVerification({ flow }: PrtsOtpVerificationProps) 
 
   return (
     <>
-      <Toast ref={toast} position="top-right" />
+      <Toast ref={toast} position="top-right" appendTo={document.body}/>
       <article className="prts-auth-card">
         <header className="prts-auth-card__header2">
           <span className="prts-auth-card__icon" aria-hidden>
