@@ -90,30 +90,7 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
         }
     };
 
-    const handleSearch = async () => {
-        const trimmed = searchValue.trim();
-        if (!trimmed) {
-            toast.current?.show({ severity: 'warn', summary: 'Search Required', detail: 'Please enter a search term.', life: 3000 });
-            return;
-        }
-        setIsSearching(true);
-        try {
-            const data = await getWithParams(GET_PHARMACISTS_DATA, { search: trimmed });
-            const list = data?.application_list || [];
-            if (!list.length) {
-                toast.current?.show({ severity: 'warn', summary: 'Not Found', detail: 'No pharmacist found for the given search term.', life: 3000 });
-                return;
-            }
-            if (typeof window !== 'undefined') {
-                sessionStorage.setItem('pharmacist_search_data', JSON.stringify(data));
-            }
-            router.push('/office-portal/pharmacist-profile');
-        } catch {
-            toast.current?.show({ severity: 'error', summary: 'Search Failed', detail: 'Unable to fetch pharmacist data. Please try again.', life: 3000 });
-        } finally {
-            setIsSearching(false);
-        }
-    };
+   
 
     const menuItems = [
         {
@@ -217,38 +194,7 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
                     </div>
                 ) : (
                     <div className="flex-1 flex justify-content-center">
-                        <span className="p-input-icon-left topbar-search" style={{ width: '100%', maxWidth: '400px' }}>
-                            <i
-                                className={`pi ${isSearching ? 'pi-spin pi-spinner' : 'pi-search'}`}
-                                style={{ color: '#94a3b8', left: '1rem' }}
-                            />
-                            <InputText
-                                placeholder="Search by File Number or Registration Number"
-                                className="w-full"
-                                value={searchValue}
-                                onChange={(e) => setSearchValue(e.target.value)}
-                                onKeyDown={(e) => { if (e.key === 'Enter') handleSearch(); }}
-                                disabled={isSearching}
-                                style={{
-                                    borderRadius: '20px', border: '1px solid #e2e8f0',
-                                    padding: '0.55rem 1rem 0.55rem 2.5rem',
-                                    background: '#EEF3F8', color: '#1e293b',
-                                    transition: 'all 0.3s ease', outline: 'none', fontSize: '0.9rem'
-                                }}
-                                onFocus={(e) => {
-                                    e.currentTarget.style.background = '#ffffff';
-                                    e.currentTarget.style.borderColor = 'var(--primary-color)';
-                                    e.currentTarget.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.15)';
-                                    (e.currentTarget.previousSibling as HTMLElement).style.color = 'var(--primary-color)';
-                                }}
-                                onBlur={(e) => {
-                                    e.currentTarget.style.background = '#f8fafc';
-                                    e.currentTarget.style.borderColor = '#e2e8f0';
-                                    e.currentTarget.style.boxShadow = 'none';
-                                    (e.currentTarget.previousSibling as HTMLElement).style.color = '#94a3b8';
-                                }}
-                            />
-                        </span>
+                    
                     </div>
                 )}
 
