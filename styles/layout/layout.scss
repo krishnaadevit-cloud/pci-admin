@@ -21,27 +21,3 @@
 @use './custom_table';
 
 
-// prts style
-@use '../layout/prts/dashboard.scss';
-@use '../layout/prts/sidebar.scss';
-@use '../layout/prts/variables-prts';
-@use '../layout/prts/fresh-registration.scss';
-@use '../layout/prts/layout-prts.scss';
-@use '../layout/prts//auth-prts.scss';
-
-// fresh-application module
-@use '../layout/prts/fresh-application-list';
-@use '../layout/prts/fresh-application-view';
-@use '../layout/prts/application-detail-tabs';
-
-// scrutiny module
-@use '../layout/prts/scrutiny-detail';
-@use '../layout/prts/scrutiny-config';
-
-// onboarding module
-@use '../layout/prts/onboarding';
-
-// super admin module
-@use '../layout/prts/super-admin';
-
-
