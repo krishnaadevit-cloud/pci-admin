@@ -9,19 +9,19 @@ import { InputText } from 'primereact/inputtext';
 import { Menu } from 'primereact/menu';
 import { Dropdown } from 'primereact/dropdown';
 import { Toast } from 'primereact/toast';
-import { getWithParams } from '@/service/ApplicationService';
-import { GET_PHARMACISTS_DATA } from '@/config/ApiConstant';
+
+
 
 import statesDataRaw from '@/jsondata/states.json';
 
 function safeJson(raw: any) {
-  if (!raw) return raw;
-  if (typeof raw === 'object' && raw.default !== undefined) {
-    const keys = Object.keys(raw);
-    const hasOtherKeys = keys.some(k => k !== 'default' && k !== '__esModule');
-    if (!hasOtherKeys) return raw.default;
-  }
-  return raw;
+    if (!raw) return raw;
+    if (typeof raw === 'object' && raw.default !== undefined) {
+        const keys = Object.keys(raw);
+        const hasOtherKeys = keys.some(k => k !== 'default' && k !== '__esModule');
+        if (!hasOtherKeys) return raw.default;
+    }
+    return raw;
 }
 const statesData = safeJson(statesDataRaw);
 
@@ -164,21 +164,12 @@ const AppTopbar = forwardRef((props: { sidebarRef: React.RefObject<HTMLDivElemen
                 {/* Left side: Logo */}
                 <div className="flex align-items-center gap-3">
                     <div className="flex align-items-center">
-                        {councilLogo ? (
-                            <img
-                                src={councilLogo}
-                                alt="Main Logo"
-                                style={{ height: '55px' }}
-                                onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                            />
-                        ) : (
-                            <img
-                                src="/layout/images/logo/pci-logo.png"
-                                alt="Logo"
-                                style={{ height: '35px' }}
-                                onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                            />
-                        )}
+                        <img
+                            src="/layout/images/logo/pci-logo.png"
+                            alt="Logo"
+                            style={{ height: '35px' }}
+                            onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                        />
                     </div>
                 </div>
 
